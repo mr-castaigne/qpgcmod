@@ -117,7 +117,7 @@ country_event = { # (NIB) Trouble in Colano
 					id = qpl_cw.7
 				}
 			}
-			set_country_tag = QPL_lucien_is_a_pedophile
+			set_global_flag = QPL_lucien_is_a_pedophile
 		}
 	}
 }
@@ -308,7 +308,7 @@ country_event = { # Reactionary revolt!
 			}
 			if = {
 				limit = {
-					has_country_flag = QPL_lucien_is_a_pedophile
+					has_global_flag = QPL_lucien_is_a_pedophile
 				}
 				end_puppet = NIB
 				NIB = {
