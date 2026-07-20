@@ -1,0 +1,669 @@
+add_namespace = qpl_cw
+
+country_event = { # Election campaigns are beginning!
+	id = qpl_cw.1
+	title = qpl_cw.1.t
+	desc = qpl_cw.1.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = qpl_cw.1.a
+		hidden_effect = {
+			country_event = {
+				id = qpl_cw.2
+				days = 17
+			}
+			NIB = {
+				country_event = {
+					id = qpl_cw.4
+				}
+			}
+		}
+	}
+}
+country_event = { # Futurists surge in the polls
+	id = qpl_cw.2
+	title = qpl_cw.2.t
+	desc = qpl_cw.2.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = qpl_cw.2.a
+		add_popularity = {
+		    ideology = fascism
+		    popularity = 0.3
+		}
+		hidden_effect = {
+			country_event = {
+				id = qpl_cw.3
+				days = 17
+			}
+		}
+	}
+}
+country_event = { # Reactionaries make their move
+	id = qpl_cw.3
+	title = qpl_cw.3.t
+	desc = qpl_cw.3.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = qpl_cw.3.a
+		set_party_name = {
+			ideology = neutrality
+			long_name = "Ordem Reactionarium"
+			name = "Ordem Reactionarium"
+		}
+		add_popularity = {
+		    ideology = neutrality
+		    popularity = 0.3
+		}
+		add_stability = -0.05
+		hidden_effect = {
+			country_event = {
+				id = qpl_cw.8
+				days = 17
+			}
+			NIB = {
+				country_event = {
+					id = qpl_cw.5
+					days = 8
+				}
+			}
+		}
+	}
+}
+country_event = { # (NIB) Election campaigns begin in the north
+	id = qpl_cw.4
+	title = qpl_cw.4.t
+	desc = qpl_cw.4.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = qpl_cw.4.a
+	}
+}
+country_event = { # (NIB) Trouble in Colano
+	id = qpl_cw.5
+	title = qpl_cw.5.t
+	desc = qpl_cw.5.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = { #no deal with reactionaries
+		name = qpl_cw.5.a
+		hidden_effect = {
+			QPL = {
+				country_event = {
+					id = qpl_cw.6
+				}
+			}
+		}
+	}
+	option = { #yes deal with the reactionaries
+		name = qpl_cw.5.b
+		hidden_effect = {
+			QPL = {
+				country_event = {
+					id = qpl_cw.7
+				}
+			}
+			set_country_tag = QPL_lucien_is_a_pedophile
+		}
+	}
+}
+country_event = { # Forces mobilize in New Iberia
+	id = qpl_cw.6
+	title = qpl_cw.6.t
+	desc = qpl_cw.6.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = qpl_cw.6.a
+		add_stability = -0.1
+	}
+}
+country_event = { # House of Linzkirch supports the reactionaries
+	id = qpl_cw.7
+	title = qpl_cw.7.t
+	desc = qpl_cw.7.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = qpl_cw.7.a
+		add_popularity = {
+		    ideology = neutrality
+		    popularity = 0.05
+		}
+	}
+}
+country_event = { # Governor Denham endorses Traum
+	id = qpl_cw.8
+	title = qpl_cw.8.t
+	desc = qpl_cw.8.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = qpl_cw.8.a
+		add_popularity = {
+		    ideology = fascism
+		    popularity = 0.05
+		}
+		hidden_effect = {
+			country_event = {
+				id = qpl_cw.9
+				days = 17
+			}
+		}
+	}
+}
+country_event = { # Socialists on the fence
+	id = qpl_cw.9
+	title = qpl_cw.9.t
+	desc = qpl_cw.9.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = qpl_cw.9.a
+		add_popularity = {
+		    ideology = communism
+		    popularity = -0.05
+		}
+		hidden_effect = {
+			country_event = {
+				id = qpl_cw.10
+				days = 17
+			}
+		}
+	}
+}
+country_event = { # Archbishop August endorses the Futurists
+	id = qpl_cw.10
+	title = qpl_cw.10.t
+	desc = qpl_cw.10.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = qpl_cw.10.a
+		add_popularity = {
+		    ideology = fascism
+		    popularity = 0.05
+		}
+		add_stability = -0.1
+		hidden_effect = {
+			country_event = {
+				id = qpl_cw.11
+				days = 17
+			}
+		}
+	}
+}
+country_event = { # Election night
+	id = qpl_cw.11
+	title = qpl_cw.11.t
+	desc = qpl_cw.11.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = qpl_cw.11.a
+		hidden_effect = {
+			country_event = {
+				id = qpl_cw.12
+				days = 1
+			}
+		}
+	}
+}
+country_event = { # Futurists win parliament
+	id = qpl_cw.12
+	title = qpl_cw.12.t
+	desc = qpl_cw.12.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = { #Endorse them
+		name = qpl_cw.12.a
+		custom_effect_tooltip = hand_over_parliament_tt
+		hidden_effect = {
+			set_politics = {
+				ruling_party = fascism
+			}
+			country_event = {
+				id = qpl_cw.13
+				days = 14
+			}
+		}
+	}
+	option = { #Condemn them
+		name = qpl_cw.12.b
+		custom_effect_tooltip = dont_hand_over_parliament_tt
+		hidden_effect = {
+			country_event = {
+				id = qpl_cw.14
+				days = 14
+			}
+		}
+	}
+	option = { #No comment.
+		name = qpl_cw.12.c
+		custom_effect_tooltip = no_comment_tt
+		hidden_effect = {
+			set_politics = {
+				ruling_party = fascism
+			}
+			country_event = {
+				id = qpl_cw.15
+				days = 7
+			}
+		}
+	}
+}
+country_event = { # Reactionary revolt!
+	id = qpl_cw.13
+	title = qpl_cw.13.t
+	desc = qpl_cw.13.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = qpl_cw.13.a
+		hidden_effect = {
+			QRG = {
+				transfer_state = 378
+				transfer_state = 379
+				transfer_state = 380
+				transfer_state = 377
+				transfer_state = 382
+				transfer_state = 376
+				transfer_state = 383
+				transfer_state = 374
+				transfer_state = 375
+				declare_war_on = {
+					target = QPL
+					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = QPL_lucien_is_a_pedophile
+				}
+				end_puppet = NIB
+				NIB = {
+					drop_cosmetic_tag = yes
+					country_event = {
+						id = nib.1
+						days = 0
+					}
+				}
+			}
+		}
+	}
+}
+country_event = { # Futurist revolt!
+	id = qpl_cw.14
+	title = qpl_cw.14.t
+	desc = qpl_cw.14.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = qpl_cw.14.a
+		hidden_effect = {
+			CSC = {
+				country_event = {
+					id = qpl_cw.18
+					days = 1
+				}
+			}
+		}
+		hidden_effect = {
+			set_global_flag = qfs_appeared
+			set_nationality = {
+   				target_country = QFS
+    			character = QPL_kit_traum
+			}
+			QFS = {
+				promote_character = {
+					character = QPL_kit_traum
+					ideology = romantic_nationalism
+				}
+
+				transfer_state = 378
+				transfer_state = 379
+				transfer_state = 261
+				transfer_state = 816
+				transfer_state = 362
+				transfer_state = 361
+				transfer_state = 393
+				declare_war_on = {
+					target = QPL
+					type = annex_everything
+				}
+			}
+		}
+	}
+}
+country_event = { # Street fights between whiteshirts and reactionaries
+	id = qpl_cw.15
+	title = qpl_cw.15.t
+	desc = qpl_cw.15.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = qpl_cw.15.a
+		add_stability = -0.1
+		hidden_effect = {
+			country_event = {
+				id = qpl_cw.16
+				days = 7
+			}
+		}
+	}
+}
+country_event = { # The Queen goes into hiding
+	id = qpl_cw.16
+	title = qpl_cw.16.t
+	desc = qpl_cw.16.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = qpl_cw.16.a
+		hidden_effect = {
+			retire_character = QPL_charlotte_philips
+			load_focus_tree = qpl_whiteshirt_focus
+		}
+		promote_character = {
+			character = QPL_kit_traum
+			ideology = romantic_nationalism
+		}
+		hidden_effect = {
+			country_event = {
+				id = qpl_cw.17
+				days = 7
+			}
+		}
+	}
+}
+country_event = { # Reactionaries declare a regency
+	id = qpl_cw.17
+	title = qpl_cw.17.t
+	desc = qpl_cw.17.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = qpl_cw.17.a
+		hidden_effect = {
+			CSC = {
+				country_event = {
+					id = qpl_cw.18
+					days = 1
+				}
+			}
+		}
+		hidden_effect = {
+			QRG = {
+				transfer_state = 378
+				transfer_state = 379
+				transfer_state = 380
+				transfer_state = 377
+				transfer_state = 382
+				transfer_state = 376
+				transfer_state = 383
+				transfer_state = 374
+				transfer_state = 375
+			}
+			end_puppet = NIB
+			NIB = { drop_cosmetic_tag = yes }
+		}
+		hidden_effect = {
+			country_event = {
+				id = qpl_cw.20
+				days = 2
+			}
+		}
+	}
+
+	option = {
+		name = qpl_cw.17.b
+		hidden_effect = {
+			CSC = {
+				country_event = {
+					id = qpl_cw.18
+					days = 1
+				}
+			}
+		}
+		hidden_effect = {
+			QRG = {
+				transfer_state = 378
+				transfer_state = 379
+				transfer_state = 380
+				transfer_state = 377
+				transfer_state = 382
+				transfer_state = 376
+				transfer_state = 383
+				transfer_state = 374
+				transfer_state = 375
+			}
+			end_puppet = NIB
+			NIB = { drop_cosmetic_tag = yes }
+		}
+
+		custom_effect_tooltip = switch_to_regency_tt
+		hidden_effect = {
+			QRG = { change_tag_from = QPL }
+		}
+	}
+}
+country_event = { # (CSC) Civil war in the heartland
+	id = qpl_cw.18
+	title = qpl_cw.18.t
+	desc = qpl_cw.18.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = qpl_cw.18.a
+		hidden_effect = {
+			country_event = {
+				id = qpl_cw.19
+				days = 1
+			}
+			QPL = {
+				end_puppet = CSC
+			}
+		}
+	}
+}
+country_event = { # (CSC) The Governor announces support for the Futurists
+	id = qpl_cw.19
+	title = qpl_cw.19.t
+	desc = qpl_cw.19.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = { #overthrow lorelai
+		name = qpl_cw.19.a
+		drop_cosmetic_tag = yes
+		promote_character = {
+			character = CSC_riseup_collective
+			ideology = passion_for_socialism
+		}
+		start_civil_war = {
+			ruling_party = communism
+			ideology = fascism
+		}
+		random_other_country = {
+			limit = {
+				original_tag = CSC
+				has_government = fascism
+			}
+			set_cosmetic_tag = CSC_futurist
+		}
+	}
+	option = { #this is fine
+		name = qpl_cw.19.b
+		if = {
+			limit = {
+				has_global_flag = qfs_appeared
+			}
+			QFS = {
+				annex_country = {
+					target = CSC
+				}
+			}
+		}
+		else = {
+			hidden_effect = {
+				QPL = { change_tag_from = CSC }
+			}
+			QPL = {
+				annex_country = {
+					target = CSC
+				}
+			}
+		}
+	}
+}
+country_event = { # Dixie declares neutrality
+	id = qpl_cw.20
+	title = qpl_cw.20.t
+	desc = qpl_cw.20.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = qpl_cw.20.a
+		hidden_effect = {
+			DIX = {
+				transfer_state = 363
+				transfer_state = 364
+				transfer_state = 367
+				transfer_state = 368
+				transfer_state = 370
+				transfer_state = 371
+				transfer_state = 372
+				transfer_state = 365
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = qpl_cw.21
+				days = 1
+			}
+		}
+	}
+}
+country_event = { # Sunflower Brigade rises up
+	id = qpl_cw.21
+	title = qpl_cw.21.t
+	desc = qpl_cw.21.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = qpl_cw.21.a
+		hidden_effect = {
+			SFL = {
+				transfer_state = 393
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = qpl_cw.22
+				days = 1
+			}
+		}
+	}
+}
+country_event = { # Snowist insurgency
+	id = qpl_cw.22
+	title = qpl_cw.22.t
+	desc = qpl_cw.22.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = qpl_cw.22.a
+		hidden_effect = {
+			SNW = {
+				transfer_state = 371
+				declare_war_on = {
+					target = DIX
+					type = annex_everything
+				}
+			}
+		}
+		hidden_effect = {
+			QRG = {
+				country_event = {
+					id = qpl_cw.23
+					days = 2
+				}
+			}
+		}
+	}
+}
+country_event = { # The Stage is set
+	id = qpl_cw.23
+	title = qpl_cw.23.t
+	desc = qpl_cw.23.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = qpl_cw.23.a
+		hidden_effect = {
+			declare_war_on = {
+				target = QPL
+				type = annex_everything
+			}
+			SFL = {
+				declare_war_on = {
+					target = QPL
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = QRG
+					type = annex_everything
+				}
+			}
+		}
+	}
+}

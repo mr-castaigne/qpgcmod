@@ -1,0 +1,24 @@
+﻿focus_tree = {
+	id = queerplatonia_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = QPL
+		}
+	}
+	
+	default = no
+	focus = {
+		id = QPL_borrowed_time
+		icon = GFX_goal_generic_propaganda
+		x = 0
+		y = 0
+		cost = 5
+		
+		completion_reward = {
+			
+		}
+	}
+}

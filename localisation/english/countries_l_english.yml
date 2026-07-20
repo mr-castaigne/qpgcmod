@@ -1,0 +1,27 @@
+﻿l_english:
+
+ FBR:0 "Friendship Bundesrepublik"
+ FBR_DEF:0 "the Friendship Bundesrepublik"
+ FBR_ADJ:0 "FBRite"
+
+ QRG:0 "Queerplatonic Regency"
+ QRG_DEF:0 "the Queerplatonic Regency"
+ QRG_ADJ:0 "Reactionary"
+ QRG_neutrality_party:0 "Ordem Reactionarium"
+
+ QFS:0 "Queerplatonic Free State"
+ QFS_DEF:0 "the Queerplatonic Free State"
+ QFS_ADJ:0 "Futurist"
+ QFS_fascism_party:0 "Futurist Party"
+
+ DIX:0 "Autonomous Union of Dixie"
+ DIX_DEF:0 "the Autonomous Union of Dixie"
+ DIX_ADJ:0 "Dixie"
+
+ SFL:0 "Sunflower Brigade"
+ SFL_DEF:0 "the Sunflower Brigade"
+ SFL_ADJ:0 "Sunflower"
+
+ SNW:0 "Snowist Insurgency"
+ SNW_DEF:0 "the Snowist Insurgency"
+ SNW_ADJ:0 "Snowist"

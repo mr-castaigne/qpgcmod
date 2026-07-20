@@ -1,0 +1,20 @@
+﻿focus_tree = {
+	id = qpl_whiteshirt_focus
+	
+	country = {
+		factor = 0
+	}
+	default = no
+
+	focus = {
+		id = QPL_declare_the_free_state
+		icon = GFX_goal_generic_propaganda
+		x = 0
+		y = 0
+		cost = 5
+		
+		completion_reward = {
+			set_cosmetic_tag = QPL_free_state
+		}
+	}
+}

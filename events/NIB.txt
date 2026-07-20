@@ -1,0 +1,21 @@
+add_namespace = nib
+
+country_event = { # Intervene on the side of the reactionaries
+	id = nib.1
+	title = nib.1.t
+	desc = nib.1.desc
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+	option = {
+		name = nib.1.a
+		hidden_effect = {
+			drop_cosmetic_tag = yes
+			declare_war_on = {
+				target = QPL
+				type = annex_everything
+			}
+		}
+	}
+}

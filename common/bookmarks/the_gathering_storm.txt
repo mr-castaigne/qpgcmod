@@ -1,0 +1,60 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "QPL"
+		default = yes
+
+		filters = { new_content continent }
+
+		"QPL" = {
+			history = "QPL_bookmark_blurb"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"CSC" = {
+			history = "CSC_bookmark_blurb"
+			ideology = communism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+
+		"NIB" = {
+			history = "NIB_bookmark_blurb"
+			ideology = neutrality
+			ideas = {
+
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"FBR" = {
+			history = "FBR_bookmark_blurb"
+			ideology = communism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+characters = {
+	QRG_jessica_monroe = {
+		name = "Jessica Monroe" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/QRG/Portrait_Jessica_Monroe.dds"
+			}
+		}
+		country_leader = {
+			ideology = authoritarian_traditionalism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}
+	

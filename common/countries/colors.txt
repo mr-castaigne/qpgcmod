@@ -1,0 +1,36 @@
+QPL = {
+	color = rgb { 96 84 124 }
+	color_ui = rgb { 96 84 124 }
+}
+CSC = {
+	color = rgb { 69 122 61 }
+	color_ui = rgb { 69 122 61 }
+}
+NIB = {
+	color = rgb { 0 146 191 }
+	color_ui = rgb { 0 146 191 }
+}
+FBR = {
+	color = rgb { 146 155 94 }
+	color_ui = rgb { 146 155 94 }
+}
+QRG = {
+	color = rgb { 26 26 104 }
+	color_ui = rgb { 26 26 104 }
+}
+QFS = {
+	color = rgb { 100 102 90 }
+	color_ui = rgb { 100 102 90 }
+}
+DIX = {
+	color = rgb { 212 175 55 }
+	color_ui = rgb { 212 175 55 }
+}
+SFL = {
+	color = rgb { 221 110 221 }
+	color_ui = rgb { 221 110 221 }
+}
+SNW = {
+	color = rgb { 61 81 102 }
+	color_ui = rgb { 61 81 102 }
+}

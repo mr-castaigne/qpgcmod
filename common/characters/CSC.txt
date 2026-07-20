@@ -1,0 +1,34 @@
+characters = {
+	CSC_lorelai_denham = {
+		name = "Lorelai Denham" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSC/Portrait_Lorelai.dds"
+			}
+		}
+		country_leader = {
+			ideology = eco_socialism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = left_futurism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	CSC_riseup_collective = {
+		name = "Riseup Collective" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CSC/Portrait_Riseup_Collective.dds"
+			}
+		}
+		country_leader = {
+			ideology = passion_for_socialism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}
+	

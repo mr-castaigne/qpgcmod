@@ -1,0 +1,64 @@
+﻿focus_tree = {
+	id = fbr_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FBR
+		}
+	}
+	
+	default = no
+	focus = {
+		id = FBR_do_nothing
+		icon = GFX_goal_generic_propaganda
+		x = 0
+		y = 0
+		cost = 5
+
+		available = {
+			QRG = {
+				has_war_with = QPL
+			}
+		}
+
+		mutually_exclusive = {
+			focus = FBR_intervene_in_queerplatonia
+		}
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+	default = no
+	focus = {
+		id = FBR_intervene_in_queerplatonia
+		icon = GFX_goal_generic_propaganda
+		x = 2
+		y = 0
+		cost = 5
+
+		available = {
+			QRG = {
+				has_war_with = QPL
+			}
+		}
+
+		mutually_exclusive = {
+			focus = FBR_do_nothing
+		}
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+}

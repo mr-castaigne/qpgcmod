@@ -1,0 +1,16 @@
+characters = {
+	NIB_lucien_fix = {
+		name = "Lucien Fix" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/NIB/Portrait_Lucien.dds"
+			}
+		}
+		country_leader = {
+			ideology = aristocracy
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}
+	

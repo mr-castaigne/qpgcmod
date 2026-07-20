@@ -1,0 +1,28 @@
+﻿focus_tree = {
+	id = cascadia_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CSC
+		}
+	}
+	
+	default = no
+	focus = {
+		id = CSC_we_have_a_focus_too
+		icon = GFX_goal_generic_propaganda
+		x = 0
+		y = 0
+		cost = 5
+
+		available = {
+			
+		}
+		
+		completion_reward = {
+			
+		}
+	}
+}

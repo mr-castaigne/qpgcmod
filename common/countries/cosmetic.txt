@@ -1,0 +1,16 @@
+CSC_qpl = {
+	color = rgb { 96 84 124 }
+	color_ui = rgb { 96 84 124 }
+}
+NIB_qpl = {
+	color = rgb { 96 84 124 }
+	color_ui = rgb { 96 84 124 }
+}
+CSC_futurist = {
+	color = rgb { 93 122 65 }
+	color_ui = rgb { 93 122 65 }
+}
+QPL_free_state = {
+	color = rgb { 100 102 90 }
+	color_ui = rgb { 100 102 90 }
+}

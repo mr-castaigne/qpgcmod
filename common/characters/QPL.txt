@@ -1,0 +1,44 @@
+characters = {
+	QPL_charlotte_philips = {
+		name = "Charlotte I" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/QPL/Portrait_Charlotte.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy
+			expire = "9999.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = uneasiness
+			expire = "9999.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = aristocracy
+			expire = "9999.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	QPL_kit_traum = {
+		name = "Kit Traum" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/QPL/Portrait_Kit.dds"
+			}
+		}
+		country_leader = {
+			ideology = romantic_nationalism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}
+	

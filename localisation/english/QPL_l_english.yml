@@ -1,0 +1,102 @@
+﻿l_english:
+
+ QPL:0 "Queerplatonic Queendom"
+ QPL_DEF:0 "the Queerplatonic Queendom"
+ QPL_free_state:0 "Queerplatonic Free State"
+ QPL_free_state_DEF:0 "the Queerplatonic Free State"
+ QPL_ADJ:0 "Queerplatonic"
+
+
+
+ QPL_fascism_party:0 "Futurist Party"
+ QPL_fascism_party_long:0 "Futurist Party"
+ QPL_democratic_party:0 "United Queerplatonia"
+ QPL_democratic_party_long:0 "United Queerplatonia"
+ QPL_communism_party:0 "United Queerplatonia (L)"
+ QPL_communism_party_long:0 "United Queerplatonia (Left)"
+ QPL_neutrality_party:0 "United Queerplatonia (R)"
+ QPL_neutrality_party_long:0 "United Queerplatonia (Right)"
+
+
+
+ qpl_cw.1.t:0 "Election campaigns are beginning!"
+ qpl_cw.1.desc:0 "Parliamentary elections are being held this year in Queerplatonia, which will decide the composition of the legislature as well as the new prime minister.\n\nElections hitherto have largely been dominated by the social democratic United Queerplatonia party, which has a long track record of unity and progressive reforms, as well as direct endorsement from the Queen, Charlotte I. However, a relatively new party, the Futurist Party, hopes to challenge the dominance of United Queerplatonia. They've gained prominence with the announcement of Lorelai Denham, Governor of Cascadia, joining the party. Led by 'warrior-poet' Kit Traum, the Futurists proposes a radical platform, seeking to overhaul the political and social landscape of Queerplatonia. The usual critiques of radicalism flood the media, but the Futurists seem unbothered. Many are worried that Traum's dramatic presentation and anti-establishment posturing will attract an unusual amount of voters growing weary of the malaise under UQ.\n\nThe Queen remains unbothered, though. To her, it's just another general election. But perhaps a more entertaining one this time around."
+ qpl_cw.1.a:0 "This will be an interesting year."
+
+ qpl_cw.2.t:0 "Futurists surge in the polls"
+ qpl_cw.2.a:0 "Are they on the road to victory?"
+
+ qpl_cw.3.t:0 "Reactionaries make their move"
+ qpl_cw.3.a:0 "The establishment is done for."
+
+ qpl_cw.4.t:0 "Election campaigns begin in the north"
+ qpl_cw.4.a:0 "Just a bit of bureaucracy for our representatives to keep getting paid."
+
+ qpl_cw.5.t:0 "Troubles in Colano"
+ qpl_cw.5.a:0 "If push comes to shove, we fight only for New Iberia."
+ qpl_cw.5.b:0 "The Futurists threaten the entire continent."
+
+ qpl_cw.6.t:0 "Forces mobilize in New Iberia"
+ qpl_cw.6.a:0 "What is happening?"
+
+ qpl_cw.7.t:0 "House of Linzkirch supports the reactionaries"
+ qpl_cw.7.a:0 "If the Futurists are good at anything, it's making enemies."
+ 
+ qpl_cw.8.t:0 "Governor Denham endorses Traum"
+ qpl_cw.8.a:0 "Unsurprising."
+
+ qpl_cw.9.t:0 "Socialists on the fence"
+ qpl_cw.9.a:0 "Leftist infighting. What's new?"
+
+ qpl_cw.10.t:0 "Archbishop August endorses the Futurists"
+ qpl_cw.10.a:0 "Things are really heating up now."
+
+ qpl_cw.11.t:0 "Election night"
+ qpl_cw.11.a:0 "This could be a disaster."
+
+ qpl_cw.12.t:0 "Futurists win parliament"
+ qpl_cw.12.a:0 "Congratulations, Prime Minister Traum."
+ hand_over_parliament_tt:0 "Parliament will be handed over peacefully. §RThe reactionaries will not be happy.§!"
+ qpl_cw.12.b:0 "These results are a disgrace to Queerplatonia!"
+ dont_hand_over_parliament_tt:0 "We will delay the transition of power to the best of our ability. §RThe futurists will not be happy.§!"
+ qpl_cw.12.c:0 "No comment."
+ no_comment_tt:0 "§RCharlotte's silence will speak volumes.§!"
+
+ qpl_cw.13.t:0 "Reactionary revolt!"
+ qpl_cw.13.a:0 "And they claim to be patriots!"
+
+ qpl_cw.14.t:0 "Futurist revolt!"
+ qpl_cw.14.a:0 "And they claim to be patriots!"
+
+ qpl_cw.15.t:0 "Street fights between whiteshirts and reactionaries"
+ qpl_cw.15.a:0 "Oh the humanity!"
+
+ qpl_cw.16.t:0 "The Queen goes into hiding"
+ qpl_cw.16.a:0 "We're gonna have a bad time."
+
+ qpl_cw.17.t:0 "Reactionaries declare a regency"
+ qpl_cw.17.a:0 "We will crush the past!"
+ qpl_cw.17.b:0 "Long live the queen!"
+ switch_to_regency_tt:0 "Switch country to the §YQueerplatonic Regency.§!"
+
+ qpl_cw.18.t:0 "Civil war in the heartland"
+ qpl_cw.18.a:0 "We must mobilize our militia."
+
+ qpl_cw.19.t:0 "The Governor announces support for the Futurists"
+ qpl_cw.19.a:0 "She has gone too far this time!"
+ qpl_cw.19.b:0 "Long live the revolution!"
+
+ qpl_cw.20.t:0 "Dixie declares neutrality"
+ qpl_cw.20.a:0 "She goes with the wind."
+ qpl_cw.20.b:0 "God save the South."
+
+ qpl_cw.21.t:0 "Sunflower Brigade rises up"
+ qpl_cw.21.a:0 "Ultra-left babble."
+ qpl_cw.21.b:0 "'Tis the final conflict!"
+
+ qpl_cw.22.t:0 "Snowist insurgency"
+ qpl_cw.22.a:0 "What the hell?"
+ qpl_cw.22.b:0 "Ring, ring."
+
+ qpl_cw.23.t:0 "The Stage is set"
+ qpl_cw.23.a:0 "For Queerplatonia!"

@@ -1,0 +1,16 @@
+characters = {
+	SNW_snow = {
+		name = "Snow" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SNW/Portrait_Snow.dds"
+			}
+		}
+		country_leader = {
+			ideology = accelerationism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}
+	

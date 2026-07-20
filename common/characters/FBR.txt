@@ -1,0 +1,16 @@
+characters = {
+	FBR_mitya = {
+		name = "Mitya" 
+		portraits = {
+			#civilian = {
+			#	large = "gfx/leaders/FBR/Portrait_Mitya.dds"
+			#}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}
+	

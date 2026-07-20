@@ -1,0 +1,16 @@
+characters = {
+	DIX_nerit = {
+		name = "August Flowery Nixon Holiday" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/DIX/Portrait_Nerit.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}
+	

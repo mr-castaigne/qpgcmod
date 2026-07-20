@@ -1,0 +1,13 @@
+on_actions = {
+	on_startup = {
+
+		effect = {
+			QPL = {
+				country_event = {
+					id = qpl_cw.1
+					days = 17
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,38 @@
+﻿focus_tree = {
+	id = new_iberia_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = NIB
+		}
+	}
+	
+	default = no
+	focus = {
+		id = NIB_adventure_time
+		icon = GFX_goal_generic_propaganda
+		x = 0
+		y = 0
+		cost = 5
+
+		available = {
+			country_exists = DIX
+			QRG = {
+				has_war_with = QPL
+			}
+		}
+		
+		completion_reward = {
+			declare_war_on = {
+				target = DIX
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SNW
+				type = annex_everything
+			}
+		}
+	}
+}
