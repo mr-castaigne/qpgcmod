@@ -4,7 +4,7 @@ set_cosmetic_tag = NIB_qpl
 
 capital = 366
 
-oob = "NIB_1936"
+oob = "NIB_2026"
 
 set_research_slots = 2
 
@@ -125,7 +125,7 @@ if = {
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1936.1.1"
+	last_election = "2026.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }

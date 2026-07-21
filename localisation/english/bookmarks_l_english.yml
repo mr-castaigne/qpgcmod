@@ -1,0 +1,6 @@
+﻿l_english:
+ BM_HISTORY_TITLE: "Brief History"
+ GATHERING_STORM_NAME: "Gathering Storm"
+ GATHERING_STORM_DESC: "Dark times are coming. The rise of modern industry and commerce in Queerplatonia, one of the world's premier superpowers, has fomented simultaneously the decline and desperation of the traditional landed aristocracy, as well as the growth of the urban proletariat and the radical Futurist Party. Tensions between classes, regions, and ideologies seem to be reaching a tipping point, and the future of the continent following the upcoming election of 2026 grows more uncertain by the day."
+ COUNTRY_SELECTION_CHARACTER_DESC_NAME: "$NAME|Y$" 
+ COUNTRY_SELECTION_CHARACTER_DESC: "$NAME|Y$ $DESC|$\n$TRAITS_DESC|$"

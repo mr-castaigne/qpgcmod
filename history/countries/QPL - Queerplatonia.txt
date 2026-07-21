@@ -3,7 +3,7 @@ recruit_character = QPL_kit_traum
 
 capital = 395
 
-oob = "QPL_1936"
+oob = "QPL_2026"
 
 set_research_slots = 4
 
@@ -124,7 +124,7 @@ if = {
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1936.1.1"
+	last_election = "2026.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }

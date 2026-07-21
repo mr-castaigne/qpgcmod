@@ -18,7 +18,7 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = QPL
-		1939.1.1 = {
+		2029.1.1 = {
 			buildings = {
 				arms_factory = 2
 			}
