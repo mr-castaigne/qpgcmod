@@ -8,9 +8,9 @@
  uneasiness:0 "Beating Drums"
  uneasiness_desc:0 ""Stripping back the layers of complications in politics, we find a bare dichotomy, two directions in politics, in terms of ethics: backwards and forwards. Backwards, to preserve the wisdom of the past and stability of civilization. Forwards, to push ahead into the unknown, fearlessly. However, we can simplify social politics even further into one diagnosis: the world of yesterday is gone, and the world now is new, with new conditions, new effects, and new potential. No reactionary movement is necessary under these conditions. The only way we can ever go is forward."\n- Kit Traum"
 
- postmodern_socialism:0 "Postmodern Socialist"
- postmodern_socialism_noun:0 "Postmodern Socialism"
- postmodern_socialism_desc:0 "Socialist"
+ vanguardism:0 "Vanguard Socialist"
+ vanguardism_noun:0 "Vanguard Socialism"
+ vanguardism_desc:0 "Socialist"
 
  communism:0 "Popular Socialist"
  communism_noun:0 "Popular Socialism"
@@ -20,11 +20,19 @@
  democratic_socialism:0 "Democratic Socialism"
  democratic_socialism_desc:0 "§tDemocratic Socialism§! is a current of socialism that wishes to achieve workers' ownership over the means of production through democratic and peaceful means, including union activism, participation in electoralism, and the establishment of grassroots alternatives to traditional capitalist organizations."
 
- democratic:0 "Progressive"
- democratic_noun:0 "Progressivism"
+ postmodern_socialism:0 "Postmodern Socialist"
+ postmodern_socialism_noun:0 "Postmodern Socialism"
+ postmodern_socialism_desc:0 "Socialist"
+
+ democratic:0 "Liberal"
+ democratic_noun:0 "Liberalism"
  democratic_desc:0 "Democratic"
  social_democracy:0 "Social Democracy"
  social_democracy_desc:0 "§9Social Democracy§! is an ideology that centers on mediating the excesses of capitalism through the formation or strengthening of a democratic, paternalistic government. It advocates for strong welfare programs, large-scale unionization of the workforce, and the usage of strict regulation to promote social justice, and is usually culturally progressive, albeit not always."
+
+ autocracy:0 "Autocratic"
+ autocracy_noun:0 "Autocracy"
+ autocracy_desc:0 "Authoritarian"
  
  neutrality:0 "Reactionary"
  neutrality_noun:0 "Reactionism"
@@ -33,3 +41,7 @@
  aristocracy_desc:0 "The word §1Aristocracy§! comes from a Greek term, aristokratia, meaning "rule of the excellent". It is a system of governance where political authority resides with a small, privileged class considered the most qualified, often comprising nobility or elites. Positions within in an aristocracy are traditionally tied to inherited, propertied titles, though forms that give power based on scholarly merit or appointment by others already in power also exist."
  authoritarian_traditionalism:0 "Authoritarian Traditionalism"
  authoritarian_traditionalism_desc:0 "§1Authoritarian Traditionalist§! regimes are. Wait. You're reading these?"
+
+ dystopianism:0 "Dystopian"
+ dystopianism_noun:0 "Dystopianism"
+ dystopianism_desc:0 "Dystopian"
