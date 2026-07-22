@@ -586,6 +586,32 @@ country_event = { # Dixie declares neutrality
 			}
 		}
 	}
+	option = { #switch over
+		name = qpl_cw.20.b
+		hidden_effect = {
+			DIX = {
+				transfer_state = 363
+				transfer_state = 364
+				transfer_state = 367
+				transfer_state = 368
+				transfer_state = 370
+				transfer_state = 371
+				transfer_state = 372
+				transfer_state = 365
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = qpl_cw.21
+				days = 1
+			}
+		}
+
+		custom_effect_tooltip = switch_to_dixie_tt
+		hidden_effect = {
+			DIX = { change_tag_from = QPL }
+		}
+	}
 }
 country_event = { # Sunflower Brigade rises up
 	id = qpl_cw.21
@@ -607,6 +633,25 @@ country_event = { # Sunflower Brigade rises up
 				id = qpl_cw.22
 				days = 1
 			}
+		}
+	}
+	option = { #switch over
+		name = qpl_cw.21.b
+		hidden_effect = {
+			SFL = {
+				transfer_state = 393
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = qpl_cw.22
+				days = 1
+			}
+		}
+
+		custom_effect_tooltip = switch_to_sunflower_tt
+		hidden_effect = {
+			SFL = { change_tag_from = QPL }
 		}
 	}
 }
@@ -636,6 +681,30 @@ country_event = { # Snowist insurgency
 					days = 2
 				}
 			}
+		}
+	}
+	option = {
+		name = qpl_cw.22.b
+		hidden_effect = {
+			SNW = {
+				transfer_state = 371
+				declare_war_on = {
+					target = DIX
+					type = annex_everything
+				}
+			}
+		}
+		hidden_effect = {
+			QRG = {
+				country_event = {
+					id = qpl_cw.23
+					days = 2
+				}
+			}
+		}
+		custom_effect_tooltip = switch_to_snow_tt
+		hidden_effect = {
+			SNW = { change_tag_from = QPL }
 		}
 	}
 }

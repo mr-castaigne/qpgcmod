@@ -77,7 +77,7 @@
  qpl_cw.17.t:0 "Reactionaries declare a regency"
  qpl_cw.17.a:0 "We will crush the past!"
  qpl_cw.17.b:0 "Long live the queen!"
- switch_to_regency_tt:0 "Switch country to the §YQueerplatonic Regency.§!"
+ switch_to_regency_tt:0 "Switch country to the §YQueerplatonic Regency§!."
 
  qpl_cw.18.t:0 "Civil war in the heartland"
  qpl_cw.18.a:0 "We must mobilize our militia."
@@ -89,14 +89,17 @@
  qpl_cw.20.t:0 "Dixie declares neutrality"
  qpl_cw.20.a:0 "She goes with the wind."
  qpl_cw.20.b:0 "God save the South."
+ switch_to_dixie_tt:0 "Switch country to the §YAutonomous Union of Dixie§!."
 
  qpl_cw.21.t:0 "Sunflower Brigade rises up"
  qpl_cw.21.a:0 "Ultra-left babble."
  qpl_cw.21.b:0 "'Tis the final conflict!"
+ switch_to_sunflower_tt:0 "Switch country to the §YSunflower Brigade§!."
 
  qpl_cw.22.t:0 "Snowist insurgency"
  qpl_cw.22.a:0 "What the hell?"
  qpl_cw.22.b:0 "Ring, ring."
+ switch_to_snow_tt:0 "Switch country to the §YSnowist Insurgency§!."
 
  qpl_cw.23.t:0 "The Stage is set"
  qpl_cw.23.a:0 "For Queerplatonia!"
