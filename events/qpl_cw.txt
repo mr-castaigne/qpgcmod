@@ -194,7 +194,7 @@ country_event = { # Socialists on the fence
 		}
 	}
 }
-country_event = { # Archbishop August endorses the Futurists
+country_event = { # Popular lay theologian and preacher August Holiday endorses the Futurists
 	id = qpl_cw.10
 	title = qpl_cw.10.t
 	desc = qpl_cw.10.desc

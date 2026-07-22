@@ -1,9 +1,9 @@
 characters = {
 	DIX_nerit = {
-		name = "August Flowery Nixon Holiday" 
+		name = "August Holiday" 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/DIX/Portrait_Nerit.dds"
+				large = "gfx/leaders/DIX/Portrait_August.dds"
 			}
 		}
 		country_leader = {
