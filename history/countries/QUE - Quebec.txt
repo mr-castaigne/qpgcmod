@@ -131,7 +131,7 @@ set_politics = {
 
 set_popularities = {
 	autocracy = 45
-	communism = 35
-	fascism = 15
+	socialism = 35
+	futurism = 15
 	democratic = 5
 }

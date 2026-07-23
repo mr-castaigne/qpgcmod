@@ -15,8 +15,8 @@ spriteType = {
         texturefile = gfx/interface/ideologies/eco_socialism.dds
     }
 spriteType = {
-        name = GFX_ideology_passion_for_socialism
-        texturefile = gfx/interface/ideologies/passion_for_socialism.dds
+        name = GFX_ideology_cypherpunk_socialism
+        texturefile = gfx/interface/ideologies/cypherpunk_socialism.dds
     }
 
 # Vanguard socialism
