@@ -1,6 +1,6 @@
 characters = {
 	CSC_lorelai_denham = {
-		name = "Lorelai Denham" 
+		name = "Lorelai R. H. Denham" 
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/CSC/Portrait_Lorelai.dds"
@@ -25,7 +25,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = passion_for_socialism
+			ideology = cypherpunk_socialism
 			expire = "9999.1.1.1"
 			id = -1
 		}

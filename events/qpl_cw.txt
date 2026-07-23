@@ -519,7 +519,7 @@ country_event = { # (CSC) The Governor announces support for the Futurists
 		drop_cosmetic_tag = yes
 		promote_character = {
 			character = CSC_riseup_collective
-			ideology = passion_for_socialism
+			ideology = cypherpunk_socialism
 		}
 		start_civil_war = {
 			ruling_party = communism

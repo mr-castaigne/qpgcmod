@@ -21,6 +21,8 @@
  eco_socialism_desc:0 "§tEco-Socialism§! is an environmentalist, socialist, and otherwise varied ideology. Eco-Socialists believe that the end of capitalism and the end of ecological collapse are goals that are hand-in-hand, and that the latter cannot be achieved without the former. Common ills of class society that Eco-Socialists take special issue with are the influence of corporations in developing (not preventing the development of) environmental policy, reckless overproduction of commodities and the exploitation of the environment that production requires, and the concentration of industry and urbanization leading to illness and pollution. Common proposals by Eco-Socialists include the scaling back of industrial growth, increasing the power of local communities, transitioning away from traditional energy sources and methods of production, and eliminating the urban-rural divide."
  democratic_socialism:0 "Democratic Socialism"
  democratic_socialism_desc:0 "§tDemocratic Socialism§! is a current of socialism that wishes to achieve workers' ownership over the means of production through democratic and peaceful means, including union activism, participation in electoralism, and the establishment of grassroots alternatives to traditional capitalist organizations."
+ cypherpunk_socialism:0 "Cypherpunk Socialism"
+ cypherpunk_socialism_desc:0 "§tCyberpunk Socialism§! is a tendency within socialism that attempts to use computer networks as both the subject and object of social change. Cypherpunk Socialists emphasize digital sovereignty, preserving anonymity, the creation and promotion of FOSS (free and open-source) software, and the hacking of machines used by governments or corporations, all for the sake of limiting and decreasing the influence of dominating bodies in class societies. They will often resort to using heavily-encrypted, decentralized networks like Onion Tor or various cryptocurrency blockchains for their online affairs so as to have direct and secure peer-to-peer connections rather than a middleman, which in a broad context is intended to emulate the "free association of producers" that many thinkers have described a socialist society as."
 
  postmodern_socialism:0 "Postmodern Socialist"
  postmodern_socialism_noun:0 "Postmodern Socialism"
@@ -43,6 +45,8 @@
  autocracy:0 "Autocratic"
  autocracy_noun:0 "Autocracy"
  autocracy_desc:0 "Authoritarian"
+ right_futurism:0 "Right-Futurism"
+ right_futurism_desc:0 "WIP (Something about a supreme leader embodying the technological singularity or smth)"
  
  neutrality:0 "Reactionary"
  neutrality_noun:0 "Reactionism"
@@ -55,7 +59,13 @@
  aristocratic_desc:0 "§bAristocratic Anarchism§ is an unorthodox form of anarchism primarily expounded by Lucien Fix and the broader House of Linzkirch. Based on the ideas of Friedrich Nietzsche, Georges Bataille, and Ernst Jünger, it seeks the total dismantling of current social institutions and the establishment of a society founded on noble sovereignty and ventures, life-affirmation, the glorification of meaningful strife, and the veneration of ancient gods and societies, especially those of the Greeks and the Germanic barbarians of old. Its ultimate aim is the establishment of a society focused upon artistic creation and the preservation of vitalistic culture."
  green_accelerationism:0 "Green Accelerationism"
  green_accelerationism_desc:0 "§GGreen Accelerationism§ is an ideology that combines radical environmentalism with militant accelerationism and a fervent belief in "natural law" and racist, sexist, and nationalist hierarchies. Eco-Fascists generally desire the downfall of modern industrial, multicultural society, preferring a world of racially-pure chiefdoms and tribes and the dominion of Mother Nature. Despite its movement's roots in Fascism, it rejects the totalitarian statism and urban modernity which its cousin Futurism inherited."
+ northwest_imperative:0 "Northwest Territorial Imperative"
+ northwest_imperative_desc:0 "The §7Northwest Territorial Imperative§ description is a Work in Progress :)"
 
  dystopianism:0 "Dystopian"
  dystopianism_noun:0 "Dystopianism"
  dystopianism_desc:0 "Dystopian"
+ cosmic_futurism:0 "Cosmic Futurism"
+ cosmic_futurism_desc:0 "WIP (this is for Bea's path)"
+ cosmic_futurism:0 "Cornucopia"
+ cosmic_futurism_desc:0 "WIP (this is for Canor's path)"

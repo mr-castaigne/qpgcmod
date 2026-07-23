@@ -1,4 +1,5 @@
 ﻿l_english:
+
  BEN:0 "Sealtopia"
  BEN_DEF:0 "Sealtopia"
  BEN_ADJ:0 "Sealtopian"
@@ -8,4 +9,7 @@
  BEN_postmodern_socialism_DEF:0 "the Autonomous Technate of Sealtopia"
  BEN_democratic_party:0 "Institute for Arctic Research"
  BEN_democratic_party_long:0 "Royal Institute for Arctic Research"
- BEN_postmodern_socialism_party:0 "Working Seals' Union" PTR:0 "North Cascadia"
+ BEN_postmodern_socialism_party:0 "Working Seals' Union" 
+
+ BEN_quest_to_ohio = "Quest to Ohio"
+ BEN_quest_to_ohio_desc = "Our Glorious and Very Smart Leader, Doctor Venerable Benjamin, hails from the land of "Ohio" within the nation of Queerplatonia. He said there is a lot of interesting science stuff there! *Barks* We must go reclaim his homeland, and learn many new things and gain much new industry along the way. *Wiggles* *Hops* Arrrhgghuuhuga!"

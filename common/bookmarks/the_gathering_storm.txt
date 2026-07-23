@@ -56,5 +56,17 @@ bookmarks = {
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
+
+		"PTR" = {
+			history = "PTR_bookmark_blurb"
+			ideology = reactionary
+			minor = yes
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
 	}
 }

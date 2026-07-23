@@ -1,0 +1,190 @@
+﻿division_template = {
+	name = "Infantry Batallion"					# Infantry Division
+	division_names_group = USA_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2}
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2}
+		armored_car = { x = 2 y = 0 }
+		armored_car = { x = 2 y = 1 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }			# Included Engineers as of start date
+		field_hospital = { x = 0 y = 1 }
+		logistics = {x = 0 y = 2 }
+		signal_company = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Mountaineer Batallion"					# Mountain Batallion
+	division_names_group = USA_MNT_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }			# Mountain Guns
+		signal_company = { x = 0 y = 2 }
+	}
+}
+
+
+division_template = {				
+	name = "Armored Brigade"	
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		light_armor = { x = 1 y = 2 }
+	}
+
+	regimental_support = { #Various field pieces operated by the division at the regeniment level
+		field_guns = { x = 1 y = 0 }
+	}
+
+	support = {
+		recon = { x = 0 y = 0 }      # includes 1x AC comp, 1x L tank comp
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {				
+	name = "Futurist Militia"
+	division_names_group = USA_ARM_01
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+	}
+
+
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+ 	division = {
+		name = "King County Batallion"
+		location = 7315  # King County
+		division_template = "Infantry Batallion"
+		start_experience_factor = 1
+		start_equipment_factor = 1.5
+	}
+	division = {
+		name = "Rose City Batallion"
+		location = 3513  # Portland
+		division_template = "Infantry Batallion"
+		start_experience_factor = 1
+		start_equipment_factor = 1.5
+	}
+	division = {
+		name = "Whatcom County Batallion"
+		location = 10157  # Whatcom County
+		division_template = "Infantry Batallion"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Spokane County Batallion"
+		location = 1690  # Spokane County
+		division_template = "Infantry Batallion"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "Ada County Batallion"
+		location = 9616  # Ada County
+		division_template = "Infantry Batallion"
+		start_experience_factor = 1
+		start_equipment_factor = 1.5
+	}
+	division = {
+		name = "Twin Peaks Mountaineers"
+		location = 7414  
+		division_template = "Mountaineer Batallion"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.25
+	}
+	division = {
+		name = "Idaho Mountaineers"
+		location = 10602  
+		division_template = "Mountaineer Batallion"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1.25
+	}
+	division = {
+		name = "Portland Red Guards"
+		location = 3513 # Portland  
+		division_template = "Futurist Militia"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+	}
+	division = { # "1. fast"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 7315  # King County
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+		force_equipment_variants = { light_tank_equipment_1 = { owner = "USA" } }
+	}
+}
+
+
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = USA
+		}
+		requested_factories = 2
+		progress = 0.18
+		efficiency = 100
+		industrial_manufacturer = mio:USA_zbrojovka_brno_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = USA
+		}
+		requested_factories = 1
+		progress = 0.48
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = light_tank_equipment_2
+			creator = USA
+		}
+		requested_factories = 2
+		progress = 0.48
+		efficiency = 100
+		industrial_manufacturer = mio:USA_ckd_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = USA
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+		industrial_manufacturer = mio:USA_skoda_artillery_organization
+	}
+}
