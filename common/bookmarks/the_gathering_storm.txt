@@ -68,5 +68,16 @@ bookmarks = {
 			
 			}
 		}
+		"BEN" = {
+			history = "BEN_bookmark_blurb"
+			ideology = democratic
+			minor = yes
+			ideas = {
+
+			}
+			focuses = {
+				
+			}
+		}
 	}
 }
