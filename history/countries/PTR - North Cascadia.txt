@@ -129,7 +129,7 @@ set_politics = {
 }
 
 set_popularities = {
-	neutrality = 60
+	neutrality = 65
     fascism = 10
 	vanguardism = 5
 	communism = 10

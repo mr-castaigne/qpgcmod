@@ -280,7 +280,6 @@ ideologies = {
 		types = { # Maybe Absolute monarchy can be here? 
 
 			right_futurism = {
-				can_be_randomly_selected = no
 			}
 
 		}
