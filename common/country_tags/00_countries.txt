@@ -8,7 +8,8 @@ DIX = "countries/generic.txt"
 SFL = "countries/generic.txt"
 SNW = "countries/generic.txt"
 PTR = "countries/generic.txt"
-BEN = "countries/genetic.txt"
+BEN = "countries/generic.txt"
+QUE = "countries/generic.txt"
 
 # VANILLA COUNTRIES JUST SO THE GAME STOPS CRASHING ####################
 

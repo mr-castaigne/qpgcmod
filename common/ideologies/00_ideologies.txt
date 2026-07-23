@@ -278,6 +278,10 @@ ideologies = {
 
 			right_futurism = {
 			}
+			neoreactionary = {
+			}
+			absolute_monarchism = {
+			}
 
 		}
 

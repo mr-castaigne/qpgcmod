@@ -79,5 +79,16 @@ bookmarks = {
 				
 			}
 		}
+		"QUE" = {
+			history = "QUE_bookmark_blurb"
+			ideology = autocracy
+			minor = yes #he loves them!
+			ideas = {
+
+			}
+			focuses = {
+				
+			}
+		}
 	}
 }

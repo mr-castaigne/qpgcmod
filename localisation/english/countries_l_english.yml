@@ -30,7 +30,10 @@
  PTR_DEF:0 "North Cascadia"
  PTR_ADJ:0 "North Cascadian"
 
-
  BEN:0 "Sealtopia"
  BEN_DEF:0 "Sealtopia"
  BEN_ADJ:0 "Sealtopian"
+
+ QUE:0 "Quebec"
+ QUE_DEF:0 "Quebec"
+ QUE_ADJ:0 "Quebecoid"
