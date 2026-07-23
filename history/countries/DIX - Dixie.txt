@@ -1,6 +1,6 @@
 ﻿recruit_character = DIX_nerit
 
-capital = 363
+capital = 365
 
 set_research_slots = 3
 

@@ -24,9 +24,11 @@
  qpl_cw.1.a:0 "This will be an interesting year."
 
  qpl_cw.2.t:0 "Futurists surge in the polls"
+ qpl_cw.2.desc:0 "Recent polls have shown Futurists making large gains. Political experts such as Nate Silver attribute this to the recent tour across the country that the leader of the futurists, Kit Traum, did.\n\nReactionaries have claimed that this polling bump is temporary and will dissipate."
  qpl_cw.2.a:0 "Are they on the road to victory?"
 
- qpl_cw.3.t:0 "Reactionaries make their move"
+ qpl_cw.3.t:0 "Reactionaries elect new leader"
+ qpl_cw.3.desc:0 "The growing Reactionary movement has formed a party - Ordem Reactionarium - have elected a new leader\:\ Jessica Monroe. Miss Monroe, who is considered to be the founder and leader of the movement, has already begun attacking the \"degenerate\" reactionaries and calling for a return to traditional values.\n\nNew polling has shown the Reactionaries to be competitive."
  qpl_cw.3.a:0 "The establishment is done for."
 
  qpl_cw.4.t:0 "Election campaigns begin in the north"
@@ -40,6 +42,7 @@
  qpl_cw.6.a:0 "What is happening?"
 
  qpl_cw.7.t:0 "House of Linzkirch supports the reactionaries"
+ qpl_cw.7.desc:0 "In a mostly unsurprising move, the prince of New Iberia, Lucien Fix of the House of Linzkirch, has voiced support for Jessica Monroe and the Reactionaries.\n\nJessica Monroe of the Reactionary Party has voiced gratitude towards Prince Lucien, while Kit Traum of the Futurists called this an \"unfortunate but minor setback.\"\n\nPolitical analysts are unsure as to how large of an effect this endorsement will have."
  qpl_cw.7.a:0 "If the Futurists are good at anything, it's making enemies."
  
  qpl_cw.8.t:0 "Governor Denham endorses Traum"
@@ -48,7 +51,7 @@
  qpl_cw.9.t:0 "Socialists on the fence"
  qpl_cw.9.a:0 "Leftist infighting. What's new?"
 
- qpl_cw.10.t:0 "Archbishop August endorses the Futurists"
+ qpl_cw.10.t:0 "Popular lay theologian and preacher August Holiday endorses the Futurists"
  qpl_cw.10.a:0 "Things are really heating up now."
 
  qpl_cw.11.t:0 "Election night"
