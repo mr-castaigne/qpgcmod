@@ -1,6 +1,6 @@
 characters = {
 	BEN_ben = {
-		name = "Ven. Ben" 
+		name = "Dr. Ven. Ben" 
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/BEN/Portrait_Ben.dds"

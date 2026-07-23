@@ -46,3 +46,7 @@ SHO = {
  	color = rgb { 20 35 115 }
 	color_ui = rgb { 20 35 115 }
 }
+QUE = {
+	color = rgb { 121 121 191 }
+	color_ui = rgb { 121 121 191 }
+}

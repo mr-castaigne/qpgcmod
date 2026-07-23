@@ -57,6 +57,8 @@ ideologies = {
 		types = {
 			left_futurism = {
 			}
+			technocracy = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -109,7 +111,7 @@ ideologies = {
 			}
 			democratic_socialism = {
 			}
-			passion_for_socialism = {
+			cypherpunk_socialism = {
 			}
 		}
 
@@ -163,7 +165,6 @@ ideologies = {
 			communization_theory = {
 			}
 			hegelian_marxism = {
-				can_be_randomly_selected = no
 			}
 		}
 
@@ -275,6 +276,10 @@ ideologies = {
 
 		types = { # Maybe Absolute monarchy can be here? 
 
+			right_futurism = {
+			}
+			neoreactionary = {
+			}
 			absolutism = {
 			}
 
@@ -336,6 +341,9 @@ ideologies = {
 			}
 			green_accelerationism = {
 				color = { 48 84 66 }
+			}
+			northwest_imperative = {
+				can_be_randomly_selected = no
 			}
 		}
 

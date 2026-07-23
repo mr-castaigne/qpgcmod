@@ -67,5 +67,39 @@ bookmarks = {
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
+
+		"PTR" = {
+			history = "PTR_bookmark_blurb"
+			ideology = reactionary
+			minor = yes
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+		"BEN" = {
+			history = "BEN_bookmark_blurb"
+			ideology = democratic
+			minor = yes
+			ideas = {
+
+			}
+			focuses = {
+				
+			}
+		}
+		"QUE" = {
+			history = "QUE_bookmark_blurb"
+			ideology = autocracy
+			minor = yes #he loves them!
+			ideas = {
+
+			}
+			focuses = {
+				
+			}
+		}
 	}
 }

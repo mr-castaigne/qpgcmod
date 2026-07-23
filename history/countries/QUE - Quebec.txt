@@ -1,8 +1,9 @@
-recruit_character = PTR_michael_mahoney
+recruit_character = QUE_quark
+recruit_character = QUE_noelle
 
-capital = 473
+capital = 331
 
-#oob = "PTR_2026"
+#oob = "QUE_2026"
 
 set_research_slots = 2
 
@@ -122,16 +123,15 @@ if = {
 ######################
 
 set_politics = {
-	ruling_party = reactionary
+	ruling_party = autocracy
 	last_election = "2026.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	reactionary = 65
-    futurism = 10
-	vanguardism = 5
-	socialism = 10
-	dystopianism = 10
+	autocracy = 45
+	communism = 35
+	fascism = 15
+	democratic = 5
 }

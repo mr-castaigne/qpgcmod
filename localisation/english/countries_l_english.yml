@@ -30,11 +30,14 @@
  PTR_DEF:0 "North Cascadia"
  PTR_ADJ:0 "North Cascadian"
 
-
  BEN:0 "Sealtopia"
  BEN_DEF:0 "Sealtopia"
  BEN_ADJ:0 "Sealtopian"
 
  SHO:0 "Rojoian Shogunate"
- FBR_DEF:0 "the Rojoian Shogunate"
- FBR_ADJ:0 "Rojoian"
+ SHO_DEF:0 "the Rojoian Shogunate"
+ SHO_ADJ:0 "Rojoian"
+
+ QUE:0 "Quebec"
+ QUE_DEF:0 "Quebec"
+ QUE_ADJ:0 "Quebecoid"

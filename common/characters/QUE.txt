@@ -1,0 +1,29 @@
+characters = {
+	QUE_quark = {
+		name = "Renaud Beaulieu" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/QUE/Portrait_Quark.dds"
+			}
+		}
+		country_leader = {
+			ideology = neoreactionary
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	QUE_noelle = {
+		name = "Noelle K."
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/QUE/Portrait_Noelle"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}
+	
