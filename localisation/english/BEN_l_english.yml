@@ -6,6 +6,6 @@
  BEN_subject_DEF:0 "the Sealtopia Research Station"
  BEN_postmodern_socialism:0 "Autonomous Technate of Sealtopia"
  BEN_postmodern_socialism_DEF:0 "the Autonomous Technate of Sealtopia"
- BEN_democratic_party:0 "Institute for Arctic Research"
- BEN_democratic_party_long:0 "Royal Institute for Arctic Research"
+ BEN_liberalism_party:0 "Institute for Arctic Research"
+ BEN_liberalism_party_long:0 "Royal Institute for Arctic Research"
  BEN_postmodern_socialism_party:0 "Working Seals' Union" PTR:0 "North Cascadia"

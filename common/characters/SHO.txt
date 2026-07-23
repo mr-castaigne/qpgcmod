@@ -1,0 +1,15 @@
+characters = {
+	SHO_rojo = {
+		name = "Rojo" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SHO/Portrait_Rojo.dds"
+			}
+		}
+		country_leader = {
+			ideology = absolutism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -8,14 +8,14 @@
 
 
 
- QPL_fascism_party:0 "Futurist Party"
- QPL_fascism_party_long:0 "Futurist Party"
- QPL_democratic_party:0 "United Queerplatonia"
- QPL_democratic_party_long:0 "United Queerplatonia"
- QPL_communism_party:0 "United Queerplatonia (L)"
- QPL_communism_party_long:0 "United Queerplatonia (Left)"
- QPL_neutrality_party:0 "United Queerplatonia (R)"
- QPL_neutrality_party_long:0 "United Queerplatonia (Right)"
+ QPL_futurism_party:0 "Futurist Party"
+ QPL_futurism_party_long:0 "Futurist Party"
+ QPL_liberalism_party:0 "United Queerplatonia"
+ QPL_liberalism_party_long:0 "United Queerplatonia"
+ QPL_socialism_party:0 "United Queerplatonia (L)"
+ QPL_socialism_party_long:0 "United Queerplatonia (Left)"
+ QPL_reactionary_party:0 "United Queerplatonia (R)"
+ QPL_reactionary_party_long:0 "United Queerplatonia (Right)"
 
 
 

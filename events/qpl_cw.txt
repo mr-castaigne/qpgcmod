@@ -34,7 +34,7 @@ country_event = { # Futurists surge in the polls
 	option = {
 		name = qpl_cw.2.a
 		add_popularity = {
-		    ideology = fascism
+		    ideology = futurism
 		    popularity = 0.3
 		}
 		hidden_effect = {
@@ -56,12 +56,12 @@ country_event = { # Reactionaries make their move
 	option = {
 		name = qpl_cw.3.a
 		set_party_name = {
-			ideology = neutrality
+			ideology = reactionary
 			long_name = "Ordem Reactionarium"
 			name = "Ordem Reactionarium"
 		}
 		add_popularity = {
-		    ideology = neutrality
+		    ideology = reactionary
 		    popularity = 0.3
 		}
 		add_stability = -0.05
@@ -145,7 +145,7 @@ country_event = { # House of Linzkirch supports the reactionaries
 	option = {
 		name = qpl_cw.7.a
 		add_popularity = {
-		    ideology = neutrality
+		    ideology = reactionary
 		    popularity = 0.05
 		}
 	}
@@ -161,7 +161,7 @@ country_event = { # Governor Denham endorses Traum
 	option = {
 		name = qpl_cw.8.a
 		add_popularity = {
-		    ideology = fascism
+		    ideology = futurism
 		    popularity = 0.05
 		}
 		hidden_effect = {
@@ -183,7 +183,7 @@ country_event = { # Socialists on the fence
 	option = {
 		name = qpl_cw.9.a
 		add_popularity = {
-		    ideology = communism
+		    ideology = socialism
 		    popularity = -0.05
 		}
 		hidden_effect = {
@@ -205,7 +205,7 @@ country_event = { # Popular lay theologian and preacher August Holiday endorses 
 	option = {
 		name = qpl_cw.10.a
 		add_popularity = {
-		    ideology = fascism
+		    ideology = futurism
 		    popularity = 0.05
 		}
 		add_stability = -0.1
@@ -248,7 +248,7 @@ country_event = { # Futurists win parliament
 		custom_effect_tooltip = hand_over_parliament_tt
 		hidden_effect = {
 			set_politics = {
-				ruling_party = fascism
+				ruling_party = futurism
 			}
 			country_event = {
 				id = qpl_cw.13
@@ -271,7 +271,7 @@ country_event = { # Futurists win parliament
 		custom_effect_tooltip = no_comment_tt
 		hidden_effect = {
 			set_politics = {
-				ruling_party = fascism
+				ruling_party = futurism
 			}
 			country_event = {
 				id = qpl_cw.15
@@ -522,13 +522,13 @@ country_event = { # (CSC) The Governor announces support for the Futurists
 			ideology = passion_for_socialism
 		}
 		start_civil_war = {
-			ruling_party = communism
-			ideology = fascism
+			ruling_party = socialism
+			ideology = futurism
 		}
 		random_other_country = {
 			limit = {
 				original_tag = CSC
-				has_government = fascism
+				has_government = futurism
 			}
 			set_cosmetic_tag = CSC_futurist
 		}

@@ -7,12 +7,12 @@
  QRG:0 "Queerplatonic Regency"
  QRG_DEF:0 "the Queerplatonic Regency"
  QRG_ADJ:0 "Reactionary"
- QRG_neutrality_party:0 "Ordem Reactionarium"
+ QRG_reactionary_party:0 "Ordem Reactionarium"
 
  QFS:0 "Queerplatonic Free State"
  QFS_DEF:0 "the Queerplatonic Free State"
  QFS_ADJ:0 "Futurist"
- QFS_fascism_party:0 "Futurist Party"
+ QFS_futurism_party:0 "Futurist Party"
 
  DIX:0 "Autonomous Union of Dixie"
  DIX_DEF:0 "the Autonomous Union of Dixie"
@@ -34,3 +34,7 @@
  BEN:0 "Sealtopia"
  BEN_DEF:0 "Sealtopia"
  BEN_ADJ:0 "Sealtopian"
+
+ SHO:0 "Rojoian Shogunate"
+ FBR_DEF:0 "the Rojoian Shogunate"
+ FBR_ADJ:0 "Rojoian"

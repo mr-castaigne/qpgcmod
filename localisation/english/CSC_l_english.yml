@@ -2,15 +2,15 @@
 
  CSC:0 "Cascadia"
  CSC_DEF:0 "Cascadia"
- CSC_communism:0 "Cascadian Underground Commune"
- CSC_communism_DEF:0 "the Cascadian Underground Commune"
- CSC_fascism:0 "Cascadian Social Republic"
- CSC_fascism_DEF:0 "the Cascadian Social Republic"
+ CSC_socialism:0 "Cascadian Underground Commune"
+ CSC_socialism_DEF:0 "the Cascadian Underground Commune"
+ CSC_futurism:0 "Cascadian Social Republic"
+ CSC_futurism_DEF:0 "the Cascadian Social Republic"
  CSC_qpl:0 "Autonomous Region of Cascadia"
  CSC_qpl_DEF:0 "the Autonomous Region of Cascadia"
  CSC_ADJ:0 "Cascadian"
  
 
 
- CSC_communism_party:0 "Futurist Party (Left)"
- CSC_communism_party_long:0 "Cascadian Futurist Party (Left Faction)"
+ CSC_socialism_party:0 "Futurist Party (Left)"
+ CSC_socialism_party_long:0 "Cascadian Futurist Party (Left Faction)"

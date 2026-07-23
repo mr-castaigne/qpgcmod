@@ -1,0 +1,22 @@
+﻿l_english:
+
+ SHO:0 "Rojoian Shogunate"
+ SHO_DEF:0 "The Rojoian Shogunate"
+ SHO_socialism:0 "Rojoian People's Republic"
+ SHO_socialism_DEF:0 "the Rojoian People's Republic"
+ SHO_futurism:0 "National Republic of Rojoia"
+ SHO_futurism_DEF:0 "the National Republic of Rojoia"
+ SHO_ADJ:0 "Rojoian"
+ 
+
+ SHO_autocracy_party:0 "Loyalists"
+ SHO_autocracy_party_long:0 "Loyalists"
+ SHO_socialism_party:0 "Workers' Party"
+ SHO_socialism_party_long:0 "Rojoian Workers' Party"
+ SHO_vanguardism_party:0 "Communist Party"
+ SHO_vanguardism_party_long:0 "Communist Party of Rojoia"
+ SHO_futurism_party:0 "Futurist Union"
+ SHO_futurism_party_long:0 "Futurist Union of Rojoia"
+ SHO_reactionary_party:0 "National Alliance"
+ SHO_reactionary_party_long:0 "National Alliance of Rojoian Patriots"
+

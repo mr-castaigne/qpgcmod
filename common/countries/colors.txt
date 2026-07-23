@@ -42,3 +42,7 @@ PTR = {
  	color = rgb { 1 121 111 }
 	color_ui = rgb { 1 121 111 }
 }
+SHO = {
+ 	color = rgb { 20 35 115 }
+	color_ui = rgb { 20 35 115 }
+}

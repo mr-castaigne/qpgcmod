@@ -11,7 +11,7 @@ bookmarks = {
 
 		"QPL" = {
 			history = "QPL_bookmark_blurb"
-			ideology = democratic
+			ideology = liberalism
 			ideas = {
 				
 			}
@@ -22,7 +22,7 @@ bookmarks = {
 
 		"CSC" = {
 			history = "CSC_bookmark_blurb"
-			ideology = communism
+			ideology = socialism
 			ideas = {
 
 			}
@@ -33,7 +33,7 @@ bookmarks = {
 
 		"NIB" = {
 			history = "NIB_bookmark_blurb"
-			ideology = neutrality
+			ideology = reactionary
 			ideas = {
 
 			}
@@ -44,7 +44,18 @@ bookmarks = {
 		
 		"FBR" = {
 			history = "FBR_bookmark_blurb"
-			ideology = communism
+			ideology = socialism
+			ideas = {
+			
+			}
+			focuses = {
+			
+			}
+		}
+
+		"SHO" = {
+			history = "SHO_bookmark_blurb"
+			ideology = autocracy
 			ideas = {
 			
 			}

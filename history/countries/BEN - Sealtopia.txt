@@ -129,7 +129,7 @@ QPL = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2026.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -137,5 +137,5 @@ set_politics = {
 
 set_popularities = {
 	postmodern_socialism = 25
-	democratic = 75
+	liberalism = 75
 }

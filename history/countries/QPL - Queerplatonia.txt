@@ -123,17 +123,17 @@ if = {
 ######################
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2026.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 5
-	democratic = 60
-	communism = 27
-	neutrality = 6
+	futurism = 5
+	liberalism = 60
+	socialism = 27
+	reactionary = 6
 	postmodern_socialism = 2
 }
 

@@ -127,8 +127,8 @@ set_politics = {
 }
 
 set_popularities = {
-	fascism = 5
-	communism = 10
-	democratic = 0
+	futurism = 5
+	socialism = 10
+	liberalism = 0
 	postmodern_socialism = 85
 }

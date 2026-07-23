@@ -1,0 +1,39 @@
+spriteTypes = {
+# Liberalism
+spriteType = {
+        name = GFX_ideology_social_democracy
+        texturefile = gfx/interface/ideologies/social_democracy.dds
+    }
+
+# Popular socialism
+spriteType = {
+        name = GFX_ideology_democratic_socialism
+        texturefile = gfx/interface/ideologies/democratic_socialism.dds
+    }
+spriteType = {
+        name = GFX_ideology_eco_socialism
+        texturefile = gfx/interface/ideologies/eco_socialism.dds
+    }
+spriteType = {
+        name = GFX_ideology_passion_for_socialism
+        texturefile = gfx/interface/ideologies/passion_for_socialism.dds
+    }
+
+# Vanguard socialism
+spriteType = {
+        name = GFX_ideology_left_futurism
+        texturefile = gfx/interface/ideologies/left_futurism.dds
+    }
+
+# Futurism
+spriteType = {
+        name = GFX_romantic_nationalism
+        texturefile = gfx/interface/ideologies/romantic_nationalism.dds
+    }
+
+# Autocracy
+spriteType = {
+        name = GFX_ideology_absolutism
+        texturefile = gfx/interface/ideologies/absolutism.dds
+    }
+}

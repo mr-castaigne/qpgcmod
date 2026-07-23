@@ -1085,7 +1085,7 @@ news_event = {
 		if = {
 			limit = {
 				original_tag = ENG
-				has_government = communism
+				has_government = socialism
 			}
 			create_country_leader = {
 				name = "Rajani Palme Dutt"
@@ -1218,7 +1218,7 @@ news_event = {
 				NOT = { original_tag = FRA }
 				AND = {
 					original_tag = FRA
-					NOT = { has_government = democratic }
+					NOT = { has_government = liberalism }
 				}
 			}
 			NOT = { TAG = GER	}
@@ -1238,7 +1238,7 @@ news_event = {
 		name = news.34.c
 		trigger = {
 			original_tag = FRA 
-			has_government = democratic
+			has_government = liberalism
 		}
 	}
 }
@@ -1768,7 +1768,7 @@ news_event = {
 		GER = { 
 			has_war_with = ENG 
 			NOT = { has_war_with = SOV }
-			has_government = fascism
+			has_government = futurism
 			has_country_leader = { ruling_only = yes character = GER_adolf_hitler }
 			NOT = { has_completed_focus = GER_rally_the_industrialists }  # WW (GOT) content - inner circle - If Hess has being improved, this event is prevented.
 		}
@@ -1830,7 +1830,7 @@ news_event = {
 		GER = { 
 			has_war_with = ENG 
 			NOT = { has_war_with = SOV }
-			has_government = fascism
+			has_government = futurism
 			NOT = { has_completed_focus = GER_rally_the_industrialists }  # WW (GOT) content - inner circle - If Hess has being improved, this event is prevented.
 		}
 		has_global_flag = fall_of_france
@@ -2288,12 +2288,12 @@ news_event = {
 		SPR = { has_civil_war = no }
 		any_other_country = {
 			original_tag = SPR
-			has_government = fascism
+			has_government = futurism
 		}
 		all_country = {
 			OR = {
 				NOT = { original_tag = SPR }
-				has_government = fascism
+				has_government = futurism
 			}
 		}
 	}
@@ -2336,12 +2336,12 @@ news_event = {
 		SPR = { has_civil_war = no }
 		any_other_country = {
 			original_tag = SPR
-			NOT = { has_government = fascism }
+			NOT = { has_government = futurism }
 		}
 		all_country = {
 			OR = {
 				NOT = { original_tag = SPR }
-				NOT = { has_government = fascism }
+				NOT = { has_government = futurism }
 			}
 		}
 	}
@@ -2525,7 +2525,7 @@ news_event = {
 	option = {
 		name = news.69.a
 		trigger = {
-			has_government = communism
+			has_government = socialism
 		}
 	}
 
@@ -2533,7 +2533,7 @@ news_event = {
 		name = news.69.b
 		trigger = {
 			NOT = {
-				has_government = communism
+				has_government = socialism
 			}
 		}
 	}
@@ -2561,7 +2561,7 @@ news_event = {
 	option = {
 		name = news.69.a
 		trigger = {
-			has_government = communism
+			has_government = socialism
 		}
 	}
 
@@ -2569,7 +2569,7 @@ news_event = {
 		name = news.69.b
 		trigger = {
 			NOT = {
-				has_government = communism
+				has_government = socialism
 			}
 		}
 	}
@@ -2884,7 +2884,7 @@ news_event = {
 	trigger = {
 		202 = { is_controlled_by = GER }
 		202 = { is_owned_by = SOV }
-		SOV = { has_government = communism }
+		SOV = { has_government = socialism }
 		GER = { has_war_with = SOV }
 		NOT = { has_global_flag = fall_of_kiev }
 	}
@@ -3518,7 +3518,7 @@ news_event = {
 		trigger = { 
 			TAG = JAP 
 			NOT = {
-				has_government = communism
+				has_government = socialism
 			}
 		}
 	}
@@ -3526,7 +3526,7 @@ news_event = {
 		name = SEA_japan_news_events.03.a
 		trigger = { 
 			TAG = JAP 
-			has_government = communism
+			has_government = socialism
 		}
 	}
 	option = {
@@ -3800,7 +3800,7 @@ news_event = {
 		trigger = { 
 			TAG = JAP 
 			NOT = {
-				has_government = communism
+				has_government = socialism
 			}
 		}
 	}
@@ -3808,7 +3808,7 @@ news_event = {
 		name = SEA_japan_news_events.03.a
 		trigger = { 
 			TAG = JAP 
-			has_government = communism
+			has_government = socialism
 		}
 	}
 	option = {
@@ -4001,7 +4001,7 @@ news_event = {
 		trigger = { 
 			TAG = JAP 
 			NOT = {
-				has_government = communism
+				has_government = socialism
 			}
 		}
 	}
@@ -4009,7 +4009,7 @@ news_event = {
 		name = SEA_japan_news_events.03.a
 		trigger = { 
 			TAG = JAP 
-			has_government = communism
+			has_government = socialism
 		}
 	}
 	option = {
@@ -5230,7 +5230,7 @@ news_event = {
 		if = {
 			limit = {
 				original_tag = ENG
-				has_government = communism
+				has_government = socialism
 				has_country_leader = {
 					name = "Rajani Palme Dutt"
 					ruling_only = yes
@@ -5459,19 +5459,19 @@ news_event = {
 	title = news.159.t
 	desc = {
 		text = news.159.d_01
-		trigger = { FROM = { has_government = neutrality } }
+		trigger = { FROM = { has_government = reactionary } }
 	}
 	desc = {
 		text = news.159.d_02
-		trigger = { FROM = { has_government = democratic } }
+		trigger = { FROM = { has_government = liberalism } }
 	}
 	desc = {
 		text = news.159.d_03
-		trigger = { FROM = { has_government = fascism } }
+		trigger = { FROM = { has_government = futurism } }
 	}
 	desc = {
 		text = news.159.d_04
-		trigger = { FROM = { has_government = communism } }
+		trigger = { FROM = { has_government = socialism } }
 	}
 
 	picture = GFX_news_event_009
@@ -5559,17 +5559,17 @@ news_event = {
 	is_triggered_only = yes
 	
 	option = {
-		trigger = { has_government = fascism }
+		trigger = { has_government = futurism }
 		name = news.161.a
 	}	
 	option = {
-		trigger = { has_government = communism }
+		trigger = { has_government = socialism }
 		name = news.161.b
 	}	
 	option = {
 		trigger = {
-			NOT = { has_government = fascism }
-			NOT = { has_government = communism }
+			NOT = { has_government = futurism }
+			NOT = { has_government = socialism }
 			NOT = { tag = FRA }
 		}
 		name = news.161.c
@@ -5596,11 +5596,11 @@ news_event = {
 		NOT = { has_dlc = "La Resistance" }
 		any_other_country = {
 			original_tag = SPR
-			has_government = fascism
+			has_government = futurism
 		}
 		any_other_country = {
 			original_tag = SPR
-			NOT = { has_government = fascism }
+			NOT = { has_government = futurism }
 		}
 	}
 	
@@ -6183,7 +6183,7 @@ news_event = {
 ##				has_completed_focus = SOV_great_purge
 ##				NOT = { has_country_flag = SOV_purge_started }
 ##			}
-##			has_government = communism
+##			has_government = socialism
 ##		}		
 ##		date > 2028.9.1
 ##	}
@@ -6513,7 +6513,7 @@ news_event = {
 					}
 					AND = {
 						original_tag = SPR
-						has_government = fascism
+						has_government = futurism
 					}
 				}
 				if = {
@@ -6533,7 +6533,7 @@ news_event = {
 		trigger = {
 			tag = CZE
 			NOT = {
-				has_government = fascism
+				has_government = futurism
 			}
 		}
 	}
@@ -6553,7 +6553,7 @@ news_event = {
 					AND = {
 						original_tag = SPR
 						NOT = {
-							has_government = fascism
+							has_government = futurism
 						}
 					}
 				}
@@ -6567,7 +6567,7 @@ news_event = {
 				tag = ENG
 				AND = {
 					tag = CZE
-					has_government = fascism
+					has_government = futurism
 				}
 			}
 		}
@@ -6592,7 +6592,7 @@ news_event = {
 	option = {
 		name = news.178.a
 		trigger = {
-			has_government = communism
+			has_government = socialism
 		}
 	}
 
@@ -6600,7 +6600,7 @@ news_event = {
 	option = {
 		name = news.178.b
 		trigger = {
-			has_government = fascism
+			has_government = futurism
 		}
 	}
 
@@ -6608,7 +6608,7 @@ news_event = {
 	option = {
 		name = news.178.c
 		trigger = {
-			has_government = democratic
+			has_government = liberalism
 		}
 	}
 
@@ -6616,7 +6616,7 @@ news_event = {
 	option = {
 		name = news.178.e
 		trigger = {
-			has_government = neutrality
+			has_government = reactionary
 		}
 	}
 }
@@ -6639,7 +6639,7 @@ news_event = {
 	option = {
 		name = news.179.a
 		trigger = {
-			has_government = communism
+			has_government = socialism
 		}
 	}
 
@@ -6647,7 +6647,7 @@ news_event = {
 	option = {
 		name = news.179.b
 		trigger = {
-			has_government = fascism
+			has_government = futurism
 		}
 	}
 
@@ -6655,7 +6655,7 @@ news_event = {
 	option = {
 		name = news.179.c
 		trigger = {
-			has_government = democratic
+			has_government = liberalism
 		}
 	}
 
@@ -6663,7 +6663,7 @@ news_event = {
 	option = {
 		name = news.179.e
 		trigger = {
-			has_government = neutrality
+			has_government = reactionary
 		}
 	}
 }
@@ -6691,7 +6691,7 @@ news_event = {
 		name = news.180.a
 		trigger = {
 			OR = {
-				has_government = communism
+				has_government = socialism
 				tag = FRA
 			}
 		}
@@ -6701,7 +6701,7 @@ news_event = {
 	option = {
 		name = news.180.b
 		trigger = {
-			has_government = fascism
+			has_government = futurism
 			NOT = {
 				tag = FRA
 			}
@@ -6712,7 +6712,7 @@ news_event = {
 	option = {
 		name = news.180.c
 		trigger = {
-			has_government = democratic
+			has_government = liberalism
 			NOT = {
 				tag = FRA
 			}
@@ -6723,7 +6723,7 @@ news_event = {
 	option = {
 		name = news.180.e
 		trigger = {
-			has_government = neutrality
+			has_government = reactionary
 			NOT = {
 				tag = FRA
 			}
@@ -6771,7 +6771,7 @@ news_event = {
 			NOT = {
 				tag = ITA
 			}
-			has_government = democratic
+			has_government = liberalism
 		}
 	}
 
@@ -6786,7 +6786,7 @@ news_event = {
 				tag = ITA
 			}
 			NOT = {
-				has_government = democratic
+				has_government = liberalism
 			}
 		}
 	}
@@ -7263,7 +7263,7 @@ news_event = {
 				}
 			}
 			NOT = {
-				has_government = fascism
+				has_government = futurism
 			}
 		}
 	}
@@ -7278,7 +7278,7 @@ news_event = {
 					tag = ITA
 				}
 			}
-			has_government = fascism
+			has_government = futurism
 		}
 	}
 }
@@ -7453,7 +7453,7 @@ news_event = {
 	option = {
 		name = news.196.a
 		trigger = {
-			has_government = democratic
+			has_government = liberalism
 		}
 	}
 
@@ -7461,7 +7461,7 @@ news_event = {
 	option = {
 		name = news.196.b
 		trigger = {
-			has_government = fascism
+			has_government = futurism
 		}
 	}
 
@@ -7469,7 +7469,7 @@ news_event = {
 	option = {
 		name = news.196.c
 		trigger = {
-			has_government = communism
+			has_government = socialism
 		}
 	}
 
@@ -7477,7 +7477,7 @@ news_event = {
 	option = {
 		name = news.196.e
 		trigger = {
-			has_government = neutrality
+			has_government = reactionary
 		}
 	}
 }
@@ -7685,8 +7685,8 @@ news_event = {
 		name = news.200.c
 		trigger = {
 			OR = {
-				has_government = democratic
-				has_government = communism
+				has_government = liberalism
+				has_government = socialism
 			}
 			NOT = {
 				OR = {
@@ -7704,8 +7704,8 @@ news_event = {
 		trigger = {
 			NOT = {
 				OR = {
-					has_government = democratic
-					has_government = communism
+					has_government = liberalism
+					has_government = socialism
 				}
 			}
 			NOT = {
@@ -7901,7 +7901,7 @@ news_event = {
 	option = {
 		name = news.203.a
 		trigger = {
-			has_government = democratic
+			has_government = liberalism
 			NOT = {
 				is_in_faction_with = GER
 			}
@@ -7918,7 +7918,7 @@ news_event = {
 	option = {
 		name = news.203.c
 		trigger = {
-			has_government = neutrality
+			has_government = reactionary
 			NOT = {
 				is_in_faction_with = GER
 			}
@@ -7928,7 +7928,7 @@ news_event = {
 	option = {
 		name = news.203.e
 		trigger = {
-			has_government = communism
+			has_government = socialism
 			NOT = {
 				is_in_faction_with = GER
 			}
@@ -8061,14 +8061,14 @@ news_event = {
 	desc = {
 		text = news.206.d_communist
 		trigger = {
-			has_government = communism
+			has_government = socialism
 		}
 	}
 	desc = {
 		text = news.206.d_not_communist
 		trigger = {
 			NOT = {
-				has_government = communism
+				has_government = socialism
 			}
 		}
 	}
@@ -8083,7 +8083,7 @@ news_event = {
 	option = {
 		name = news.206.a
 		trigger = {
-			has_government = communism
+			has_government = socialism
 		}
 	}
 
@@ -8095,7 +8095,7 @@ news_event = {
 				is_puppet_of = ENG
 			}
 			not = {
-				has_government = communism
+				has_government = socialism
 			}
 		}
 	}
@@ -8103,7 +8103,7 @@ news_event = {
 	option = {
 		name = news.206.c
 		trigger = {
-			has_government = democratic
+			has_government = liberalism
 			NOT = {
 				OR = {
 					tag = ENG
@@ -8116,7 +8116,7 @@ news_event = {
 	option = {
 		name = news.206.e
 		trigger = {
-			has_government = fascism
+			has_government = futurism
 			NOT = {
 				OR = {
 					tag = ENG
@@ -8129,7 +8129,7 @@ news_event = {
 	option = {
 		name = news.206.f
 		trigger = {
-			has_government = neutrality
+			has_government = reactionary
 		}
 	}
 }
@@ -8141,14 +8141,14 @@ news_event = {
 	desc = {
 		text = news.207.d_fascism
 		trigger = {
-			has_government = fascism
+			has_government = futurism
 		}
 	}
 	desc = {
 		text = news.207.d_not_fascism
 		trigger = {
 			NOT = {
-				has_government = fascism
+				has_government = futurism
 			}
 		}
 	}
@@ -8163,7 +8163,7 @@ news_event = {
 	option = {
 		name = news.207.a
 		trigger = {
-			has_government = fascism
+			has_government = futurism
 			NOT = {
 				is_in_faction_with = SOV
 			}
@@ -8173,7 +8173,7 @@ news_event = {
 	option = {
 		name = news.207.b
 		trigger = {
-			has_government = communism
+			has_government = socialism
 			NOT = {
 				is_in_faction_with = SOV
 			}
@@ -8191,8 +8191,8 @@ news_event = {
 		name = news.207.e
 		trigger = {
 			NOT = {
-				has_government = fascism
-				has_government = communism
+				has_government = futurism
+				has_government = socialism
 				is_in_faction_with = USA
 				is_in_faction_with = SOV
 			}
@@ -8203,7 +8203,7 @@ news_event = {
 		name = news.207.f
 		trigger = {
 			NOT = {
-				has_government = fascism
+				has_government = futurism
 			}
 			is_in_faction_with = USA
 		}
@@ -8725,7 +8725,7 @@ news_event = {
 	option = {
 		name = news.215.b
 		trigger = {
-			has_government = communism
+			has_government = socialism
 			NOT = {
 				has_idea = anti_soviet_pact
 			}
@@ -8737,7 +8737,7 @@ news_event = {
 		trigger = {	
 			NOT = {
 				OR = {
-					has_government = communism
+					has_government = socialism
 					has_idea = anti_soviet_pact
 				}
 			}
@@ -8902,14 +8902,14 @@ news_event = {
 	option = {
 		name = news.219.a
 		trigger = {
-			has_government = communism
+			has_government = socialism
 		}
 	}
 
 	option = {
 		name = news.219.b
 		trigger = {
-			has_government = fascism
+			has_government = futurism
 		}
 	}
 
@@ -8918,8 +8918,8 @@ news_event = {
 		trigger = {
 			NOT = {
 				OR = {
-					has_government = fascism
-					has_government = communism
+					has_government = futurism
+					has_government = socialism
 				}
 			}
 		}
@@ -8940,7 +8940,7 @@ news_event = {
 	option = {
 		name = news.220.a
 		trigger = {
-			has_government = communism
+			has_government = socialism
 			NOT = {
 				tag = SOV
 			}
@@ -8970,7 +8970,7 @@ news_event = {
 	option = {
 		name = news.220.e
 		trigger = {
-			has_government = fascism
+			has_government = futurism
 			NOT = {
 				original_tag = SOV
 			}
@@ -8985,8 +8985,8 @@ news_event = {
 		trigger = {
 			NOT = {
 				OR = {
-					has_government = communism
-					has_government = fascism
+					has_government = socialism
+					has_government = futurism
 					original_tag = SOV
 					has_war_with = SOV 
 				}
@@ -9012,7 +9012,7 @@ news_event = {
 		name = news.221.a
 		trigger = {
 			OR = {
-				has_government = communism
+				has_government = socialism
 			}
 		}
 	}
@@ -9021,7 +9021,7 @@ news_event = {
 		name = news.221.b
 		trigger = {
 			NOT = {
-				has_government = communism 
+				has_government = socialism 
 			}
 			NOT = {
 				tag = MEX
@@ -9227,8 +9227,8 @@ news_event = {
 				original_tag = SPR
 			}
 			OR = {
-				has_government = fascism
-				has_government = communism
+				has_government = futurism
+				has_government = socialism
 			}
 		}
 	}
@@ -9239,8 +9239,8 @@ news_event = {
 			NOT = {
 				OR = {
 					original_tag = SPR
-					has_government = fascism
-					has_government = communism
+					has_government = futurism
+					has_government = socialism
 				}
 			}
 		}
@@ -9277,8 +9277,8 @@ news_event = {
 				tag = TUR
 			}
 			OR = {
-				has_government = fascism
-				has_government = communism
+				has_government = futurism
+				has_government = socialism
 			}
 		}
 	}
@@ -9289,8 +9289,8 @@ news_event = {
 			NOT = {
 				OR = {
 					tag = TUR
-					has_government = fascism
-					has_government = communism
+					has_government = futurism
+					has_government = socialism
 				}
 			}
 		}
@@ -9324,8 +9324,8 @@ news_event = {
 				tag = GRE
 			}
 			OR = {
-				has_government = fascism
-				has_government = communism
+				has_government = futurism
+				has_government = socialism
 			}
 		}
 	}
@@ -9336,8 +9336,8 @@ news_event = {
 			NOT = {
 				OR = {
 					tag = GRE
-					has_government = fascism
-					has_government = communism
+					has_government = futurism
+					has_government = socialism
 				}
 			}
 		}
@@ -9561,7 +9561,7 @@ news_event = {
 	option = {
 		name = news.230.c
 		trigger = {
-			has_government = democratic
+			has_government = liberalism
 			NOT = {
 				OR = {
 					tag = USA
@@ -9576,7 +9576,7 @@ news_event = {
 		name = news.230.e
 		trigger = {
 			NOT = {
-				has_government = democratic
+				has_government = liberalism
 				tag = USA
 				tag = MEX
 				tag = ARG
@@ -9810,7 +9810,7 @@ news_event = {
 
 	trigger = {
 		tag = GER
-		has_government = fascism
+		has_government = futurism
 		has_war_with = USA
 		divisions_in_state = {
 			state = 378
@@ -10006,10 +10006,10 @@ news_event = {
 				TAG = AST
 			}
 			NOT = {
-				has_government = fascism
+				has_government = futurism
 			}
 			NOT = {
-				has_government = communism
+				has_government = socialism
 			}
 		}
 	}
@@ -10018,7 +10018,7 @@ news_event = {
 		trigger = { 
 			OR = {
 				TAG = SOV
-				has_government = communism
+				has_government = socialism
 			}
 			NOT = {
 				TAG = AST
@@ -10036,7 +10036,7 @@ news_event = {
 				TAG = SOV
 				TAG = AST
 			}
-			has_government = fascism
+			has_government = futurism
 		}
 	}
 }
@@ -10708,7 +10708,7 @@ news_event = {
 			NOT = {
 				is_in_faction_with = ENG
 			}
-			has_government = fascism
+			has_government = futurism
 		}
 	}
 	option = {
@@ -10749,7 +10749,7 @@ news_event = {
 			NOT = {
 				is_in_faction_with = ENG
 			}
-			has_government = communism
+			has_government = socialism
 		}
 	}
 	option = {
@@ -10764,7 +10764,7 @@ news_event = {
 				is_in_faction_with = ENG
 				}
 				NOT = { 
-					has_government = communism 
+					has_government = socialism 
 				}
 				NOT = { tag = SAF }
 		}
@@ -11510,7 +11510,7 @@ news_event = {
 			NOT = {
 				TAG = HUN
 				TAG = GER
-				has_government = democratic
+				has_government = liberalism
 			}
 		}
 	}
@@ -11521,7 +11521,7 @@ news_event = {
 				TAG = HUN
 				TAG = GER
 			}
-			has_government = democratic
+			has_government = liberalism
 		}
 	}
 }
@@ -11681,8 +11681,8 @@ news_event = {
 		trigger = { 
 			NOT = { TAG = HUN }
 			OR = {
-				has_government = fascism
-				has_government = communism
+				has_government = futurism
+				has_government = socialism
 			}
 		}
 	}
@@ -11691,8 +11691,8 @@ news_event = {
 		trigger = { 
 			NOT = { TAG = HUN }
 			OR = {
-				has_government = democratic
-				has_government = neutrality
+				has_government = liberalism
+				has_government = reactionary
 			}
 		}
 	}
@@ -11720,8 +11720,8 @@ news_event = {
 		trigger = { 
 			NOT = { TAG = HUN }
 			OR = {
-				has_government = democratic
-				has_government = communism
+				has_government = liberalism
+				has_government = socialism
 			}
 		}
 	}
@@ -11730,8 +11730,8 @@ news_event = {
 		trigger = { 
 			NOT = { TAG = HUN }
 			OR = {
-				has_government = fascism
-				has_government = neutrality
+				has_government = futurism
+				has_government = reactionary
 			}
 		}
 	}
@@ -11758,14 +11758,14 @@ news_event = {
 		name = news.298.b
 		trigger = { 
 			NOT = { TAG = HUN }
-			NOT = {	has_government = fascism }
+			NOT = {	has_government = futurism }
 		}
 	}
 	option = { 
 		name = news.298.c
 		trigger = { 
 			NOT = { TAG = HUN }
-			has_government = fascism
+			has_government = futurism
 		}
 	}
 }
@@ -12403,7 +12403,7 @@ news_event = {
 	option = {
 		name = news.314.b
 		trigger = { 
-			has_government = communism
+			has_government = socialism
 			NOT = { TAG = HUN }
 		}
 	}
@@ -12411,7 +12411,7 @@ news_event = {
 		name = news.314.c
 		trigger = { 
 			NOT = {
-				has_government = communism
+				has_government = socialism
 			}
 			NOT = { TAG = HUN }
 		}
@@ -12552,16 +12552,16 @@ news_event = {
 					TAG = CZE
 					TAG = GER
 					TAG = SOV
-					has_government = communism
-					has_government = fascism
+					has_government = socialism
+					has_government = futurism
 				}
 				AND = { 
 					OR = {
 						TAG = POL
 						TAG = CZE
 					}
-					NOT = { has_government = communism }
-					NOT = { has_government = fascism }
+					NOT = { has_government = socialism }
+					NOT = { has_government = futurism }
 					NOT = { is_in_faction_with = ROM }
 				}
 			}
@@ -12580,8 +12580,8 @@ news_event = {
 						TAG = SOV
 					}
 					OR = {
-						has_government = communism
-						has_government = fascism
+						has_government = socialism
+						has_government = futurism
 					}
 				}
 				AND = { 
@@ -12590,8 +12590,8 @@ news_event = {
 						TAG = CZE
 					}
 					OR = {
-						has_government = communism
-						has_government = fascism
+						has_government = socialism
+						has_government = futurism
 					}
 					NOT = { is_in_faction_with = ROM }
 				}
@@ -13424,7 +13424,7 @@ news_event = {
 		trigger = {
 			NOT = { tag = ITA }
 			NOT = { tag = ETH }
-			NOT = { has_government = fascism }
+			NOT = { has_government = futurism }
 		}
 	}
 	option = {
@@ -13432,7 +13432,7 @@ news_event = {
 		trigger = {
 			NOT = { tag = ITA }
 			NOT = { tag = ETH }
-			has_government = fascism
+			has_government = futurism
 		}
 	}
 	option = {

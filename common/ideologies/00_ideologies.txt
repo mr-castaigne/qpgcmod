@@ -1,6 +1,6 @@
 ideologies = {
 
-	fascism = { #futurism
+	futurism = { #futurism
 
 		types = {
 
@@ -101,7 +101,7 @@ ideologies = {
 		ai_give_core_state_control_threshold = 10
 	}
 
-	communism = { #popular socialism
+	socialism = { #popular socialism
 
 		types = {
 
@@ -209,7 +209,7 @@ ideologies = {
 		ai_give_core_state_control_threshold = 10
 	}
 
-	democratic = { #liberalism
+	liberalism = { #liberalism
 
 		types = {
 
@@ -275,7 +275,7 @@ ideologies = {
 
 		types = { # Maybe Absolute monarchy can be here? 
 
-			autocracy_placeholder = {
+			absolutism = {
 			}
 
 		}
@@ -323,7 +323,7 @@ ideologies = {
 		ai_give_core_state_control_threshold = 10000
 	}
 
-	neutrality = { #reactionary
+	reactionary = { #reactionary
 
 		types = {
 
