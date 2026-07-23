@@ -1,0 +1,16 @@
+characters = {
+	PTR_michael_mahoney = {
+		name = "Michael Mahoney" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PTR/Portrait_Michael.dds"
+			}
+		}
+		country_leader = {
+			ideology = green_accelerationism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}
+	

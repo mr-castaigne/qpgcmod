@@ -1,11 +1,10 @@
-﻿recruit_character = QPL_charlotte_philips
-recruit_character = QPL_kit_traum
+recruit_character = BEN_ben
 
-capital = 395
+capital = 472
 
-oob = "QPL_2026"
+#oob = "BEN_2026"
 
-set_research_slots = 4
+set_research_slots = 5
 
 ########################
 ### TECHNOLOGY START ###
@@ -122,6 +121,13 @@ if = {
 ### TECHNOLOGY END ###
 ######################
 
+QPL = {
+    set_autonomy = {
+		target = BEN
+		autonomous_state = autonomy_colony
+	}
+}
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "2026.1.1"
@@ -130,36 +136,6 @@ set_politics = {
 }
 
 set_popularities = {
-	fascism = 5
-	democratic = 60
-	communism = 27
-	neutrality = 6
-	postmodern_socialism = 2
-}
-
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = CSC
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = NIB
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = BEN
-		autonomous_state = autonomy_colony
-	}
-
-	else = {
-		puppet = CSC
-		puppet = NIB
-		puppet = BEN
-	}
+	postmodern_socialism = 25
+	democratic = 75
 }

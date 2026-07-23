@@ -1,0 +1,16 @@
+characters = {
+	BEN_ben = {
+		name = "Ven. Ben" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BEN/Portrait_Ben.dds"
+			}
+		}
+		country_leader = {
+			ideology = sealerism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}
+	

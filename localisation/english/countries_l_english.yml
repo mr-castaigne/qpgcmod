@@ -25,3 +25,12 @@
  SNW:0 "Snowist Insurgency"
  SNW_DEF:0 "the Snowist Insurgency"
  SNW_ADJ:0 "Snowist"
+
+ PTR:0 "North Cascadia"
+ PTR_DEF:0 "North Cascadia"
+ PTR_ADJ:0 "North Cascadian"
+
+
+ BEN:0 "Sealtopia"
+ BEN_DEF:0 "Sealtopia"
+ BEN_ADJ:0 "Sealtopian"

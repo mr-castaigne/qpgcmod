@@ -9,8 +9,6 @@ ideologies = {
 			uneasiness = {
 				can_be_randomly_selected = no
 			}
-			left_futurism = {
-			}
 			accelerationism = {
 			}
 
@@ -57,10 +55,8 @@ ideologies = {
 	vanguardism = {
 
 		types = {
-
-			vanguardism_placeholder = {
+			left_futurism = {
 			}
-
 		}
 
 		dynamic_faction_names = {
@@ -115,7 +111,6 @@ ideologies = {
 			}
 			passion_for_socialism = {
 			}
-
 		}
 
 		dynamic_faction_names = {
@@ -163,10 +158,13 @@ ideologies = {
 	postmodern_socialism = { #might be changed to revisionist socialism
 
 		types = {
-
+			autonomous_socialism = {
+			}
 			communization_theory = {
 			}
-
+			hegelian_marxism = {
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {
@@ -217,7 +215,9 @@ ideologies = {
 
 			social_democracy = {
 			}
-
+			sealerism = {
+				can_be_randomly_selected = no
+			}
 		}
 
 		dynamic_faction_names = {
@@ -273,7 +273,7 @@ ideologies = {
 
 	autocracy = {
 
-		types = {
+		types = { # Maybe Absolute monarchy can be here? 
 
 			autocracy_placeholder = {
 			}
@@ -331,7 +331,12 @@ ideologies = {
 			}
 			authoritarian_traditionalism = {
 			}
-
+			aristocratic_anarchism = {	
+				can_be_randomly_selected = no
+			}
+			green_accelerationism = {
+				color = { 48 84 66 }
+			}
 		}
 
 		dynamic_faction_names = {

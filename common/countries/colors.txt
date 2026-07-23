@@ -34,3 +34,11 @@ SNW = {
 	color = rgb { 61 81 102 }
 	color_ui = rgb { 61 81 102 }
 }
+BEN = {
+	color = rgb { 68 167 196 }
+	color_ui = rgb { 68 167 196 }
+}
+PTR = {
+ 	color = rgb { 1 121 111 }
+	color_ui = rgb { 1 121 111 }
+}

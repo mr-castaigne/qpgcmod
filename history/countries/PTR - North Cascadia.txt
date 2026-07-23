@@ -1,11 +1,10 @@
-﻿recruit_character = QPL_charlotte_philips
-recruit_character = QPL_kit_traum
+recruit_character = PTR_michael_mahoney
 
-capital = 395
+capital = 473
 
-oob = "QPL_2026"
+#oob = "PTR_2026"
 
-set_research_slots = 4
+set_research_slots = 2
 
 ########################
 ### TECHNOLOGY START ###
@@ -123,43 +122,16 @@ if = {
 ######################
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "2026.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 5
-	democratic = 60
-	communism = 27
-	neutrality = 6
-	postmodern_socialism = 2
-}
-
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = CSC
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = NIB
-		autonomous_state = autonomy_integrated_puppet
-	}
-	set_autonomy = {
-		target = BEN
-		autonomous_state = autonomy_colony
-	}
-
-	else = {
-		puppet = CSC
-		puppet = NIB
-		puppet = BEN
-	}
+	neutrality = 60
+    fascism = 10
+	vanguardism = 5
+	communism = 10
+	dystopianism = 10
 }

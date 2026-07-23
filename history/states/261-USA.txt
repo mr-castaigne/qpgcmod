@@ -18,6 +18,7 @@ state={
 
 		}
 		add_core_of = QPL
+		add_core_of = BEN
 		victory_points = {
 			6855 5 
 		}

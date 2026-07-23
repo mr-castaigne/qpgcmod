@@ -1,0 +1,21 @@
+﻿l_english:
+ PTR_neutrality:0 "Pine Tree Republic"
+ PTR_neutrality_DEF:0 "the Pine Tree Republic"
+ PTR_dystopianism:0 "Pine Tree Republic"
+ PTR_dystopianism_DEF:0 "Pine Tree Republic"
+
+ PTR_fascism:0 "Columbian Republic"
+ PTR_fascism_DEF:0 "the Columbian Republic"
+ PTR_fascism_ADJ:0 "Columbian"
+
+ PTR_vanguardism:0 "North Cascadian Council Republic"
+ PTR_vanguardism_DEF:0 "the North Cascadian Council Republic"
+
+ PTR_communism:0 "North Cascadian Commune"
+ PTR_communism_DEF:0 "North Cascadian Commune"
+
+
+ PTR_neutrality_party:0 "Pine Tree Party"
+ PTR_dystopianism_party:0 "Pine Tree Militia"
+ PTR_fascism_party:0 "Futurists of Columbia"
+ PTR_vanguardism_party:0 "Futurist of Columbia (Left)"
