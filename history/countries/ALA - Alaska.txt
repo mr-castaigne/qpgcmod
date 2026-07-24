@@ -1,5 +1,4 @@
-recruit_character = ALA_pepsi_surrealist
-recruit_character = ALA_pepsi_commie
+recruit_character = ALA_pepsi
 
 capital = 463
 

@@ -27,7 +27,7 @@ spriteType = {
 
 # Futurism
 spriteType = {
-        name = GFX_romantic_nationalism
+        name = GFX_ideology_romantic_nationalism
         texturefile = gfx/interface/ideologies/romantic_nationalism.dds
     }
 

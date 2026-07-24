@@ -1,6 +1,6 @@
 ideologies = {
 
-	futurism = { #futurism
+	futurism = {
 
 		types = {
 
@@ -50,6 +50,59 @@ ideologies = {
 		ai_ideology_wanted_units_factor = 1.65
 		
 		ai_give_core_state_control_threshold = 10000
+	}
+
+	heterodox_socialism = {
+
+		types = {
+			avant_garde = {
+			}
+			communization_theory = {
+			}
+			hegelian_marxism = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNIST_1"
+			"FACTION_NAME_COMMUNIST_2"
+			"FACTION_NAME_COMMUNIST_3"
+			"FACTION_NAME_COMMUNIST_4"
+			"FACTION_NAME_COMMUNIST_5"
+		}
+
+		color = { 255 174 67 }
+
+		war_impact_on_world_tension = 0.75		#Commie less threatening
+		faction_impact_on_world_tension = 0.5
+
+		ai_communist = yes # uses the commie AI behaviour
+		ai_ideology_wanted_units_factor = 1.20
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+
+		can_collaborate = yes
+
+		modifiers = {
+			# puppet_cost_factor = -0.3 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 7.5
+			navy_intel_to_others = 12.5
+			airforce_intel_to_others = 7.5
+			hidden_modifier = { join_faction_tension = -0.1 }
+			embargo_threshold_factor = 0.5
+			lend_lease_tension = 0.50
+		}
+
+		faction_modifiers = {
+
+		}
+
+		ai_give_core_state_control_threshold = 10
 	}
 
 	vanguardism = {
@@ -103,7 +156,7 @@ ideologies = {
 		ai_give_core_state_control_threshold = 10
 	}
 
-	socialism = { #popular socialism
+	socialism = {
 
 		types = {
 
@@ -157,60 +210,7 @@ ideologies = {
 		ai_give_core_state_control_threshold = 10
 	}
 
-	heterodox_socialism = { #might be changed to revisionist socialism
-
-		types = {
-			avant_garde = {
-			}
-			communization_theory = {
-			}
-			hegelian_marxism = {
-			}
-		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_COMMUNIST_1"
-			"FACTION_NAME_COMMUNIST_2"
-			"FACTION_NAME_COMMUNIST_3"
-			"FACTION_NAME_COMMUNIST_4"
-			"FACTION_NAME_COMMUNIST_5"
-		}
-
-		color = { 255 174 67 }
-
-		war_impact_on_world_tension = 0.75		#Commie less threatening
-		faction_impact_on_world_tension = 0.5
-
-		ai_communist = yes # uses the commie AI behaviour
-		ai_ideology_wanted_units_factor = 1.20
-
-		rules = {
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
-		}
-
-		can_collaborate = yes
-
-		modifiers = {
-			# puppet_cost_factor = -0.3 # Deprecated, use common\peace_conference\00_generic_peace.txt instead
-			civilian_intel_to_others = 10.0
-			army_intel_to_others = 7.5
-			navy_intel_to_others = 12.5
-			airforce_intel_to_others = 7.5
-			hidden_modifier = { join_faction_tension = -0.1 }
-			embargo_threshold_factor = 0.5
-			lend_lease_tension = 0.50
-		}
-
-		faction_modifiers = {
-
-		}
-
-		ai_give_core_state_control_threshold = 10
-	}
-
-	liberalism = { #liberalism
+	liberalism = {
 
 		types = {
 
@@ -274,7 +274,7 @@ ideologies = {
 
 	autocracy = {
 
-		types = { # Maybe Absolute monarchy can be here? 
+		types = {
 
 			right_futurism = {
 			}
@@ -341,6 +341,7 @@ ideologies = {
 			}
 			green_accelerationism = {
 				color = { 48 84 66 }
+				can_be_randomly_selected = no
 			}
 			northwest_imperative = {
 				can_be_randomly_selected = no
