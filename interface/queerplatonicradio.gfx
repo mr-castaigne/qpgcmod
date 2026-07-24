@@ -1,0 +1,7 @@
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_queerplatonic_radio"
+		texturefile = "gfx/interface/topbar/musicplayer/gfx_queerplatonic_radio.dds"
+		noOfFrames = 2
+	}
+}

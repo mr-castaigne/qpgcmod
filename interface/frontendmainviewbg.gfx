@@ -1,0 +1,7 @@
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_frontend_bg"
+		texturefile = "gfx/loadingscreens/load_69.dds"
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+}

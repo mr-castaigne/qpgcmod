@@ -1,0 +1,45 @@
+music_station = "queerplatonic_radio"
+
+music = {
+    song = "maintheme"
+    chance = {
+        base = 1
+        modifier = {
+            factor = 2
+            has_war = yes
+        }
+    }
+}
+
+music = {
+    song = "flowery"
+    chance = {
+        base = 1
+        modifier = {
+            factor = 0.5
+            has_war = yes
+        }
+    }
+}
+
+music = {
+    song = "dess"
+    chance = {
+        base = 1
+        modifier = {
+            factor = 2
+            has_war = yes
+        }
+    }
+}
+
+music = {
+    song = "ralsei"
+    chance = {
+        base = 1
+        modifier = {
+            factor = 0.5
+            has_war = yes
+        }
+    }
+}

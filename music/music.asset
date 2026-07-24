@@ -1,0 +1,23 @@
+music = {
+    name = "maintheme"
+    file = "Penumbra Phantasm.ogg"
+    volume = 1
+}
+
+music = {
+    name = "flowery"
+    file = "Flower Man Cover.ogg"
+    volume = 1
+}
+
+music = {
+    name = "dess"
+    file = "Raise Up Your Bat Cover.ogg"
+    volume = 1
+}
+
+music = {
+    name = "ralsei"
+    file = "Raise Up Your Bat Cover (Ralsei).ogg"
+    volume = 1
+}
