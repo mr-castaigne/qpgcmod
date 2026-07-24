@@ -13,6 +13,8 @@ SHO = "countries/generic.txt"
 QUE = "countries/generic.txt"
 ALA = "countries/generic.txt"
 BRI = "countries/generic.txt"
+CHI = "countries/generic.txt"
+TAI = "countries/generic.txt"
 
 # VANILLA COUNTRIES JUST SO THE GAME STOPS CRASHING ####################
 
@@ -42,7 +44,6 @@ GER = "countries/generic.txt"
 LIT = "countries/generic.txt"
 LAT = "countries/generic.txt"
 EST = "countries/generic.txt"
-CHI = "countries/generic.txt"
 PRC = "countries/generic.txt"
 GXC = "countries/generic.txt"
 YUN = "countries/generic.txt"

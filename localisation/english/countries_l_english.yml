@@ -53,3 +53,11 @@
  BRI:0 "Great Britain"
  BRI_DEF:0 "Great Britain"
  BRI_ADJ:0 "British"
+
+ CHI:0 "China"
+ CHI_DEF:0 "China"
+ CHI_ADJ:0 "Chinese"
+
+ TAI:0 "Taiwan"
+ TAI_DEF:0 "Taiwan"
+ TAI_ADJ:0 "Taiwanese"

@@ -1,0 +1,16 @@
+characters = {
+	TAI_bergen = {
+		name = "Bergen IV" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TAI/Portrait_Bergen.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}
+	

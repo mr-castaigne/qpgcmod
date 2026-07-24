@@ -18,11 +18,13 @@ bookmarks = {
 			focuses = {
 				
 			}
+			minor = no
 		}
 
 		"CSC" = {
 			history = "CSC_bookmark_blurb"
 			ideology = socialism
+			minor = no
 			ideas = {
 
 			}
@@ -34,6 +36,7 @@ bookmarks = {
 		"NIB" = {
 			history = "NIB_bookmark_blurb"
 			ideology = reactionary
+			minor = no
 			ideas = {
 
 			}
@@ -45,6 +48,7 @@ bookmarks = {
 		"FBR" = {
 			history = "FBR_bookmark_blurb"
 			ideology = socialism
+			minor = no
 			ideas = {
 			
 			}
@@ -56,6 +60,7 @@ bookmarks = {
 		"SHO" = {
 			history = "SHO_bookmark_blurb"
 			ideology = autocracy
+			minor = no
 			ideas = {
 			
 			}
@@ -93,6 +98,39 @@ bookmarks = {
 		"QUE" = {
 			history = "QUE_bookmark_blurb"
 			ideology = autocracy
+			minor = yes #he loves them!
+			ideas = {
+
+			}
+			focuses = {
+				
+			}
+		}
+		"PTR" = {
+			history = "PTR_bookmark_blurb"
+			ideology = reactionary
+			minor = yes #he loves them!
+			ideas = {
+
+			}
+			focuses = {
+				
+			}
+		}
+		"CHI" = {
+			history = "CHI_bookmark_blurb"
+			ideology = futurism
+			minor = yes #he loves them!
+			ideas = {
+
+			}
+			focuses = {
+				
+			}
+		}
+		"TAI" = {
+			history = "TAI_bookmark_blurb"
+			ideology = liberalism
 			minor = yes #he loves them!
 			ideas = {
 

@@ -1,0 +1,67 @@
+characters = {
+	CHI_nick_land = {
+		name = "Nick Land" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRI/Portrait_Nick_Land.dds"
+			}
+		}
+		country_leader = {
+			ideology = accelerationism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+    CHI_deng_xiaoping = {
+		name = "Deng Xiaoping" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRI/Portrait_Deng_Xiaoping.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_futurism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+    CHI_sun_yatsen = {
+		name = "Sun Yat-Sen" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRI/Portrait_Sun_Yat-sen.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+    CHI_zhang_chunqiao = {
+		name = "Zhang Chunqiao" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRI/Portrait_Zhang_Chunqiao.dds"
+			}
+		}
+		country_leader = {
+			ideology = communization_theory
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+    CHI_singularity = {
+		name = "The Singularity" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRI/Portrait_Technocapital.dds"
+			}
+		}
+		country_leader = {
+			ideology = right_futurism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}

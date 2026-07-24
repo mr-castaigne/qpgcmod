@@ -58,3 +58,11 @@ BRI = {
 	color = rgb { 200 0 0 }
 	color_ui = rgb { 200 0 0 }
 }
+CHI = {
+	color = rgb { 255 240 0 }
+	color_ui = rgb { 255 240 0 }
+}
+TAI = {
+	color = rgb { 47 224 47 }
+	color_ui = rgb { 47 224 47 }
+}
