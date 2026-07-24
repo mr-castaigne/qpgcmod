@@ -1,5 +1,5 @@
 characters = {
-	ALA_pepsi = {
+	ALA_pepsi_surrealist = {
 		name = "Pepsiman's Diabetic Nephew" 
 		portraits = {
 			civilian = {
@@ -8,6 +8,19 @@ characters = {
 		}
 		country_leader = {
 			ideology = avant_garde
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	ALA_pepsi_commie = {
+		name = "Pepsiman's Diabetic Nephew" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ALA/Portrait_Pepsi.dds"
+			}
+		}
+		country_leader = {
+			ideology = left_futurism
 			expire = "9999.1.1.1"
 			id = -1
 		}

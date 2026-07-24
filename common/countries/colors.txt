@@ -54,3 +54,7 @@ ALA = {
 	color = rgb { 15 32 75 }
 	color_ui = rgb { 15 32 75 }
 }
+BRI = {
+	color = rgb { 200 0 0 }
+	color_ui = rgb { 200 0 0 }
+}

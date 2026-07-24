@@ -1,0 +1,16 @@
+﻿l_english:
+ BRI:0 "Great Britain"
+ BRI_DEF:0 "Great Britain"
+ BRI_ADJ:0 "British"
+
+ BRI_futurism:0 "Corporate State of Great Britain"
+ BRI_DEF:0 "the Corporate State of Great Britain"
+ BRI_reactionary:0 "United Kingdom of Great Britain"
+ BRI_reactionary_DEF:0 "the Corporate State of Great Britain"
+ BRI_heterodox_socialism:0 "Heterochronic Republic of New America"
+ BRI_heterodox_socialism_DEF:0 "the Heterochronic Republic of New America"
+ BRI_heterodox_socialism_ADJ:0 "New American"
+
+ BRI_futurism_party:0 "British Union of Fascists"
+ BRI_reactionary_party:0 "Royalists"
+ BRI_heterodox_socialism_party:0 "Spacetime Defense Initiative"

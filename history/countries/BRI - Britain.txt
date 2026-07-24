@@ -1,9 +1,8 @@
-recruit_character = ALA_pepsi_surrealist
-recruit_character = ALA_pepsi_commie
+recruit_character = BRI_mari
 
-capital = 463
+capital = 126
 
-#oob = "ALA_2026"
+#oob = "BRI_2026"
 
 set_research_slots = 3
 
@@ -124,14 +123,13 @@ if = {
 
 set_politics = {
 	ruling_party = heterodox_socialism
-	last_election = "2025.6.15"
+	last_election = "2025.5.1"
 	election_frequency = 12
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-    vanguardism = 60
-    heterodox_socialism = 20
-	futurism = 10
-	liberalism = 10
+    heterodox_socialism = 70
+	futurism = 15
+	reactionary = 15
 }

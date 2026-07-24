@@ -1,0 +1,15 @@
+characters = {
+	PHI_ashley = {
+		name = "Ashley G. N. Lloyd" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PHI/Portrait_Ashley.dds"
+			}
+		}
+		country_leader = {
+			ideology = hegelian_marxism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}

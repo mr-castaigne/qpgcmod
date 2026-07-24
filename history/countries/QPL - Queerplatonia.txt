@@ -156,10 +156,15 @@ if = {
 		target = BEN
 		autonomous_state = autonomy_colony
 	}
+	set_autonomy = {
+		target = PHI
+		autonomous_state = autonomy_colony
+	}
 
 	else = {
 		puppet = CSC
 		puppet = NIB
 		puppet = BEN
+		puppet = PHI
 	}
 }

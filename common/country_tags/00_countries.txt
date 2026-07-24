@@ -12,6 +12,7 @@ BEN = "countries/generic.txt"
 SHO = "countries/generic.txt"
 QUE = "countries/generic.txt"
 ALA = "countries/generic.txt"
+BRI = "countries/generic.txt"
 
 # VANILLA COUNTRIES JUST SO THE GAME STOPS CRASHING ####################
 

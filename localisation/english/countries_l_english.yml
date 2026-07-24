@@ -45,3 +45,11 @@
  ALA:0 "Alaska"
  ALA_DEF:0 "Alaska"
  ALA_ADJ:0 "Alaskan"
+
+ PHI:0 "Philippines"
+ PHI:0 "the Philippines"
+ PHI:0 "Filipino"
+
+ BRI:0 "Great Britain"
+ BRI_DEF:0 "Great Britain"
+ BRI_ADJ:0 "British"
