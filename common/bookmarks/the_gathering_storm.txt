@@ -141,5 +141,16 @@ bookmarks = {
 				
 			}
 		}
+		"ICE" = {
+			history = "ICE_bookmark_blurb"
+			ideology = autocracy
+			minor = yes
+			ideas = {
+
+			}
+			focuses = {
+				
+			}
+		}
 	}
 }

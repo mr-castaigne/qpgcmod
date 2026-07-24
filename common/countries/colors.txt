@@ -66,3 +66,7 @@ TAI = {
 	color = rgb { 47 224 47 }
 	color_ui = rgb { 47 224 47 }
 }
+ICE = {
+	color = rgb { 91 130 220 }
+	color_ui = rgb { 91 130 220 }
+}

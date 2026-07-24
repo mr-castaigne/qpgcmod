@@ -282,6 +282,12 @@ ideologies = {
 			}
 			absolutism = {
 			}
+			military_rule = {
+			}
+			liberalism_autocracy = {
+				color = { 113 151 255 }
+				can_be_randomly_selected = no
+			}
 
 		}
 
@@ -293,7 +299,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 
-		color = { 76 76 76 }
+		color = { 93 93 93 }
 
 
 		war_impact_on_world_tension = 0.25		#no major danger
