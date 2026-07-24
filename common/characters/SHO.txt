@@ -12,4 +12,17 @@ characters = {
 			id = -1
 		}
 	}
+	SHO_goober = {
+		name = "Goober" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SHO/Portrait_Goober.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
 }
