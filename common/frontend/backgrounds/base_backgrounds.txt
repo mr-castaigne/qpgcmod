@@ -12,3 +12,4 @@
 
 load_67 = {}
 load_69 = {}
+load_awesome = {}
