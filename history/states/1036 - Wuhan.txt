@@ -1,0 +1,36 @@
+state = {
+	id = 1036
+	name = "STATE_1036"
+
+	history = {
+
+		owner = CHI
+		add_core_of = CHI
+
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 3 #was: 6
+			air_base = 2
+			arms_factory = 2
+		}
+
+		victory_points = {
+			4619 10 # Wuhan
+		}
+
+		victory_points = {
+			12467 1 # Hankow
+		}
+
+
+	}
+
+	provinces = {
+		4619 7167 12467
+	}
+	manpower = 5108320
+	buildings_max_level_factor = 1.000
+	state_category = city
+
+	local_supplies = 2.0 
+}

@@ -1,0 +1,14 @@
+﻿l_english:
+ ALA:0 "Alaska"
+ ALA_DEF:0 "Alaska"
+ ALA_ADJ:0 "Alaskan"
+ 
+ ALA_heterodox_socialism:0 "Beringian Anti-State"
+ ALA_heterodox_socialism_DEF:0 "the Beringian Anti-State"
+ ALA_vanguardism:0 "Alaxsxaq Commonwealth"
+ ALA_vanguardism_DEF:0 "the Alaxsxaq Commonwealth"
+
+ ALA_vanguardism_party:0 "Communist Party of Alaska"
+ ALA_heterodox_socialism_party:0 "Juneau Surrealist Group"
+ ALA_futurism_party:0 "Alaskan Futurist Party"
+ ALA_democratic_party:0 "Liberals of Alaska"

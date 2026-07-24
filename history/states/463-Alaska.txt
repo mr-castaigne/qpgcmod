@@ -1,0 +1,45 @@
+state={
+	id=463
+	name="STATE_463"
+
+	history={
+		owner = ALA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			fuel_silo = 3
+			synthetic_refinery = 1
+			arms_factory = 1
+			dockyard = 2
+			13091 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = ALA
+		add_core_of = BEN
+		victory_points = {
+			13090 1 
+		}
+		victory_points = {
+			13091 3 
+		}
+
+	}
+
+	resources = {
+		oil = 100
+		chromium = 3
+		tungsten = 3
+		aluminium = 3 
+	}
+
+	provinces={
+		1135 1830 4833 4848 7855 7884 10679 10694 10707 12661 13069 13090 13091 13202 13203 
+	}
+	manpower=67500
+	buildings_max_level_factor=1
+	state_category="town"
+
+	local_supplies=0.0 
+}

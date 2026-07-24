@@ -134,5 +134,6 @@ set_politics = {
 set_popularities = {
 	futurism = 10
 	socialism = 55
-	liberalism = 35
+	liberalism = 30
+	reactionary = 5
 }

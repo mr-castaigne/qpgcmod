@@ -1,0 +1,15 @@
+characters = {
+	BRI_mari = {
+		name = "Marigold Corvidae" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BRI/Portrait_Mari.dds"
+			}
+		}
+		country_leader = {
+			ideology = communization_theory
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}

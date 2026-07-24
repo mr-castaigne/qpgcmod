@@ -157,10 +157,10 @@ ideologies = {
 		ai_give_core_state_control_threshold = 10
 	}
 
-	postmodern_socialism = { #might be changed to revisionist socialism
+	heterodox_socialism = { #might be changed to revisionist socialism
 
 		types = {
-			autonomous_socialism = {
+			avant_garde = {
 			}
 			communization_theory = {
 			}

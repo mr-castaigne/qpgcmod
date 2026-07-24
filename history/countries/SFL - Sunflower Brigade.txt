@@ -120,7 +120,7 @@ if = {
 ######################
 
 set_politics = {
-	ruling_party = postmodern_socialism
+	ruling_party = heterodox_socialism
 	last_election = "2026.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -130,5 +130,5 @@ set_popularities = {
 	futurism = 5
 	socialism = 10
 	liberalism = 0
-	postmodern_socialism = 85
+	heterodox_socialism = 85
 }
