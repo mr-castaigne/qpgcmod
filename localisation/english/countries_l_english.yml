@@ -41,3 +41,7 @@
  QUE:0 "Quebec"
  QUE_DEF:0 "Quebec"
  QUE_ADJ:0 "Quebecoid"
+
+ ALA:0 "Alaska"
+ ALA_DEF:0 "Alaska"
+ ALA_ADJ:0 "Alaskan"

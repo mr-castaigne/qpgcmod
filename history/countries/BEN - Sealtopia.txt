@@ -1,4 +1,5 @@
 recruit_character = BEN_ben
+recruit_character = BEN_aion_phoca
 
 capital = 472
 
@@ -136,6 +137,6 @@ set_politics = {
 }
 
 set_popularities = {
-	postmodern_socialism = 25
+	vanguardism = 25
 	liberalism = 75
 }

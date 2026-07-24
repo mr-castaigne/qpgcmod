@@ -1,0 +1,16 @@
+characters = {
+	ALA_pepsi = {
+		name = "Pepsiman's Diabetic Nephew" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ALA/Portrait_Pepsi.dds"
+			}
+		}
+		country_leader = {
+			ideology = avant_garde
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}
+	

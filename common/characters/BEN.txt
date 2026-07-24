@@ -12,5 +12,18 @@ characters = {
 			id = -1
 		}
 	}
+	BEN_aion_phoca = {
+		name = "AION-PHOCA" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/BEN/Portrait_AION_PHOCA.dds"
+			}
+		}
+		country_leader = {
+			ideology = technocracy
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
 }
 	

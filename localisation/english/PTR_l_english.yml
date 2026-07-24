@@ -17,5 +17,7 @@
 
  PTR_reactionary_party:0 "Pine Tree Party"
  PTR_dystopianism_party:0 "Pine Tree Militia"
- PTR_futurism_party:0 "Futurists of Columbia"
- PTR_vanguardism_party:0 "Futurist of Columbia (Left)"
+ CSC_vanguardism_party:0 "Futurist Party (Left)"
+ CSC_vanguardism_party_long:0 "Cascadian Futurist Party (Left Faction)"
+ CSC_futurism_party:0 "Futurist Party"
+ CSC_futurism_party:0 "Cascadian Futurist Party"

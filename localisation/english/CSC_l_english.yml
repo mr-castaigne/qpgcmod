@@ -11,11 +11,14 @@
  CSC_vanguardism_DEF:0 "the Cascadian Social Republic"
  CSC_qpl:0 "Autonomous Region of Cascadia"
  CSC_qpl_DEF:0 "the Autonomous Region of Cascadia"
- CSC_neutrality:0 "Northwest Aryan Republic"
- CSC_neutrality_DEF:0 "the Northwest Aryan Republic"
+ CSC_reactionary:0 "Northwest Aryan Republic"
+ CSC_reactionary_DEF:0 "the Northwest Aryan Republic"
 
 
 
  CSC_socialism_party:0 "Futurist Party (Left)"
  CSC_socialism_party_long:0 "Cascadian Futurist Party (Left Faction)"
+ CSC_futurism_party:0 "Futurist Party"
+ CSC_futurism_party:0 "Cascadian Futurist Party"
  CSC_reactionary_party:0 "Northwest Front"
+ CSC_democratic_party:0 "United Queerplatonia"

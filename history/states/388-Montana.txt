@@ -13,6 +13,7 @@ state = {
 
 		owner = QPL
 		add_core_of = QPL
+		add_core_of = CSC
 
 		buildings = {
 			infrastructure = 2

@@ -133,6 +133,6 @@ set_popularities = {
 	liberalism = 5
 	socialism = 8
 	reactionary = 10
-	postmodern_socialism = 2
+	heterodox_socialism = 2
 	autocracy = 64
 }

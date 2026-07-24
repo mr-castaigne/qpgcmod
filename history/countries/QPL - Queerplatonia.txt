@@ -134,7 +134,7 @@ set_popularities = {
 	liberalism = 60
 	socialism = 27
 	reactionary = 6
-	postmodern_socialism = 2
+	heterodox_socialism = 2
 }
 
 if = {
