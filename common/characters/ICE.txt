@@ -1,0 +1,41 @@
+characters = {
+	ICE_william_s_key = {
+		name = "William S. Key" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ICE/Portrait_William_S_Key.dds"
+			}
+			army={
+				large = "gfx/leaders/ICE/Portrait_William_S_Key.dds"
+			}
+		}
+		country_leader = {
+			ideology = military_rule
+			expire = "9999.1.1.1"
+			id = -1
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id = 0
+		}
+	}
+	ICE_kamala_harris = {
+		name = "Kamala Harris"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ICE/Portrait_Kamala_Harris.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism_autocracy
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}
+	

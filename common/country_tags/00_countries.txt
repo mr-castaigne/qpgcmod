@@ -15,6 +15,7 @@ ALA = "countries/generic.txt"
 BRI = "countries/generic.txt"
 CHI = "countries/generic.txt"
 TAI = "countries/generic.txt"
+ICE = "countries/generic.txt"
 
 # VANILLA COUNTRIES JUST SO THE GAME STOPS CRASHING ####################
 
@@ -22,7 +23,6 @@ SWE = "countries/generic.txt"
 NOR = "countries/generic.txt"
 FIN = "countries/generic.txt"
 DEN = "countries/generic.txt"
-ICE = "countries/generic.txt"
 POR = "countries/generic.txt"
 SPR = "countries/generic.txt"
 FRA = "countries/generic.txt"

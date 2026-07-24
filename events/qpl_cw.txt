@@ -478,6 +478,12 @@ country_event = { # Reactionaries declare a regency
 			end_puppet = NIB
 			NIB = { drop_cosmetic_tag = yes }
 		}
+		hidden_effect = {
+			country_event = {
+				id = qpl_cw.20
+				days = 2
+			}
+		}
 
 		custom_effect_tooltip = switch_to_regency_tt
 		hidden_effect = {
