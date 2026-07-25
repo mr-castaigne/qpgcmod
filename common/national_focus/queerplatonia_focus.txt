@@ -10,15 +10,25 @@
 	}
 	
 	default = no
+
 	focus = {
-		id = QPL_borrowed_time
-		icon = GFX_goal_generic_propaganda
-		x = 0
+		id = QPL_onwards
+		icon = GFX_focus_QPL_onwards
+		mutually_exclusive = { focus = QPL_defend_tradition }
+		x = -1
 		y = 0
 		cost = 5
+	}
 		
-		completion_reward = {
-			
+	focus = {
+		id = QPL_defend_tradition
+		icon = GFX_goal_generic_defence
+		mutually_exclusive = {
+			focus = QPL_onwards
 		}
+		x = 1
+		y = 0
+		cost = 5
 	}
 }
+	
