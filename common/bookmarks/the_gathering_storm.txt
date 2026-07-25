@@ -43,11 +43,13 @@ bookmarks = {
 			minor = no
 		}
 
+
 		"---"={
 			history = "OTHER_GATHERING_STORM_DESC"
 		}
 
 		
+
 		"BRI" = {
 			history = "BRI_bookmark_blurb"
 			ideology = heterodox_socialism
@@ -105,7 +107,7 @@ bookmarks = {
 		}
 		"BEN" = {
 			history = "BEN_bookmark_blurb"
-			ideology = democratic
+			ideology = liberalism
 			minor = yes
 			ideas = {
 
@@ -150,6 +152,28 @@ bookmarks = {
 		"ICE" = {
 			history = "ICE_bookmark_blurb"
 			ideology = autocracy
+			minor = yes
+			ideas = {
+
+			}
+			focuses = {
+				
+			}
+		}
+		"ARA" = {
+			history = "ARA_bookmark_blurb"
+			ideology = futurism
+			minor = yes
+			ideas = {
+
+			}
+			focuses = {
+				
+			}
+		}
+		"ISR" = {
+			history = "ISR_bookmark_blurb"
+			ideology = heterodox_socialism
 			minor = yes
 			ideas = {
 
