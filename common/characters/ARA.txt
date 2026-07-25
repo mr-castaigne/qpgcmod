@@ -1,0 +1,41 @@
+characters = {
+	ARA_cleo = {
+		name = "Cleopatra \"Mizo\" Nasser" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ARA/Portrait_Cleo.dds"
+			}
+		}
+		country_leader = {
+			ideology = romantic_nationalism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	ARA_cleo_baathism = {
+		name = "Cleopatra \"Mizo\" Nasser" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ARA/Portrait_Cleo.dds"
+			}
+		}
+		country_leader = {
+			ideology = baathism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	ARA_oligarchy = {
+		name = "The Oligarchy" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ARA/Portrait_Oligarchy.dds"
+			}
+		}
+		country_leader = {
+			ideology = aristocracy
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}

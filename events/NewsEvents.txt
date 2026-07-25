@@ -3113,12 +3113,12 @@ news_event = {
 				GER = { has_war_with = ENG }
 			}
 			AND = {
-				907 = { is_owned_by = EGY }
-				EGY = {
+				907 = { is_owned_by = ARA }
+				ARA = {
 					is_ally_with = ENG
 				}
 				GER = { has_war_with = ENG }
-				GER = { has_war_with = EGY }
+				GER = { has_war_with = ARA }
 			}
 		}
 		NOT = { has_global_flag = fall_of_cairo }
@@ -3297,12 +3297,12 @@ news_event = {
 				ITA = { has_war_with = ENG }
 			}
 			AND = {
-				907 = { is_owned_by = EGY }
-				EGY = {
+				907 = { is_owned_by = ARA }
+				ARA = {
 					is_ally_with = ENG
 				}
 				ITA = { has_war_with = ENG }
-				ITA = { has_war_with = EGY }
+				ITA = { has_war_with = ARA }
 			}
 		}
 		NOT = { has_global_flag = fall_of_cairo_ita }

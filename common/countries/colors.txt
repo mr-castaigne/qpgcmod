@@ -70,3 +70,11 @@ ICE = {
 	color = rgb { 91 130 220 }
 	color_ui = rgb { 91 130 220 }
 }
+ISR = {
+	color = rgb { 200 200 200 }
+	color_ui = rgb { 200 200 200 }
+}
+ARA = {
+	color = rgb { 0 153 0 }
+	color_ui = rgb { 0 153 0 }
+}

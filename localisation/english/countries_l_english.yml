@@ -65,3 +65,11 @@
  ICE:0 "Iceland"
  ICE_DEF:0 "Iceland"
  ICE_ADJ:0 "Icelandic"
+
+ ARA:0 "Arabia"
+ ARA_DEF:0 "Arabia"
+ ARA_ADJ:0 "Arab"
+
+ ISR:0 "Israel"
+ ISR_DEF:0 "Israel"
+ ISR_ADJ:0 "Israeli"

@@ -12,6 +12,19 @@ music = {
 }
 
 music = {
+    song = "dontforget"
+    chance = {
+        base = 1
+        modifier = {
+            factor = 0.3
+            has_war = yes
+        }
+    }
+}
+
+## Thank you for these beautiful covers, Nerit 🥹
+
+music = {
     song = "flowery"
     chance = {
         base = 1

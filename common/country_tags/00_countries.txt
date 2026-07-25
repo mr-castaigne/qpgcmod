@@ -16,6 +16,8 @@ BRI = "countries/generic.txt"
 CHI = "countries/generic.txt"
 TAI = "countries/generic.txt"
 ICE = "countries/generic.txt"
+ISR = "countries/generic.txt"
+ARA = "countries/generic.txt"
 
 # VANILLA COUNTRIES JUST SO THE GAME STOPS CRASHING ####################
 
@@ -74,7 +76,6 @@ TUR = "countries/generic.txt"
 QAT = "countries/generic.txt"
 BHR = "countries/generic.txt"
 UAE = "countries/generic.txt"
-EGY = "countries/generic.txt"
 SUD = "countries/generic.txt"
 LBA = "countries/generic.txt"
 TUN = "countries/generic.txt"

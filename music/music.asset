@@ -21,3 +21,9 @@ music = {
     file = "Raise Up Your Bat Cover (Ralsei).ogg"
     volume = 1
 }
+
+music = {
+    name = "dontforget"
+    file = "Don't Forget Cover.ogg"
+    volume = 1
+}

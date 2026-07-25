@@ -1,0 +1,20 @@
+﻿l_english:
+ ISR:0 "Israel"
+ ISR_DEF:0 "Israel"
+ ISR_ADJ:0 "Israeli"
+
+ ISR:0 "Israel"
+ ISR_DEF:0 "Israel"
+ ISR_ADJ:0 "Israeli"
+
+
+ ISR_heterodox_socialism:0 "Israeli Soviet Workers' Commune"
+ ISR_heterodox_socialism_DEF:0 "the Israeli Soviet Workers' Commune"
+ ISR_futurism:0 "Islamic Republic of Canaan"
+ ISR_futurism_DEF:0 "the Islamic Republic of Canaan"
+ ISR_futurism_ADJ:0 "Canaanite"
+
+ ISR_heterodox_socialism_party:0 "Mapai"
+ ISR_heterodox_socialism_party_long:0 "Workers' Party of the Land of Israel"
+ ISR_futurism_party:0 "Hamas"
+ ISR_futurism_party_long:0 "Islamic Resistance Movement"

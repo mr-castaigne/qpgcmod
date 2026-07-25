@@ -1,0 +1,18 @@
+﻿l_english:
+ ARA:0 "Arabia"
+ ARA_DEF:0 "Arabia"
+ ARA_ADJ:0 "Arab"
+
+ ARA_futurism:0 "United Arab People's Republic"
+ ARA_futurism_DEF:0 "the United Arab People's Republic"
+ ARA_futurism_ADJ:0 "Arab"
+ ARA_vanguardism:0 "United Arab People's Republic"
+ ARA_vanguardism_DEF:0 "the United Arab People's Republic"
+ ARA_vanguardism_ADJ:0 "Arab"
+ ARA_reactionary:0 "United Arab People's Republic"
+ ARA_reactionary_DEF:0 "the United Arab People's Republic"
+ ARA_reactionary_ADJ:0 "Arab"
+
+ ARA_futurism_party:0 "Arab National Union"
+ ARA_vanguardism_party:0 "Arab Socialist Ba'ath Party"
+ ARA_reactionary_party:0 "Mizoist Oligarch Clique"

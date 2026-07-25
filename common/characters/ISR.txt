@@ -1,0 +1,28 @@
+characters = {
+	ISR_april = {
+		name = "April May June the Cisfem" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ISR/Portrait_April.dds"
+			}
+		}
+		country_leader = {
+			ideology = hegelian_marxism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	ISR_daniel_khan = {
+		name = "Daniel Khan & the Painted Bird" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/ISR/Portrait_Daniel_Khan.dds"
+			}
+		}
+		country_leader = {
+			ideology = romantic_nationalism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}
