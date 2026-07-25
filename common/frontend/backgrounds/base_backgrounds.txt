@@ -13,3 +13,14 @@
 load_67 = {}
 load_69 = {}
 load_awesome = {}
+load_kerdly1 = {}
+load_kerdly2 = {}
+load_kerdly3 = {}
+load_kerdly4 = {}
+load_kerdly5 = {}
+load_kerdly6 = {}
+load_kerdly7 = {}
+load_kerdly8 = {}
+load_pronouns = {}
+load_peak = {}
+load_ai = {}

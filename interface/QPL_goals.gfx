@@ -1,0 +1,8 @@
+# Queerplatonian foci sprites
+
+spriteTypes = {
+    spriteType = {
+        name = GFX_focus_QPL_onwards
+        texturefile = gfx/interface/goals/gfx_focus_QPL_onwards.dds
+    }
+}
