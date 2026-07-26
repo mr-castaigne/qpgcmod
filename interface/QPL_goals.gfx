@@ -6,3 +6,10 @@ spriteTypes = {
         texturefile = gfx/interface/goals/gfx_focus_QPL_onwards.dds
     }
 }
+
+spriteTypes = {
+    spriteType = {
+        name = GFX_focus_QPL_god_save_the_south
+        texturefile = gfx/interface/goals/GFX_focus_QPL_god_save_the_south.dds
+    }
+}
