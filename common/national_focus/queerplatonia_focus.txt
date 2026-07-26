@@ -11,7 +11,7 @@
 	
 	default = no
 
-	# Futurist/Socialist/Anarchist Path
+	# Futurist Buildup
 
 	focus = {
 		id = QPL_onwards
@@ -19,7 +19,7 @@
 		mutually_exclusive = {
 			focus = QPL_defend_tradition
 		}
-		x = 5
+		x = 30
 		y = 0
 		cost = 5
 		available = {
@@ -27,6 +27,27 @@
 		}
 		completion_reward = {
 			
+		}
+		allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				OR = {
+					NOT = {
+						has_global_flag = queerplatonian_civil_war
+					}
+					AND = {
+						NOT = {
+							has_completed_focus = QPL_defend_tradition
+						}
+						has_global_flag = queerplatonian_civil_war
+					}
+				}
+			}
 		}
 	}
 
@@ -145,6 +166,8 @@
 		}
 	}
 
+	# Futurist Path
+
 	focus = {
 		id = QPL_towards_the_future
 		icon = GFX_focus_focus_fra_revolution_utmost
@@ -164,8 +187,25 @@
 		completion_reward = {
 			
 		}
+		allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				AND = {
+					NOT = {
+						has_completed_focus = QPL_god_save_the_south
+					}
+					has_global_flag = queerplatonian_civil_war
+				}
+			}
+		}
 	}
 
+	# Socialist/Anarchist Path
 	focus = {
 		id = QPL_god_save_the_south
 		icon = GFX_focus_QPL_god_save_the_south
@@ -185,11 +225,25 @@
 		completion_reward = {
 			
 		}
-
-	
+	allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				AND = {
+					NOT = {
+						has_completed_focus = QPL_appeal_to_the_left
+					}
+					has_global_flag = queerplatonian_civil_war
+				}
+			}
+		}
 	}
 
-	# Reactionary Path
+	# Reactionary Buildup
 
 	focus = {
 		id = QPL_defend_tradition
@@ -197,7 +251,7 @@
 		mutually_exclusive = {
 			focus = QPL_onwards
 		}
-		x = 10
+		x = 40
 		y = 0
 		cost = 5
 		available = {
@@ -206,10 +260,31 @@
 		completion_reward = {
 			
 		}
+		allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				OR = {
+					NOT = {
+						has_global_flag = queerplatonian_civil_war
+					}
+					AND = {
+						NOT = {
+							has_completed_focus = QPL_onwards
+						}
+						has_global_flag = queerplatonian_civil_war
+					}
+				}
+			}
+		}
 	}
 
 	focus = {
-		id = QPL_elect_jessica
+		id = QPL_form_party
 		icon = GFX_focus_generic_military_mission
 		relative_position_id = QPL_defend_tradition
 		prerequisite = {
@@ -231,7 +306,7 @@
 		icon = GFX_goal_generic_small_arms
 		relative_position_id = QPL_defend_tradition
 		prerequisite = {
-			focus =QPL_elect_jessica
+			focus = QPL_form_party
 		}
 		x = 0
 		y = 2
@@ -240,7 +315,11 @@
 			
 		}		
 		completion_reward = {
-			
+			add_stability = -0.15
+			add_popularity = {
+    			ideology = reactionary
+    			popularity = 0.1
+			}	
 		}
 	}
 
@@ -317,6 +396,7 @@
 		cost = 5
 	}
 
+	# Reactionary Republican Path
 	focus = {
 		id = QPL_long_live_the_republic
 		icon = GFX_focus_rom_abdicate
@@ -336,7 +416,19 @@
 		completion_reward = {
 			
 		}
+		allow_branch = {
+			if = {
+				AND = {
+					NOT = {
+						has_completed_focus = QPL_long_live_the_queen
+					}
+					has_global_flag = queerplatonian_civil_war
+				}
+			}
+		}
 	}
+
+	# Reactionary Monarchist Path
 
 	focus = {
 		id = QPL_long_live_the_queen
@@ -356,6 +448,16 @@
 		}		
 		completion_reward = {
 			
+		}
+		allow_branch = {
+			if = {
+				AND = {
+					NOT = {
+						has_completed_focus = QPL_long_live_the_republic
+					}
+					has_global_flag = queerplatonian_civil_war
+				}
+			}
 		}
 	}
 }

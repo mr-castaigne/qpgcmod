@@ -1,12 +1,12 @@
 characters = {
-	ICE_william_s_key = {
+	ICL_william_s_key = {
 		name = "William S. Key" 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ICE/Portrait_William_S_Key.dds"
+				large = "gfx/leaders/ICL/Portrait_William_S_Key.dds"
 			}
 			army={
-				large = "gfx/leaders/ICE/Portrait_William_S_Key.dds"
+				large = "gfx/leaders/ICL/Portrait_William_S_Key.dds"
 			}
 		}
 		country_leader = {
@@ -24,11 +24,11 @@ characters = {
 			legacy_id = 0
 		}
 	}
-	ICE_kamala_harris = {
+	ICL_kamala_harris = {
 		name = "Kamala Harris"
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ICE/Portrait_Kamala_Harris.dds"
+				large = "gfx/leaders/ICL/Portrait_Kamala_Harris.dds"
 			}
 		}
 		country_leader = {

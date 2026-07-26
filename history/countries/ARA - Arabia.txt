@@ -1,5 +1,5 @@
-recruit_character = ARA_cleo
-recruit_character = ARA_cleo_baathism
+recruit_character = ARA_mizo
+recruit_character = ARA_mizo_baathism
 recruit_character = ARA_oligarchy
 
 capital = 907

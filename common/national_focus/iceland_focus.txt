@@ -5,14 +5,14 @@
 		factor = 0
 		modifier = {
 			add = 10
-			tag = ICE
+			tag = ICL
 		}
 	}
 	
 	default = no
 
 	focus = {
-		id = ICE_the_daily_report
+		id = ICL_the_daily_report
 		icon = GFX_focus_generic_treaty
 		x = 0
 		y = 0
@@ -23,131 +23,131 @@
 		}
 	}
 	focus = {
-		id = ICE_the_horses_and_men
+		id = ICL_the_horses_and_men
 		icon = GFX_focus_generic_manpower
-		relative_position_id = ICE_the_daily_report
+		relative_position_id = ICL_the_daily_report
 		x = 0
 		y = 1
 		cost = 1
 
-		prerequisite = { focus = ICE_the_daily_report }
+		prerequisite = { focus = ICL_the_daily_report }
 		
 		completion_reward = {
 			
 		}
 	}
 	focus = {
-		id = ICE_council_of_the_state
+		id = ICL_council_of_the_state
 		icon = GFX_goal_generic_national_unity
-		relative_position_id = ICE_the_horses_and_men
+		relative_position_id = ICL_the_horses_and_men
 		x = -2
 		y = 1
 		cost = 1
 
-		prerequisite = { focus = ICE_the_horses_and_men }
+		prerequisite = { focus = ICL_the_horses_and_men }
 		
 		completion_reward = {
 			
 		}
 	}
 	focus = {
-		id = ICE_the_reykjavik_project
+		id = ICL_the_reykjavik_project
 		icon = GFX_goal_generic_construction2
-		relative_position_id = ICE_council_of_the_state
+		relative_position_id = ICL_council_of_the_state
 		x = 0
 		y = 1
 		cost = 1
 
-		prerequisite = { focus = ICE_council_of_the_state }
+		prerequisite = { focus = ICL_council_of_the_state }
 		
 		completion_reward = {
 			
 		}
 	}
 	focus = {
-		id = ICE_reorganize_command_structure
+		id = ICL_reorganize_command_structure
 		icon = GFX_goal_generic_army_doctrines
-		relative_position_id = ICE_the_horses_and_men
+		relative_position_id = ICL_the_horses_and_men
 		x = 0
 		y = 1
 		cost = 1
 
-		prerequisite = { focus = ICE_the_horses_and_men }
+		prerequisite = { focus = ICL_the_horses_and_men }
 		
 		completion_reward = {
 			
 		}
 	}
 	focus = {
-		id = ICE_occupy_local_factories
+		id = ICL_occupy_local_factories
 		icon = GFX_goal_generic_construct_mil_factory
-		relative_position_id = ICE_reorganize_command_structure
+		relative_position_id = ICL_reorganize_command_structure
 		x = 0
 		y = 1
 		cost = 1
 
-		prerequisite = { focus = ICE_reorganize_command_structure }
+		prerequisite = { focus = ICL_reorganize_command_structure }
 		
 		completion_reward = {
 			
 		}
 	}
 	focus = {
-		id = ICE_what_was_left_behind
+		id = ICL_what_was_left_behind
 		icon = GFX_goal_generic_position_armies
-		relative_position_id = ICE_the_horses_and_men
+		relative_position_id = ICL_the_horses_and_men
 		x = 2
 		y = 1
 		cost = 1
 
-		prerequisite = { focus = ICE_the_horses_and_men }
+		prerequisite = { focus = ICL_the_horses_and_men }
 		
 		completion_reward = {
 			
 		}
 	}
 	focus = {
-		id = ICE_colonize_the_ice
+		id = ICL_colonize_the_ice
 		icon = GFX_goal_generic_construction
-		relative_position_id = ICE_what_was_left_behind
+		relative_position_id = ICL_what_was_left_behind
 		x = 0
 		y = 1
 		cost = 1
 
-		prerequisite = { focus = ICE_what_was_left_behind }
+		prerequisite = { focus = ICL_what_was_left_behind }
 		
 		completion_reward = {
 			
 		}
 	}
 	focus = {
-		id = ICE_assemble_the_council
+		id = ICL_assemble_the_council
 		icon = GFX_goal_generic_propaganda
-		relative_position_id = ICE_the_horses_and_men
+		relative_position_id = ICL_the_horses_and_men
 		x = 0
 		y = 3
 		cost = 1
 
-		prerequisite = { focus = ICE_the_reykjavik_project }
-		prerequisite = { focus = ICE_occupy_local_factories }
-		prerequisite = { focus = ICE_colonize_the_ice }
+		prerequisite = { focus = ICL_the_reykjavik_project }
+		prerequisite = { focus = ICL_occupy_local_factories }
+		prerequisite = { focus = ICL_colonize_the_ice }
 		
 		completion_reward = {
 			
 		}
 	}
 	focus = {
-		id = ICE_the_iron_lady_of_iceland
+		id = ICL_the_iron_lady_of_iceland
 		icon = GFX_goal_generic_political_pressure
-		relative_position_id = ICE_assemble_the_council
+		relative_position_id = ICL_assemble_the_council
 		x = 0
 		y = 1
 		cost = 1
 
-		prerequisite = { focus = ICE_assemble_the_council }
+		prerequisite = { focus = ICL_assemble_the_council }
 		
 		completion_reward = {
-			promote_character = ICE_kamala_harris
+			promote_character = ICL_kamala_harris
 		}
 	}
 }
