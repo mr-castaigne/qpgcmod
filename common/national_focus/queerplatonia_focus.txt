@@ -48,6 +48,147 @@
 		}
 	}
 
+	focus = {
+		id = QPL_appeal_to_the_left
+		icon = GFX_goal_tripartite_pact
+		relative_position_id = QPL_onwards
+		prerequisite = {
+			focus = QPL_nationwide_tour
+		}
+		x = 0
+		y = 2
+		cost = 5
+		available = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QPL_train_futurist_paramilitaries
+		icon = GFX_goal_generic_small_arms
+		relative_position_id = QPL_onwards
+		prerequisite = {
+			focus = QPL_appeal_to_the_left
+		}
+		x = 0
+		y = 3
+		cost = 5
+		available = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QPL_secure_military
+		icon = GFX_goal_generic_political_pressure
+		relative_position_id = QPL_onwards
+		prerequisite = {
+			focus = QPL_train_futurist_paramilitaries
+		}
+		mutually_exclusive = {
+			focus = QPL_secure_gendarmerie
+		}
+		x = 1
+		y = 4
+		cost = 5
+		available = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QPL_secure_gendarmerie
+		icon = GFX_focus_generic_support_the_left_right
+		relative_position_id = QPL_onwards
+		prerequisite = {
+			focus = QPL_train_futurist_paramilitaries
+		}
+		mutually_exclusive = {
+			focus = QPL_secure_military
+		}
+		x = -1
+		y = 4
+		cost = 5
+		available = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QPL_crush_the_reaction
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		relative_position_id = QPL_onwards
+		prerequisite = {
+			focus = QPL_secure_gendarmerie
+			focus = QPL_secure_military
+		}
+		x = 0
+		y = 5
+		cost = 5
+		available = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QPL_towards_the_future
+		icon = GFX_focus_focus_fra_revolution_utmost
+		relative_position_id = QPL_onwards
+		prerequisite = {
+			focus = QPL_crush_the_reaction
+		}
+		mutually_exclusive = {
+			focus = QPL_god_save_the_south
+		}
+		x = 1
+		y = 6
+		cost = 5
+		available = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QPL_god_save_the_south
+		icon = GFX_focus_QPL_god_save_the_south
+		relative_position_id = QPL_onwards
+		prerequisite = {
+			focus = QPL_crush_the_reaction
+		}
+		mutually_exclusive = {
+			focus = QPL_towards_the_future
+		}
+		x = -1
+		y = 6
+		cost = 5
+		available = {
+			
+		}
+		completion_reward = {
+			
+		}
+
+	
+	}
+
 	# Reactionary Path
 
 	focus = {
@@ -86,7 +227,7 @@
 	}
 
 	focus = {
-		id = QPL_train_paramilitaries
+		id = QPL_train_reactionary_paramilitaries
 		icon = GFX_goal_generic_small_arms
 		relative_position_id = QPL_defend_tradition
 		prerequisite = {
@@ -108,7 +249,7 @@
 		icon = GFX_focus_generic_concessions
 		relative_position_id = QPL_defend_tradition
 		prerequisite = {
-			focus = QPL_train_paramilitaries
+			focus = QPL_train_reactionary_paramilitaries
 		}
 		x = 0
 		y = 3
@@ -164,7 +305,7 @@
 	}
 
 	focus = {
-		id = QPL_demand_felix_resignation
+		id = QPL_futurist_ultimatum
 		icon = GFX_goal_generic_major_war
 		relative_position_id = QPL_defend_tradition
 		prerequisite = {
@@ -177,18 +318,18 @@
 	}
 
 	focus = {
-		id = QPL_reactionary_republic
+		id = QPL_long_live_the_republic
 		icon = GFX_focus_rom_abdicate
-		relative_position_id = QPL_demand_felix_resignation
+		relative_position_id = QPL_defend_tradition
 		prerequisite = {
-			focus = QPL_demand_felix_resignation
+			focus = QPL_futurist_ultimatum
 		}
 		mutually_exclusive = {
 			focus = QPL_long_live_the_queen
 		}
 		x = -1
-		y = 1
-		cost = 0
+		y = 6
+		cost = 5
 		available = {
 			
 		}		
@@ -200,16 +341,16 @@
 	focus = {
 		id = QPL_long_live_the_queen
 		icon = GFX_focus_spa_the_phalanx_ascendant
-		relative_position_id = QPL_demand_felix_resignation
+		relative_position_id = QPL_defend_tradition
 		prerequisite = {
-			focus = QPL_demand_felix_resignation
+			focus = QPL_futurist_ultimatum
 		}
 		mutually_exclusive = {
 			focus = QPL_reactionary_republic
 		}
 		x = 1
-		y = 1
-		cost = 0
+		y = 6
+		cost = 5
 		available = {
 			
 		}		
