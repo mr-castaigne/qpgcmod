@@ -15,7 +15,7 @@ ALA = "countries/generic.txt"
 BRI = "countries/generic.txt"
 CHI = "countries/generic.txt"
 TAI = "countries/generic.txt"
-ICE = "countries/generic.txt"
+ICL = "countries/generic.txt"
 ISR = "countries/generic.txt"
 ARA = "countries/generic.txt"
 

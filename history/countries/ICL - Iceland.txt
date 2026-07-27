@@ -1,9 +1,9 @@
-recruit_character = ICE_william_s_key
-recruit_character = ICE_kamala_harris
+recruit_character = ICL_william_s_key
+recruit_character = ICL_kamala_harris
 
 capital = 100
 
-oob = "ICE_2026"
+oob = "ICL_2026"
 
 set_research_slots = 2
 

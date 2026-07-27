@@ -149,8 +149,8 @@ bookmarks = {
 				
 			}
 		}
-		"ICE" = {
-			history = "ICE_bookmark_blurb"
+		"ICL" = {
+			history = "ICL_bookmark_blurb"
 			ideology = autocracy
 			minor = yes
 			ideas = {

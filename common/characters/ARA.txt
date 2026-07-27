@@ -1,9 +1,9 @@
 characters = {
-	ARA_cleo = {
-		name = "Cleopatra \"Mizo\" Nasser" 
+	ARA_mizo = {
+		name = "Mizo Nasser" 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ARA/Portrait_Cleo.dds"
+				large = "gfx/leaders/ARA/Portrait_Mizo.dds"
 			}
 		}
 		country_leader = {
@@ -12,11 +12,11 @@ characters = {
 			id = -1
 		}
 	}
-	ARA_cleo_baathism = {
-		name = "Cleopatra \"Mizo\" Nasser" 
+	ARA_mizo_baathism = {
+		name = "Mizo Nasser" 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/ARA/Portrait_Cleo.dds"
+				large = "gfx/leaders/ARA/Portrait_Mizo.dds"
 			}
 		}
 		country_leader = {

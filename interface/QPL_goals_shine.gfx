@@ -1,16 +1,10 @@
 # Queerplatonian foci sprites (shiny)
 
 spriteTypes = {
-    # Queerplatonia
-    spriteType = {
-        name = GFX_focus_QPL_onwards_shine
-        texturefile = gfx/interface/goals/gfx_focus_QPL_onwards.dds
-    }
-}
 
     spriteType = {
         name = GFX_focus_QPL_onwards_shine
-        texturefile = gfx/interface/goals/gfx_focus_QPL_onwards.dds # Change to the focus icon
+        texturefile = gfx/interface/goals/gfx_focus_QPL_onwards.dds
         effectFile = gfx/FX/buttonstate.lua
         animation = {
             animationmaskfile = gfx/interface/goals/gfx_focus_QPL_onwards.dds
@@ -38,3 +32,35 @@ spriteTypes = {
         }
         legacy_lazy_load = no
     }
+
+    spriteType = {
+        name = GFX_focus_QPL_god-GFX_focus_QPL_god_save_the_south_shine
+        texturefile = gfx/interface/goals/GFX_focus_QPL_god_save_the_south.dds
+        effectFile = gfx/FX/buttonstate.lua
+        animation = {
+            animationmaskfile = gfx/interface/goals/GFX_focus_QPL_god_save_the_south.dds
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        animation = {
+            animationmaskfile = gfx/interface/goals/GFX_focus_QPL_god_save_the_south.dds
+            animationtexturefile = gfx/interface/goals/shine_overlay.dds
+            animationrotation = 90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+        }
+        legacy_lazy_load = no
+    }
+}

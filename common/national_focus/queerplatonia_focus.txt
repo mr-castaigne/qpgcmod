@@ -11,24 +11,454 @@
 	
 	default = no
 
+	# Futurist Buildup
+
 	focus = {
 		id = QPL_onwards
 		icon = GFX_focus_QPL_onwards
-		mutually_exclusive = { focus = QPL_defend_tradition }
-		x = -1
+		mutually_exclusive = {
+			focus = QPL_defend_tradition
+		}
+		x = 30
 		y = 0
 		cost = 5
+		available = {
+			
+		}
+		completion_reward = {
+			
+		}
+		allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				OR = {
+					NOT = {
+						has_global_flag = queerplatonian_civil_war
+					}
+					AND = {
+						NOT = {
+							has_completed_focus = QPL_defend_tradition
+						}
+						has_global_flag = queerplatonian_civil_war
+					}
+				}
+			}
+		}
 	}
-		
+
+	focus = {
+		id = QPL_nationwide_tour
+		icon = GFX_goal_generic_propaganda
+		relative_position_id = QPL_onwards
+		prerequisite = {
+			focus = QPL_onwards
+		}
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QPL_appeal_to_the_left
+		icon = GFX_goal_tripartite_pact
+		relative_position_id = QPL_onwards
+		prerequisite = {
+			focus = QPL_nationwide_tour
+		}
+		x = 0
+		y = 2
+		cost = 5
+		available = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QPL_train_futurist_paramilitaries
+		icon = GFX_goal_generic_small_arms
+		relative_position_id = QPL_onwards
+		prerequisite = {
+			focus = QPL_appeal_to_the_left
+		}
+		x = 0
+		y = 3
+		cost = 5
+		available = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QPL_secure_military
+		icon = GFX_goal_generic_political_pressure
+		relative_position_id = QPL_onwards
+		prerequisite = {
+			focus = QPL_train_futurist_paramilitaries
+		}
+		mutually_exclusive = {
+			focus = QPL_secure_gendarmerie
+		}
+		x = 1
+		y = 4
+		cost = 5
+		available = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QPL_secure_gendarmerie
+		icon = GFX_focus_generic_support_the_left_right
+		relative_position_id = QPL_onwards
+		prerequisite = {
+			focus = QPL_train_futurist_paramilitaries
+		}
+		mutually_exclusive = {
+			focus = QPL_secure_military
+		}
+		x = -1
+		y = 4
+		cost = 5
+		available = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QPL_crush_the_reaction
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		relative_position_id = QPL_onwards
+		prerequisite = {
+			focus = QPL_secure_gendarmerie
+			focus = QPL_secure_military
+		}
+		x = 0
+		y = 5
+		cost = 5
+		available = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	# Futurist Path
+
+	focus = {
+		id = QPL_towards_the_future
+		icon = GFX_focus_focus_fra_revolution_utmost
+		relative_position_id = QPL_onwards
+		prerequisite = {
+			focus = QPL_crush_the_reaction
+		}
+		mutually_exclusive = {
+			focus = QPL_god_save_the_south
+		}
+		x = 1
+		y = 6
+		cost = 5
+		available = {
+			
+		}
+		completion_reward = {
+			
+		}
+		allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				AND = {
+					NOT = {
+						has_completed_focus = QPL_god_save_the_south
+					}
+					has_global_flag = queerplatonian_civil_war
+				}
+			}
+		}
+	}
+
+	# Socialist/Anarchist Path
+	focus = {
+		id = QPL_god_save_the_south
+		icon = GFX_focus_QPL_god_save_the_south
+		relative_position_id = QPL_onwards
+		prerequisite = {
+			focus = QPL_crush_the_reaction
+		}
+		mutually_exclusive = {
+			focus = QPL_towards_the_future
+		}
+		x = -1
+		y = 6
+		cost = 5
+		available = {
+			
+		}
+		completion_reward = {
+			
+		}
+	allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				AND = {
+					NOT = {
+						has_completed_focus = QPL_appeal_to_the_left
+					}
+					has_global_flag = queerplatonian_civil_war
+				}
+			}
+		}
+	}
+
+	# Reactionary Buildup
+
 	focus = {
 		id = QPL_defend_tradition
 		icon = GFX_goal_generic_defence
 		mutually_exclusive = {
 			focus = QPL_onwards
 		}
-		x = 1
+		x = 40
 		y = 0
 		cost = 5
+		available = {
+			
+		}		
+		completion_reward = {
+			
+		}
+		allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				OR = {
+					NOT = {
+						has_global_flag = queerplatonian_civil_war
+					}
+					AND = {
+						NOT = {
+							has_completed_focus = QPL_onwards
+						}
+						has_global_flag = queerplatonian_civil_war
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = QPL_form_party
+		icon = GFX_focus_generic_military_mission
+		relative_position_id = QPL_defend_tradition
+		prerequisite = {
+			focus = QPL_defend_tradition
+		}
+		x = 0
+		y = 1
+		cost = 5
+		available = {
+			
+		}		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QPL_train_reactionary_paramilitaries
+		icon = GFX_goal_generic_small_arms
+		relative_position_id = QPL_defend_tradition
+		prerequisite = {
+			focus = QPL_form_party
+		}
+		x = 0
+		y = 2
+		cost = 5
+		available = {
+			
+		}		
+		completion_reward = {
+			add_stability = -0.15
+			add_popularity = {
+    			ideology = reactionary
+    			popularity = 0.1
+			}	
+		}
+	}
+
+	focus = {
+		id = QPL_campaign_chest
+		icon = GFX_focus_generic_concessions
+		relative_position_id = QPL_defend_tradition
+		prerequisite = {
+			focus = QPL_train_reactionary_paramilitaries
+		}
+		x = 0
+		y = 3
+		cost = 5
+		available = {
+			
+		}		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QPL_rojo_negotiations
+		icon = GFX_goal_generic_dangerous_deal
+		relative_position_id = QPL_defend_tradition
+		prerequisite = {
+			focus = QPL_campaign_chest
+		}
+		mutually_exclusive = {
+			focus = QPL_protect_sovereignity
+		}
+		x = -1
+		y = 4
+		cost = 5
+		available = {
+			
+		}		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QPL_protect_sovereignity
+		icon = GFX_goal_generic_political_pressure
+		relative_position_id = QPL_defend_tradition
+		prerequisite = {
+			focus = QPL_campaign_chest
+		}
+		mutually_exclusive = {
+			focus = QPL_rojo_negotiations
+		}
+		x = 1
+		y = 4
+		cost = 5
+		available = {
+			
+		}		
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QPL_futurist_ultimatum
+		icon = GFX_goal_generic_major_war
+		relative_position_id = QPL_defend_tradition
+		prerequisite = {
+			focus = QPL_rojo_negotiations
+			focus = QPL_protect_sovereignity
+		}
+		x = 0
+		y = 5
+		cost = 5
+	}
+
+	# Reactionary Republican Path
+	focus = {
+		id = QPL_long_live_the_republic
+		icon = GFX_focus_rom_abdicate
+		relative_position_id = QPL_defend_tradition
+		prerequisite = {
+			focus = QPL_futurist_ultimatum
+		}
+		mutually_exclusive = {
+			focus = QPL_long_live_the_queen
+		}
+		x = -1
+		y = 6
+		cost = 5
+		available = {
+			
+		}		
+		completion_reward = {
+			
+		}
+		allow_branch = {
+			if = {
+				AND = {
+					NOT = {
+						has_completed_focus = QPL_long_live_the_queen
+					}
+					has_global_flag = queerplatonian_civil_war
+				}
+			}
+		}
+	}
+
+	# Reactionary Monarchist Path
+
+	focus = {
+		id = QPL_long_live_the_queen
+		icon = GFX_focus_spa_the_phalanx_ascendant
+		relative_position_id = QPL_defend_tradition
+		prerequisite = {
+			focus = QPL_futurist_ultimatum
+		}
+		mutually_exclusive = {
+			focus = QPL_reactionary_republic
+		}
+		x = 1
+		y = 6
+		cost = 5
+		available = {
+			
+		}		
+		completion_reward = {
+			
+		}
+		allow_branch = {
+			if = {
+				AND = {
+					NOT = {
+						has_completed_focus = QPL_long_live_the_republic
+					}
+					has_global_flag = queerplatonian_civil_war
+				}
+			}
+		}
 	}
 }
 	

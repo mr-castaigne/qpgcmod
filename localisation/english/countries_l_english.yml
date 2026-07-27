@@ -62,9 +62,9 @@
  TAI_DEF:0 "Taiwan"
  TAI_ADJ:0 "Taiwanese"
 
- ICE:0 "Iceland"
- ICE_DEF:0 "Iceland"
- ICE_ADJ:0 "Icelandic"
+ ICL:0 "Iceland"
+ ICL_DEF:0 "Iceland"
+ ICL_ADJ:0 "Icelandic"
 
  ARA:0 "Arabia"
  ARA_DEF:0 "Arabia"
