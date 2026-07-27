@@ -1,5 +1,4 @@
 ﻿recruit_character = QPL_charlotte_philips
-recruit_character = QPL_kit_traum
 
 capital = 395
 

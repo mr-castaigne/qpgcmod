@@ -3,7 +3,7 @@ recruit_character = ICL_kamala_harris
 
 capital = 100
 
-oob = "ICL_2026"
+#oob = "ICL_2026"
 
 set_research_slots = 2
 

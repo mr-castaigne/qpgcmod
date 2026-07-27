@@ -21,7 +21,7 @@
 		}
 		x = 30
 		y = 0
-		cost = 5
+		cost = 1
 		available = {
 			
 		}
@@ -96,9 +96,9 @@
 		}
 		x = 0
 		y = 3
-		cost = 5
+		cost = 10
 		available = {
-			
+			has_global_flag = QPL_elections_flag
 		}
 		completion_reward = {
 			
@@ -117,7 +117,7 @@
 		}
 		x = 1
 		y = 4
-		cost = 5
+		cost = 10
 		available = {
 			
 		}
@@ -138,7 +138,26 @@
 		}
 		x = -1
 		y = 4
-		cost = 5
+		cost = 10
+		available = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+
+	focus = {
+		id = QPL_arm_workers
+		icon = GFX_goal_generic_small_arms
+		relative_position_id = QPL_onwards
+		prerequisite = {
+			focus = QPL_secure_gendarmerie
+			focus = QPL_secure_military
+		}
+		x = 0
+		y = 5
+		cost = 10
 		available = {
 			
 		}
@@ -152,12 +171,11 @@
 		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
 		relative_position_id = QPL_onwards
 		prerequisite = {
-			focus = QPL_secure_gendarmerie
-			focus = QPL_secure_military
+			focus = QPL_arm_workers
 		}
 		x = 0
-		y = 5
-		cost = 5
+		y = 6
+		cost = 1
 		available = {
 			
 		}
@@ -179,7 +197,7 @@
 			focus = QPL_god_save_the_south
 		}
 		x = 1
-		y = 6
+		y = 7
 		cost = 5
 		available = {
 			
@@ -217,7 +235,7 @@
 			focus = QPL_towards_the_future
 		}
 		x = -1
-		y = 6
+		y = 7
 		cost = 5
 		available = {
 			
@@ -253,7 +271,7 @@
 		}
 		x = 40
 		y = 0
-		cost = 5
+		cost = 1
 		available = {
 			
 		}		
@@ -292,7 +310,7 @@
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 2
 		available = {
 			
 		}		
@@ -310,7 +328,7 @@
 		}
 		x = 0
 		y = 2
-		cost = 5
+		cost = 8
 		available = {
 			
 		}		
@@ -332,9 +350,9 @@
 		}
 		x = 0
 		y = 3
-		cost = 5
+		cost = 10
 		available = {
-			
+			has_country_flag = QPL_elections_flag
 		}		
 		completion_reward = {
 			
@@ -353,7 +371,7 @@
 		}
 		x = -1
 		y = 4
-		cost = 5
+		cost = 10
 		available = {
 			
 		}		
@@ -374,7 +392,7 @@
 		}
 		x = 1
 		y = 4
-		cost = 5
+		cost = 10
 		available = {
 			
 		}		
@@ -384,8 +402,8 @@
 	}
 
 	focus = {
-		id = QPL_futurist_ultimatum
-		icon = GFX_goal_generic_major_war
+		id = QPL_secure_texas
+		icon = GFX_goal_generic_more_territorial_claims
 		relative_position_id = QPL_defend_tradition
 		prerequisite = {
 			focus = QPL_rojo_negotiations
@@ -393,7 +411,19 @@
 		}
 		x = 0
 		y = 5
-		cost = 5
+		cost = 10
+	}
+
+	focus = {
+		id = QPL_futurist_ultimatum
+		icon = GFX_goal_generic_major_war
+		relative_position_id = QPL_defend_tradition
+		prerequisite = {
+			focus = QPL_secure_california
+		}
+		x = 0
+		y = 6
+		cost = 1
 	}
 
 	# Reactionary Republican Path
@@ -408,7 +438,7 @@
 			focus = QPL_long_live_the_queen
 		}
 		x = -1
-		y = 6
+		y = 7
 		cost = 5
 		available = {
 			
@@ -441,7 +471,7 @@
 			focus = QPL_reactionary_republic
 		}
 		x = 1
-		y = 6
+		y = 7
 		cost = 5
 		available = {
 			

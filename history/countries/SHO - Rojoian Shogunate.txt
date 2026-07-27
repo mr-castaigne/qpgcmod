@@ -1,5 +1,5 @@
 ﻿recruit_character = SHO_rojo
-﻿recruit_character = SHO_goober
+recruit_character = SHO_goober
 
 capital = 277
 

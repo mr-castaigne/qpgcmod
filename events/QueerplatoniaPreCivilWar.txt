@@ -1,0 +1,425 @@
+﻿add_namespace = qpl_cw
+
+country_event = { # Election Night
+	id = qpl_cw.1
+	title = qpl_cw.1.t
+	desc = qpl_cw.1.desc
+	picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+	option = {
+		name = qpl_cw.1.a
+		hidden_effect = {
+			country_event = {
+				id = qpl_cw.2
+				days = 1
+			}
+        }
+	}
+}
+
+country_event = { # Futurist Victory
+	id = qpl_cw.2
+	title = qpl_cw.2.t
+	desc = qpl_cw.2.desc
+	picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+	immediate = {
+		set_global_flag = QPL_elections_flag
+		if = {
+			limit = {
+				has_completed_focus = QPL_onwards
+			}
+			hidden_effect = {
+				activate_mission = QPL_plot_futurists
+			}
+		}
+		if = {
+			limit = {
+				has_completed_focus = QPL_defend_tradition
+			}
+			hidden_effect = {
+				activate_mission = QPL_plot_reactionaries
+			}
+		}
+	}
+	option = {
+		name = qpl_cw.2.a
+	}
+}
+
+country_event = { # Reactionary Rebellion!
+	id = qpl_cw.3
+	title = qpl_cw.3.t
+	desc = qpl_cw.3.desc
+	picture = GFX_report_event_spain_civil_war_soldiers
+	is_triggered_only = yes
+	immediate = {
+		# Dixie
+		create_dynamic_country = {
+    		original_tag = QDI
+    		copy_tag = QPL
+    		transfer_state = 365
+			transfer_state = 364
+			transfer_state = 363
+			transfer_state = 368
+			transfer_state = 367
+			transfer_state = 370
+			transfer_state = 371
+			transfer_state = 372
+			transfer_state = 375
+			reserve_dynamic_country = yes
+			every_possible_country = {
+				limit = {
+					has_character = QPL_august_holiday
+				}
+				QPL_august_holiday = {
+					set_nationality = QDI
+				}
+			}
+			set_rule = {
+				can_puppet = yes
+				can_create_factions = yes
+				can_join_factions = yes
+				can_boost_own_ideology = yes
+				can_generate_female_aces = yes
+				can_create_collaboration_government = yes
+			}
+			set_politics = {
+				ruling_party = socialism
+			}
+			set_popularities = {
+				socialism = 48
+				heterodox_socialism = 14
+				vanguardism = 7
+				liberalism = 10
+				reactionary = 5
+				autocracy = 1
+				futurism = 15
+			}
+			add_country_leader_role = {
+    			character = QPL_august_holiday
+    			promote_leader = yes
+    			country_leader = {
+        			ideology = democratic_socialism
+        			expire = "9999.1.1.1"
+    			}
+			}
+		}
+		# Reactionaries
+		create_dynamic_country = {
+    		original_tag = QRE
+    		copy_tag = QPL
+    		transfer_state = 376
+			transfer_state = 377
+			transfer_state = 378
+			transfer_state = 379
+			transfer_state = 380
+			transfer_state = 381
+			transfer_state = 382
+			transfer_state = 383
+			transfer_state = 374
+			reserve_dynamic_country = yes
+			declare_war_on = {
+    			target = QFT
+    			type = annex_everything
+			}
+			add_civil_war_target = QFT
+			# Load Queerplatonian FT for Reactionaries, unlock relevant focuses
+			load_focus_tree = {
+				tree = queerplatonia_focus
+				keep_completed = no
+			}
+			unlock_national_focus = QPL_defend_tradition
+			# Randomize which one they get, unless they had time to pick one
+			random_list = {
+				10 = {
+					modifier = {
+						factor = 0
+						has_global_flag = QPL_protect_sovereignity_flag
+					}
+					unlock_national_focus = QPL_rojo_negotiations
+				}
+				10 = {
+					modifier = {
+						factor = 0
+						has_country_flag = QPL_rojo_negotiations_flag
+					}
+					unlock_national_focus = QPL_protect_sovereignity
+				}
+			}
+			unlock_national_focus = QPL_form_party
+			unlock_national_focus = QPL_train_reactionary_paramilitaries
+			unlock_national_focus = QPL_campaign_chest
+			unlock_national_focus = QPL_secure_texas
+			unlock_national_focus = QPL_futurist_ultimatum
+			random_list = {
+				10 = {
+					complete_national_focus = QPL_long_live_the_republic
+				}
+				10 = {
+					complete_national_focus = QPL_long_live_the_queen
+				}
+			}
+			every_possible_country = {
+				limit = {
+					has_character = QPL_jessica_monroe	
+				}
+				QPL_jessica_monroe = {
+					set_nationality = QRE
+				}
+			}
+			set_rule = {
+				can_puppet = yes
+				can_create_factions = yes
+				can_join_factions = yes
+				can_boost_own_ideology = yes
+				can_generate_female_aces = yes
+				can_create_collaboration_government = yes
+			}
+			set_politics = {
+				ruling_party = reactionary
+			}
+			set_popularities = {
+				reactionary = 46
+				autocracy = 12
+				futurism = 15
+				socialism = 11
+				liberalism = 7
+				vanguardism = 5
+				heterodox_socialism = 4
+
+			}
+			add_country_leader_role = {
+    			character = QPL_jessica_monroe
+    			promote_leader = yes
+    			country_leader = {
+        			ideology = authoritarian_traditionalism
+        			expire = "9999.1.1.1"
+    			}
+			}
+		}
+		# Futurists
+		create_dynamic_country = {
+    		original_tag = QFT
+    		copy_tag = QPL
+    		transfer_state = 359
+			transfer_state = 360
+			transfer_state = 361
+			transfer_state = 362
+			transfer_state = 816
+			transfer_state = 261
+			transfer_state = 369
+			transfer_state = 396
+			transfer_state = 393
+			transfer_state = 394
+			transfer_state = 395
+			transfer_state = 391
+			transfer_state = 392
+			transfer_state = 373
+			transfer_state = 389
+			transfer_state = 390
+			transfer_state = 384
+			transfer_state = 388
+			transfer_state = 385
+			transfer_state = 386
+			transfer_state = 387
+			reserve_dynamic_country = yes
+			every_possible_country = {
+				limit = {
+					has_character = QPL_kit_traum	
+				}
+				QPL_kit_traum = {
+					set_nationality = QFT
+				}
+			}
+			set_rule = {
+				can_puppet = yes
+				can_create_factions = yes
+				can_join_factions = yes
+				can_boost_own_ideology = yes
+				can_generate_female_aces = yes
+				can_create_collaboration_government = yes
+			}
+			set_politics = {
+				ruling_party = futurism
+			}
+			set_popularities = {
+				futurism = 45
+				vanguardism = 14
+				heterodox_socialism = 10
+				socialism = 10
+				liberalism = 10
+				reactionary = 7
+				autocracy = 4
+
+
+			}
+			add_country_leader_role = {
+    			character = QPL_kit_traum
+    			promote_leader = yes
+    			country_leader = {
+        			ideology = romantic_nationalism
+        			expire = "9999.1.1.1"
+    			}
+			}
+		}
+		set_global_flag = queerplatonian_civil_war
+	}
+
+	option = {
+		name = qpl_cw.3.a
+		QFT = {
+			load_focus_tree = {
+				tree = queerplatonia_focus
+				keep_completed = yes
+			}
+			complete_national_focus = QPL_towards_the_future
+		}
+		random_list = {
+			10 = {
+				modifier = {
+					factor = 0
+					has_global_flag = QPL_secure_gendarmerie_flag
+				}
+				QFT = {
+					unlock_national_focus = QPL_secure_military
+				}
+					
+			}
+			10 = {
+				modifier = {
+					factor = 0
+					has_country_flag = QPL_secure_military_flag
+				}
+				QFT = {
+						unlock_national_focus = QPL_secure_gendarmerie
+				}
+			}
+		}
+		QFT = {
+			unlock_national_focus = QPL_nationwide_tour
+			unlock_national_focus = QPL_appeal_to_the_left
+			unlock_national_focus = QPL_train_futurist_paramilitaries
+			unlock_national_focus = QPL_arm_workers
+			unlock_national_focus = QPL_crush_the_reaction
+		}
+		SDI = {
+			load_focus_tree = {
+				tree = queerplatonia_focus
+				keep_completed = no
+			}
+			unlock_national_focus = QPL_onwards
+		}
+		random_list = {
+			10 = {
+				modifier = {
+					factor = 0
+					has_global_flag = QPL_secure_gendarmerie_flag
+				}
+				SDI = {
+					unlock_national_focus = QPL_secure_military
+				}
+					
+			}
+			10 = {
+				modifier = {
+					factor = 0
+					has_country_flag = QPL_secure_military_flag
+				}
+				SDI = {
+						unlock_national_focus = QPL_secure_gendarmerie
+				}
+			}
+		}
+		SDI = {
+			unlock_national_focus = QPL_nationwide_tour
+			unlock_national_focus = QPL_appeal_to_the_left
+			unlock_national_focus = QPL_train_futurist_paramilitaries
+			unlock_national_focus = QPL_arm_workers
+			unlock_national_focus = QPL_crush_the_reaction
+			complete_national_focus = QPL_god_save_the_south
+		}
+		QFT = {
+			change_tag_from = QPL
+		}
+	}
+
+	option = {
+		name = qpl_cw.3.b
+		QFT = {
+			load_focus_tree = {
+				tree = queerplatonia_focus
+				keep_completed = yes
+			}
+			complete_national_focus = QPL_towards_the_future
+		}
+		random_list = {
+			10 = {
+				modifier = {
+					factor = 0
+					has_global_flag = QPL_secure_gendarmerie_flag
+				}
+				QFT = {
+					unlock_national_focus = QPL_secure_military
+				}
+					
+			}
+			10 = {
+				modifier = {
+					factor = 0
+					has_country_flag = QPL_secure_military_flag
+				}
+				QFT = {
+						unlock_national_focus = QPL_secure_gendarmerie
+				}
+			}
+		}
+		QFT = {
+			unlock_national_focus = QPL_nationwide_tour
+			unlock_national_focus = QPL_appeal_to_the_left
+			unlock_national_focus = QPL_train_futurist_paramilitaries
+			unlock_national_focus = QPL_arm_workers
+			unlock_national_focus = QPL_crush_the_reaction
+		}
+		SDI = {
+			load_focus_tree = {
+				tree = queerplatonia_focus
+				keep_completed = no
+			}
+			unlock_national_focus = QPL_onwards
+		}
+		random_list = {
+			10 = {
+				modifier = {
+					factor = 0
+					has_global_flag = QPL_secure_gendarmerie_flag
+				}
+				SDI = {
+					unlock_national_focus = QPL_secure_military
+				}
+					
+			}
+			10 = {
+				modifier = {
+					factor = 0
+					has_country_flag = QPL_secure_military_flag
+				}
+				SDI = {
+						unlock_national_focus = QPL_secure_gendarmerie
+				}
+			}
+		}
+		SDI = {
+			unlock_national_focus = QPL_nationwide_tour
+			unlock_national_focus = QPL_appeal_to_the_left
+			unlock_national_focus = QPL_train_futurist_paramilitaries
+			unlock_national_focus = QPL_arm_workers
+			unlock_national_focus = QPL_crush_the_reaction
+			complete_national_focus = QPL_god_save_the_south
+		}
+		QDI = {
+			change_tag_from = QPL
+		}
+
+	}
+}

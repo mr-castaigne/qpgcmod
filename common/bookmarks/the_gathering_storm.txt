@@ -117,7 +117,7 @@ bookmarks = {
 		"QUE" = {
 			history = "QUE_bookmark_blurb"
 			ideology = autocracy
-			minor = yes #he loves them!
+			minor = yes
 			ideas = {
 
 			}
@@ -126,7 +126,7 @@ bookmarks = {
 			}
 		}
 		"ALA" = {
-			history = "ALA_bookmark_ blurb"
+			history = "ALA_bookmark_blurb"
 			ideology = heterodox_socialism
 			minor = yes
 			ideas = {
