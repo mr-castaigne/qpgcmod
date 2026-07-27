@@ -27,3 +27,9 @@ music = {
     file = "Don't Forget Cover.ogg"
     volume = 1
 }
+
+music = {
+    name = "iloveyou"
+    file = "I LOVE YOU by Yes Gooser.ogg"
+    volume = 1
+}
