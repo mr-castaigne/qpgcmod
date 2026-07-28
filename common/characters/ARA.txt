@@ -1,6 +1,6 @@
 characters = {
 	ARA_mizo = {
-		name = "Mizo "Cleopatra" Nasser" 
+		name = "Mizo Nasser" 
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/ARA/Portrait_Mizo.dds"

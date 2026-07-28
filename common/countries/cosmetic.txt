@@ -14,3 +14,23 @@ QPL_free_state = {
 	color = rgb { 100 102 90 }
 	color_ui = rgb { 100 102 90 }
 }
+QPL_orthodox_demsoc = {
+	color = rgb { 210 35 0 }
+	color_ui = rgb { 210 35 0 }
+}
+QPL_orthodox_socialist = {
+	color = rgb { 210 0 10 }
+	color_ui = rgb { 210 0 10 }
+}
+QPL_orthodox_anarchist = {
+	color = rgb { 145 0 10 }
+	color_ui = rgb { 145 0 10 }
+}
+QPL_futurist = {
+	color = rgb { 100 102 90 }
+	color_ui = rgb { 100 102 90 }
+}
+QPL_reactionary_regency = {
+	color = rgb { 26 26 104 }
+	color_ui = rgb { 26 26 104 }
+}

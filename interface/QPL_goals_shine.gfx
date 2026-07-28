@@ -3,11 +3,11 @@
 spriteTypes = {
 
     spriteType = {
-        name = GFX_focus_QPL_onwards_shine
-        texturefile = gfx/interface/goals/gfx_focus_QPL_onwards.dds
+        name = GFX_focus_QFT_onwards_shine
+        texturefile = gfx/interface/goals/gfx_focus_QFT_onwards.dds
         effectFile = gfx/FX/buttonstate.lua
         animation = {
-            animationmaskfile = gfx/interface/goals/gfx_focus_QPL_onwards.dds
+            animationmaskfile = gfx/interface/goals/gfx_focus_QFT_onwards.dds
             animationtexturefile = gfx/interface/goals/shine_overlay.dds
             animationrotation = -90.0
             animationlooping = no
@@ -19,7 +19,7 @@ spriteTypes = {
             animationtexturescale = { x = 1.0 y = 1.0 }
         }
         animation = {
-            animationmaskfile = gfx/interface/goals/gfx_focus_QPL_onwards.dds
+            animationmaskfile = gfx/interface/goals/gfx_focus_QFT_onwards.dds
             animationtexturefile = gfx/interface/goals/shine_overlay.dds
             animationrotation = 90.0
             animationlooping = no
@@ -34,11 +34,11 @@ spriteTypes = {
     }
 
     spriteType = {
-        name = GFX_focus_QPL_god-GFX_focus_QPL_god_save_the_south_shine
-        texturefile = gfx/interface/goals/GFX_focus_QPL_god_save_the_south.dds
+        name = GFX_focus_QOR_god_save_the_south_shine
+        texturefile = gfx/interface/goals/gfx_focus_QOR_god_save_the_south.dds
         effectFile = gfx/FX/buttonstate.lua
         animation = {
-            animationmaskfile = gfx/interface/goals/GFX_focus_QPL_god_save_the_south.dds
+            animationmaskfile = gfx/interface/goals/gfx_focus_QOR_god_save_the_south.dds
             animationtexturefile = gfx/interface/goals/shine_overlay.dds
             animationrotation = -90.0
             animationlooping = no
@@ -50,7 +50,7 @@ spriteTypes = {
             animationtexturescale = { x = 1.0 y = 1.0 }
         }
         animation = {
-            animationmaskfile = gfx/interface/goals/GFX_focus_QPL_god_save_the_south.dds
+            animationmaskfile = gfx/interface/goals/gfx_focus_QOR_god_save_the_south.dds
             animationtexturefile = gfx/interface/goals/shine_overlay.dds
             animationrotation = 90.0
             animationlooping = no

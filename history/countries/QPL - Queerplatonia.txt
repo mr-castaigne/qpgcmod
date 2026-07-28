@@ -1,4 +1,7 @@
 ﻿recruit_character = QPL_charlotte_philips
+recruit_character = QOR_august_holiday
+recruit_character = QFT_kit_traum
+recruit_character = QRE_jessica_monroe
 
 capital = 395
 
@@ -135,6 +138,40 @@ set_popularities = {
 	reactionary = 6
 	heterodox_socialism = 2
 }
+
+create_dynamic_country = {
+    original_tag = QPL
+	set_country_flag = QPL_reactionary_flag
+	set_cosmetic_tag = QPL_reactionary_regency
+	set_research_slots = 4
+	set_politics = {
+		ruling_party = reactionary
+	}
+	reserve_dynamic_country = yes
+}
+
+create_dynamic_country = {
+	original_tag = QPL
+	set_country_flag = QPL_futurist_flag
+	set_cosmetic_tag = QPL_futurist
+	set_research_slots = 4
+	set_politics = {
+		ruling_party = futurism
+	}
+	reserve_dynamic_country = yes
+}
+
+create_dynamic_country = {
+	original_tag = QPL
+	set_country_flag = QPL_orthodox_flag
+	set_cosmetic_tag = QPL_orthodox_demsoc
+	set_research_slots = 4
+	set_politics = {
+		ruling_party = heterodox_socialism
+	}
+	reserve_dynamic_country = yes
+}
+
 
 if = {
 	limit = {

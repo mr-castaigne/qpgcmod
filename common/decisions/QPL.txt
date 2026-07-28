@@ -19,16 +19,16 @@ QPL_the_inevitable_civil_war = {
 		activation = {
 			has_global_flag = QPL_elections_flag
 			NOT = {
-                has_global_flag = queerplatonian_civil_war
+                has_global_flag = queerplatonic_civil_war
             }
 		}
 
 		visible = {
 			tag = QPL
-			has_completed_focus = QPL_defend_tradition
+			has_completed_focus = QRE_defend_tradition
 			has_global_flag = QPL_elections_flag
 			NOT = {
-                has_global_flag = queerplatonian_civil_war
+                has_global_flag = queerplatonic_civil_war
             }
 		}
 
@@ -60,16 +60,16 @@ QPL_the_inevitable_civil_war = {
 		activation = {
 			has_global_flag = QPL_elections_flag
 			NOT = {
-                has_global_flag = queerplatonian_civil_war
+                has_global_flag = queerplatonic_civil_war
             }
 		}
 
 		visible = {
 			tag = QPL
-			has_completed_focus = QPL_onwards
+			has_completed_focus = QFT_onwards
 			has_global_flag = QPL_elections_flag
 			NOT = {
-                has_global_flag = queerplatonian_civil_war
+                has_global_flag = queerplatonic_civil_war
             }
 		}
 

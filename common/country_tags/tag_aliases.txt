@@ -1,0 +1,4 @@
+QRE = {
+	original_tag = QPL
+	has_country_flag = QPL_reactionary_flag
+}

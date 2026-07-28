@@ -27,7 +27,7 @@ characters = {
 			id = -1
 		}
 	}
-	QPL_kit_traum = {
+	QFT_kit_traum = {
 		name = "Kit Traum" 
 		portraits = {
 			civilian = {
@@ -40,7 +40,7 @@ characters = {
 			id = -1
 		}
 	}
-	QPL_august_holiday = {
+	QOR_august_holiday = {
 		name = "August Holiday" 
 		portraits = {
 			civilian = {
@@ -48,16 +48,16 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = democratic_socialism
+			ideology = orthodox_socialism
 			expire = "9999.1.1.1"
 			id = -1
 		}
 	}
-	QPL_jessica_monroe = {
+	QRE_jessica_monroe = {
 		name = "Jessica Monroe" 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/QRG/Portrait_Jessica_Monroe.dds"
+				large = "gfx/leaders/QPL/Portrait_Jessica_Monroe.dds"
 			}
 		}
 		country_leader = {

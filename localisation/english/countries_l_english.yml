@@ -4,21 +4,6 @@
  FBR_DEF:0 "the Friendship Bundeszrzeczpospolita"
  FBR_ADJ:0 "FBRite"
 
- QRE:0 "Queerplatonic State"
- QRE_DEF:0 "the Queerplatonic State"
- QRE_ADJ:0 "Reactionary"
- QRE_reactionary_party:0 "Ordem Reactionarium"
-
- QFT:0 "Queerplatonic Free State"
- QFT_DEF:0 "the Queerplatonic Free State"
- QFT_ADJ:0 "Futurist"
- QFT_futurism_party:0 "Futurist Party"
-
- QDI:0 "Autonomous Union of Dixie"
- QDI_DEF:0 "the Autonomous Union of Dixie"
- QDI_ADJ:0 "Dixie"
- QDI_socialism_party:0 "Workers' Party"
-
  SFL:0 "Sunflower Brigade"
  SFL_DEF:0 "the Sunflower Brigade"
  SFL_ADJ:0 "Sunflower"

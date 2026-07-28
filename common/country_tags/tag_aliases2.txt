@@ -1,0 +1,4 @@
+QOR = {
+	original_tag = QPL
+	has_country_flag = QPL_orthodox_flag
+}

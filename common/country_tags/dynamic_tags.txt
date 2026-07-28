@@ -1,4 +1,0 @@
-dynamic_tags = yes
-QDI = "countries/colors.txt"
-QFT = "countries/colors.txt"
-QRE = "countries/colors.txt"

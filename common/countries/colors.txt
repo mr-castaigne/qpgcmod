@@ -14,18 +14,6 @@ FBR = {
 	color = rgb { 146 155 94 }
 	color_ui = rgb { 146 155 94 }
 }
-QRE = {
-	color = rgb { 26 26 104 }
-	color_ui = rgb { 26 26 104 }
-}
-QFT = {
-	color = rgb { 100 102 90 }
-	color_ui = rgb { 100 102 90 }
-}
-QDI = {
-	color = rgb { 212 175 55 }
-	color_ui = rgb { 212 175 55 }
-}
 SFL = {
 	color = rgb { 221 110 221 }
 	color_ui = rgb { 221 110 221 }

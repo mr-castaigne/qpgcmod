@@ -1,0 +1,4 @@
+QFT = {
+	original_tag = QPL
+	has_country_flag = QPL_futurist_flag
+}

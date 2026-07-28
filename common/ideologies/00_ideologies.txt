@@ -61,6 +61,8 @@ ideologies = {
 			}
 			hegelian_marxism = {
 			}
+			orthodox_socialism = {
+			}
 		}
 
 		dynamic_faction_names = {
