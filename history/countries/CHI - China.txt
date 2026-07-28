@@ -139,3 +139,9 @@ set_popularities = {
 	liberalism = 10
 	autocracy = 5
 }
+
+add_ideas = {
+    new_economic_policy
+	special_economic_zones
+}
+

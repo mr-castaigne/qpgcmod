@@ -1,0 +1,88 @@
+ALA_INF = 
+{
+	name = "Infantry Division"
+
+	for_countries = { ALA }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { USA_INF_01 }
+
+	fallback_name = "%d Infantry Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+
+		1 = { "%dst Infantry Divivision" }
+		2 = { "%dnd Infantry Division" }
+		3 = { "%drd Infantry Division" }
+		15 = { "%dth Infantry Division" }
+		21 = { "%dst Infantry Division" }
+		24 = { "%dth Infantry Division" }
+		61 = { "%dst Infantry Division" }
+		62 = { "%dnd Infantry Division" }
+		63 = { "%drd Infantry Division" }
+		64 = { "%dth Infantry Division" }
+		65 = { "%dth Infantry Division" }
+		66 = { "%dth Infantry Division" }
+		22 = { "%dnd Infantry Division" }
+		23 = { "%drd Infantry Division" }
+		56 = { "%dth Infantry Division" }
+		25 = { "%dth Infantry Division" }
+		26 = { "%dth Infantry Division" }
+		27 = { "%dth Infantry Division" }
+		28 = { "%dth Infantry Division" }
+		29 = { "%dth Infantry Division" }
+		30 = { "%dth Infantry Division" }
+    }
+}
+
+
+ALA_MNT = 
+{
+	name = "Trekker Division"
+
+	for_countries = { ALA }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineer" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { USA_INF_01 }
+
+	fallback_name = "%d Trekker Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+
+		1 = { "%dst Trekker Divivision" }
+		2 = { "%dnd Trekker Division" }
+		3 = { "%drd Trekker Division" }
+		15 = { "%dth Trekker Division" }
+		21 = { "%dst Trekker Division" }
+		24 = { "%dth Trekker Division" }
+		61 = { "%dst Trekker Division" }
+		62 = { "%dnd Trekker Division" }
+		63 = { "%drd Trekker Division" }
+		64 = { "%dth Trekker Division" }
+		65 = { "%dth Trekker Division" }
+		66 = { "%dth Trekker Division" }
+		22 = { "%dnd Trekker Division" }
+		23 = { "%drd Trekker Division" }
+		56 = { "%dth Trekker Division" }
+		25 = { "%dth Trekker Division" }
+		26 = { "%dth Trekker Division" }
+		27 = { "%dth Trekker Division" }
+		28 = { "%dth Trekker Division" }
+		29 = { "%dth Trekker Division" }
+		30 = { "%dth Trekker Division" }
+    }
+}

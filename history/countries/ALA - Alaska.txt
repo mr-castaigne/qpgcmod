@@ -2,7 +2,7 @@ recruit_character = ALA_pepsi
 
 capital = 463
 
-#oob = "ALA_2026"
+oob = "ALA_2026"
 
 set_research_slots = 3
 
@@ -133,4 +133,10 @@ set_popularities = {
     heterodox_socialism = 20
 	futurism = 10
 	liberalism = 10
+}
+
+add_ideas = {
+    partial_economic_mobilisation
+    service_by_requirement
+	export_focus
 }

@@ -1,6 +1,6 @@
 characters = {
 	ARA_mizo = {
-		name = "Mizo Nasser" 
+		name = "Mizo "Cleopatra" Nasser" 
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/ARA/Portrait_Mizo.dds"
@@ -10,14 +10,6 @@ characters = {
 			ideology = romantic_nationalism
 			expire = "9999.1.1.1"
 			id = -1
-		}
-	}
-	ARA_mizo_baathism = {
-		name = "Mizo Nasser" 
-		portraits = {
-			civilian = {
-				large = "gfx/leaders/ARA/Portrait_Mizo.dds"
-			}
 		}
 		country_leader = {
 			ideology = baathism

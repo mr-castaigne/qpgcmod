@@ -1,5 +1,4 @@
 recruit_character = ARA_mizo
-recruit_character = ARA_mizo_baathism
 recruit_character = ARA_oligarchy
 
 capital = 907
@@ -132,4 +131,10 @@ set_popularities = {
 	futurism = 50
 	vanguardism = 25
 	reactionary = 25
+}
+
+add_ideas = {
+    partial_economic_mobilisation
+    service_by_requirement
+	export_focus
 }

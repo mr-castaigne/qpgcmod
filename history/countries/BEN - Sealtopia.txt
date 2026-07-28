@@ -140,3 +140,9 @@ set_popularities = {
 	vanguardism = 25
 	liberalism = 75
 }
+
+add_ideas = {
+	isolation
+	disarmed_nation
+	limited_exports
+}

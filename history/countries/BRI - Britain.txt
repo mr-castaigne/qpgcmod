@@ -133,3 +133,26 @@ set_popularities = {
 	futurism = 15
 	reactionary = 15
 }
+
+add_ideas = {
+    SPR_collectivized_society
+	limited_conscription
+	autarky
+}
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = SFL
+		autonomous_state = autonomy_integrated_puppet
+	}
+
+	else = {
+		puppet = SFL
+	}
+}

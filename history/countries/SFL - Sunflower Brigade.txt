@@ -132,3 +132,9 @@ set_popularities = {
 	liberalism = 0
 	heterodox_socialism = 85
 }
+
+add_ideas = {
+    SPR_collectivized_society
+	all_adults_serve
+	limited_exports
+}

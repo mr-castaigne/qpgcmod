@@ -1,0 +1,43 @@
+PTR_PTB = 
+{
+	name = "Pine Tree Brigade"
+
+	for_countries = { PTR }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineer" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { USA_INF_01 }
+
+	fallback_name = "%d Pine Tree Brigade"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+
+		1 = { "%dst Pine Tree Brigade" }
+		2 = { "%dnd Pine Tree Brigade" }
+		3 = { "%drd Pine Tree Brigade" }
+		15 = { "%dth Pine Tree Brigade" }
+		21 = { "%dst Pine Tree Brigade" }
+		24 = { "%dth Pine Tree Brigade" }
+		61 = { "%dst Pine Tree Brigade" }
+		62 = { "%dnd Pine Tree Brigade" }
+		63 = { "%drd Pine Tree Brigade" }
+		64 = { "%dth Pine Tree Brigade" }
+		65 = { "%dth Pine Tree Brigade" }
+		66 = { "%dth Pine Tree Brigade" }
+		22 = { "%dnd Pine Tree Brigade" }
+		23 = { "%drd Pine Tree Brigade" }
+		56 = { "%dth Pine Tree Brigade" }
+		25 = { "%dth Pine Tree Brigade" }
+		26 = { "%dth Pine Tree Brigade" }
+		27 = { "%dth Pine Tree Brigade" }
+		28 = { "%dth Pine Tree Brigade" }
+		29 = { "%dth Pine Tree Brigade" }
+		30 = { "%dth Pine Tree Brigade" }
+    }
+}

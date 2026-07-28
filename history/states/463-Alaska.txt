@@ -10,6 +10,7 @@ state={
 			fuel_silo = 3
 			synthetic_refinery = 1
 			arms_factory = 1
+			industrial_complex = 1
 			dockyard = 2
 			13091 = {
 				naval_base = 1
@@ -39,7 +40,7 @@ state={
 	}
 	manpower=67500
 	buildings_max_level_factor=1
-	state_category="town"
+	state_category="large_town"
 
 	local_supplies=0.0 
 }

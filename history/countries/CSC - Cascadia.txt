@@ -137,3 +137,9 @@ set_popularities = {
 	liberalism = 30
 	reactionary = 5
 }
+
+add_ideas = {
+	low_economic_mobilisation
+	limited_exports
+	volunteer_only
+}
