@@ -56,3 +56,14 @@ music = {
         }
     }
 }
+
+music = {
+    song = "iloveyou"
+    chance = {
+        base = 1
+        modifier = {
+            factor = 0.5
+            has_war = no
+        }
+    }
+}

@@ -14,15 +14,15 @@ FBR = {
 	color = rgb { 146 155 94 }
 	color_ui = rgb { 146 155 94 }
 }
-QRG = {
+QRE = {
 	color = rgb { 26 26 104 }
 	color_ui = rgb { 26 26 104 }
 }
-QFS = {
+QFT = {
 	color = rgb { 100 102 90 }
 	color_ui = rgb { 100 102 90 }
 }
-DIX = {
+QDI = {
 	color = rgb { 212 175 55 }
 	color_ui = rgb { 212 175 55 }
 }

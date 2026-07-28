@@ -18,7 +18,6 @@ bookmarks = {
 			focuses = {
 				
 			}
-			minor = no
 		}
 		"FBR" = {
 			history = "FBR_bookmark_blurb"
@@ -29,7 +28,6 @@ bookmarks = {
 			focuses = {
 			
 			}
-			minor = no
 		}
 		"SHO" = {
 			history = "SHO_bookmark_blurb"
@@ -40,7 +38,6 @@ bookmarks = {
 			focuses = {
 			
 			}
-			minor = no
 		}
 
 
@@ -119,7 +116,7 @@ bookmarks = {
 		"QUE" = {
 			history = "QUE_bookmark_blurb"
 			ideology = autocracy
-			minor = yes #he loves them!
+			minor = yes
 			ideas = {
 
 			}
@@ -128,7 +125,7 @@ bookmarks = {
 			}
 		}
 		"ALA" = {
-			history = "ALA_bookmark_ blurb"
+			history = "ALA_bookmark_blurb"
 			ideology = heterodox_socialism
 			minor = yes
 			ideas = {

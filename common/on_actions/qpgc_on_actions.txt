@@ -5,7 +5,7 @@ on_actions = {
 			QPL = {
 				country_event = {
 					id = qpl_cw.1
-					days = 17
+					days = 80
 				}
 			}
 		}
