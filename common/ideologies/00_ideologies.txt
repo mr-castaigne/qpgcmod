@@ -115,6 +115,8 @@ ideologies = {
 			baathism = {
 				can_be_randomly_selected = no
 			}
+			socialist_nationalism = { #this can be like a generic version of ba'athism, yk?
+			}
 		}
 
 		dynamic_faction_names = {
@@ -221,6 +223,12 @@ ideologies = {
 			}
 			sealerism = {
 				can_be_randomly_selected = no
+			}
+			wokeism = {
+			}
+			classical_liberalism = {
+			}
+			conservatism = {
 			}
 		}
 
@@ -337,7 +345,7 @@ ideologies = {
 		ai_give_core_state_control_threshold = 10000
 	}
 
-	reactionary = { #reactionary
+	reactionary = {
 
 		types = {
 
@@ -352,8 +360,12 @@ ideologies = {
 				color = { 48 84 66 }
 				can_be_randomly_selected = no
 			}
+			ecofascism = {
+			}
 			northwest_imperative = {
 				can_be_randomly_selected = no
+			}
+			racial_nationalism = {
 			}
 		}
 
