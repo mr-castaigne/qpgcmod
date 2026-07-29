@@ -2,10 +2,12 @@
 
  SHO:0 "Rojoian Shogunate"
  SHO_DEF:0 "The Rojoian Shogunate"
- SHO_socialism:0 "Rojoian People's Republic"
- SHO_socialism_DEF:0 "the Rojoian People's Republic"
+ SHO_socialism:0 "Rojoian Commonwealth of Friendship"
+ SHO_socialism_DEF:0 "the Rojoian Commonwealth of Friendship"
  SHO_futurism:0 "National Republic of Rojoia"
  SHO_futurism_DEF:0 "the National Republic of Rojoia"
+ SHO_reactionary:0 "Empire of Rojoia"
+ SHO_reactionary_DEF:0 "the Empire of Rojoia"
  SHO_ADJ:0 "Rojoian"
  
 

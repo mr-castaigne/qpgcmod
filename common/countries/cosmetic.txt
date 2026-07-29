@@ -34,3 +34,7 @@ QPL_reactionary_regency = {
 	color = rgb { 26 26 104 }
 	color_ui = rgb { 26 26 104 }
 }
+FCQ_dystopianism = {
+	color = rgb { 40 40 40 }
+	color_ui = rgb { 40 40 40 }
+}
