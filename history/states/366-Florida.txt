@@ -26,6 +26,7 @@ state={
 			}
 		}
 		add_core_of = NIB
+		add_core_of = QPL
 		victory_points = {
 			1843 5 
 		}

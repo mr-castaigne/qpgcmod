@@ -18,6 +18,7 @@ state={
 		}
 		add_core_of = CSC
 		add_core_of = PTR
+		add_core_of = QPL
 		victory_points = {
 			3513 1 
 		}

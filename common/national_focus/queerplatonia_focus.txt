@@ -456,7 +456,10 @@
 			if = {
 				AND = {
 					NOT = {
-						has_completed_focus = QRE_long_live_the_queen
+						OR = {
+							has_completed_focus = QRE_long_live_the_queen
+							has_completed_focus = QFT_onwards
+						}
 					}
 					has_global_flag = queerplatonic_civil_war
 				}
@@ -489,7 +492,10 @@
 			if = {
 				AND = {
 					NOT = {
-						has_completed_focus = QRE_long_live_the_republic
+						OR = {
+							has_completed_focus = QRE_long_live_the_republic
+							has_completed_focus = QFT_onwards
+						}
 					}
 					has_global_flag = queerplatonic_civil_war
 				}

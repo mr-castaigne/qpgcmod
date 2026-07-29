@@ -10,6 +10,7 @@ state = {
 		owner = CSC
 		add_core_of = CSC
 		add_core_of = PTR
+		add_core_of = QPL
 
 		buildings = {
 			infrastructure = 3 #was: 6

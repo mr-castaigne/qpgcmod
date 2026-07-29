@@ -2,7 +2,7 @@ QPL_the_inevitable_civil_war = {
 
 	QRE_plot_reactionaries = {
 
-		priority = 10
+		priority = 100
 
 		icon = generic_ignite_civil_war
 
@@ -28,22 +28,18 @@ QPL_the_inevitable_civil_war = {
 
 		fire_only_once = yes
 
-#		visible = {
-#			
-#		}
-
 		cancel_if_not_visible = yes
 
 		is_good = yes
 
 		timeout_effect = {
-#			country_event = to be made
+			country_event = qpl_cw.4
 		}
 	}
 
 	QFT_plot_futurists = {
 
-		priority = 10
+		priority = 100
 
 		icon = generic_ignite_civil_war
 
@@ -69,10 +65,6 @@ QPL_the_inevitable_civil_war = {
                 has_global_flag = queerplatonic_civil_war
             }
 		}
-
-#		visible = {
-#			
-#		}
 
 		cancel_if_not_visible = yes
 
