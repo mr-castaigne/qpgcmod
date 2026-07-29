@@ -424,6 +424,8 @@ ideologies = {
 			}
 			cosmic_intervention = {
 			}
+			cornucopia = {
+			}
 
 		}
 
