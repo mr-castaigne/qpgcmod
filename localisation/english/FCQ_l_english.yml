@@ -1,0 +1,18 @@
+﻿l_english:
+ FCQ:0 "The Friendly Commonwealth of QPGC"
+ FCQ_DEF:0 "the Friendly Commonwealth of QPGC"
+ FCQ_ADJ:0 "Commonwealthian"
+ 
+ FCQ_reactionary:0 "The Holy People's Commonwealth of Heteroerotica"
+ FCQ_reactionary_DEF:0 "the Holy People's Commonwealth of Heteroerotica"
+ FCQ_reactionary_ADJ:0 "Heteroerotican"
+ FCQ_dystopianism:0 "The Last Commonwealth of Cornucopia"
+ FCQ_dystopianism_DEF:0 "the Last Commonwealth of Cornucopia"
+ FCQ_dystopianism_ADJ:0 "Cornucopian"
+
+ FCQ_futurism_party:0 "Communist Workers Party of Queerplatonia (Surrealist)"
+ FCQ_vanguardism_party:0 "Communist Workers Party of Queerplatonia (Left-Radical)"
+ FCQ_socialism_party:0 "Communist Workers Party of Queerplatonia (Centrist)"
+ FCQ_heterodox_socialism_party:0 "Communist Workers Party of Queerplatonia (Reformist)"
+ FCQ_reactionary_party:0 "Saintly Socialist People's Party"
+ FCQ_dystopianism_party:0 "Society of the Great City"
