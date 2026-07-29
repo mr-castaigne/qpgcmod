@@ -63,6 +63,8 @@ ideologies = {
 			}
 			orthodox_socialism = {
 			}
+			revisionist_socialism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -369,6 +371,8 @@ ideologies = {
 			}
 			racial_nationalism = {
 			}
+			react_pop = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -423,6 +427,8 @@ ideologies = {
 			cult_of_personality = {
 			}
 			cosmic_intervention = {
+			}
+			cornucopia = {
 			}
 
 		}
