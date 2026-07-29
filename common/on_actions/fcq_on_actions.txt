@@ -8,6 +8,13 @@ on_actions = {
                 }
                 set_cosmetic_tag = FCQ_dystopianism
             }
+            else_if = {
+                limit = {
+                    original_tag = FCQ
+                    has_government = reactionary
+                }
+                set_cosmetic_tag = FCQ_reactionary
+            }
             else = {
                 drop_cosmetic_tag = yes
             }
