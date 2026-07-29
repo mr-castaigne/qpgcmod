@@ -24,8 +24,8 @@ qpl_cw.1.a:0 "The Entire Country Sits on the Edges of Their Seats"
 qpl_cw.2.t:0 "Futurist Victory"
 qpl_cw.2.a:0 "The Reactionaries Won't Be Happy..."
 
-QPL_plot_reactionaries: "Anti-Futurist Plot"
-QPL_plot_futurists: "Reactionary Plot"
+QRE_plot_reactionaries: "Anti-Futurist Plot"
+QFT_plot_futurists: "Reactionary Plot"
 QPL_the_inevitable_civil_war: "Inevitable Civil War"
 
 

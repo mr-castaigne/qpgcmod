@@ -6,6 +6,9 @@ country_event = { # Election Night
 	desc = qpl_cw.1.desc
 	picture = GFX_report_event_election_vote
 	is_triggered_only = yes
+#	immediate = {
+#		
+#	}
 	option = {
 		name = qpl_cw.1.a
 		hidden_effect = {
@@ -27,19 +30,15 @@ country_event = { # Futurist Victory
 		set_global_flag = QPL_elections_flag
 		if = {
 			limit = {
-				has_completed_focus = QPL_onwards
+				has_completed_focus = QFT_onwards
 			}
-			hidden_effect = {
-				activate_mission = QPL_plot_futurists
-			}
+			activate_mission = QFT_plot_futurists
 		}
 		if = {
 			limit = {
-				has_completed_focus = QPL_defend_tradition
+				has_completed_focus = QRE_defend_tradition
 			}
-			hidden_effect = {
-				activate_mission = QPL_plot_reactionaries
-			}
+			activate_mission = QRE_plot_reactionaries
 		}
 	}
 	option = {
@@ -224,14 +223,14 @@ country_event = { # Reactionary Rebellion!
 					10 = {
 						modifier = {
 							factor = 0
-							has_global_flag = QRE_protect_sovereignity_flag
+							has_country_flag = QRE_protect_sovereignity_flag
 						}
 						unlock_national_focus = QRE_rojo_negotiations
 					}
 					10 = {
 						modifier = {
 							factor = 0
-							has_country_flag = QRE_rojo_negotiations_flag
+							has_global_flag = QRE_rojo_negotiations_flag
 						}
 						unlock_national_focus = QRE_protect_sovereignity
 					}
@@ -467,7 +466,7 @@ country_event = { # Reactionary Rebellion!
 					limit = {
 						has_character = QFT_kit_traum	
 					}
-					QPL_kit_traum = {
+					QFT_kit_traum = {
 						set_nationality = QFT
 					}
 				}
@@ -514,14 +513,14 @@ country_event = { # Reactionary Rebellion!
 				}
 				load_focus_tree = {
 					tree = queerplatonia_focus
-					keep_completed = yes
+					keep_completed = no
 				}
 				complete_national_focus = QFT_towards_the_future
 				random_list = {
 					10 = {
 						modifier = {
 							factor = 0
-							has_global_flag = QFT_secure_gendarmerie_flag
+							has_country_flag = QFT_secure_gendarmerie_flag
 						}
 						QFT = {
 							unlock_national_focus = QFT_secure_military
@@ -621,14 +620,14 @@ country_event = { # Reactionary Rebellion!
 					10 = {
 						modifier = {
 							factor = 0
-							has_global_flag = QRE_protect_sovereignity_flag
+							has_country_flag = QRE_protect_sovereignity_flag
 						}
 						unlock_national_focus = QRE_rojo_negotiations
 					}
 					10 = {
 						modifier = {
 							factor = 0
-							has_country_flag = QRE_rojo_negotiations_flag
+							has_global_flag = QRE_rojo_negotiations_flag
 						}
 						unlock_national_focus = QRE_protect_sovereignity
 					}
