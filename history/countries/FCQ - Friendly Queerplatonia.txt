@@ -121,15 +121,15 @@ if = {
 
 set_politics = {
 	ruling_party = socialism
-	last_election = "2025.2.2"
+	last_election = "2026.1.1"
 	election_frequency = 12
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-  vanguard_socialism = 5
+  	vanguardism = 5
 	socialism = 80
-  heterodox_socialism = 5
+  	heterodox_socialism = 5
 	futurism = 5
-  reactionary = 5
+  	reactionary = 5
 }
