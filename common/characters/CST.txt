@@ -3,7 +3,7 @@ characters = {
 		name = "Shogunate Mod Council" 
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/CST/Portrait_Council.dds"
+				large = "gfx/leaders/CST/Portrait_Mods.dds"
 			}
 		}
 		country_leader = {
