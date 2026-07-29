@@ -60,8 +60,8 @@
  ISR_DEF:0 "Israel"
  ISR_ADJ:0 "Israeli"
 
- FCQ:0 "Friendly Commonwealth of the QPGC"
- FCQ_DEF:0 "the Friendly Commonwealth of the QPGC"
+ FCQ:0 "The Commonwealth of the QPGC"
+ FCQ_DEF:0 "the Commonwealth of the QPGC"
  FCQ_ADJ:0 "Commonwealthian"
 
  ISR:0 "The Castle"
