@@ -1,0 +1,39 @@
+characters = {
+	FCQ_canor = {
+		name = "Canor" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/FCQ/Portrait_Canor.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = heterodox_socialism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = vanguard_socialism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = futurism
+			expire = "9999.1.1.1"
+			id = -1
+    }
+    country_leader = {
+			ideology = reactionary
+			expire = "9999.1.1.1"
+			id = -1
+		}
+    country_leader = {
+			ideology = dystopianism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
