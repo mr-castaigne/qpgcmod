@@ -39,6 +39,6 @@ FCQ_dystopianism = {
 	color_ui = rgb { 40 40 40 }
 }
 FCQ_reactionary = {
-	color = rgb { 207 3 91 }
-	color_ui = rgb { 207 3 91 }
+	color = rgb { 122 84 99 }
+	color_ui = rgb { 122 84 99 }
 }
