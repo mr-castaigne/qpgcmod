@@ -137,3 +137,20 @@ set_popularities = {
 	heterodox_socialism = 2
 	autocracy = 64
 }
+
+if = {
+	limit = {
+		OR = {
+			has_dlc = "Together for Victory"
+			has_dlc = "Man the Guns"
+		}
+	}
+	set_autonomy = {
+		target = CST
+		autonomous_state = autonomy_personal_union
+	}
+
+	else = {
+		puppet = CST
+	}
+}
