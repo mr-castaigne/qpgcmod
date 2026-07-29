@@ -17,12 +17,12 @@ characters = {
 			id = -1
 		}
 		country_leader = {
-			ideology = vanguard_socialism
+			ideology = vanguardism
 			expire = "9999.1.1.1"
 			id = -1
 		}
 		country_leader = {
-			ideology = futurism
+			ideology = left_futurism
 			expire = "9999.1.1.1"
 			id = -1
     }
@@ -32,7 +32,7 @@ characters = {
 			id = -1
 		}
     country_leader = {
-			ideology = dystopianism
+			ideology = cornucopia
 			expire = "9999.1.1.1"
 			id = -1
 		}
