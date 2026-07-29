@@ -63,6 +63,8 @@ ideologies = {
 			}
 			orthodox_socialism = {
 			}
+			revisionist_socialism = {
+			}
 		}
 
 		dynamic_faction_names = {
@@ -368,6 +370,8 @@ ideologies = {
 				can_be_randomly_selected = no
 			}
 			racial_nationalism = {
+			}
+			react_pop = {
 			}
 		}
 
