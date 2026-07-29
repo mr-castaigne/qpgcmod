@@ -22,7 +22,7 @@ characters = {
 			id = -1
 		}
 		country_leader = {
-			ideology = left_futurism
+			ideology = futurism
 			expire = "9999.1.1.1"
 			id = -1
     }
