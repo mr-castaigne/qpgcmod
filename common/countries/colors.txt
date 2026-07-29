@@ -66,3 +66,10 @@ ARA = {
 	color = rgb { 0 153 0 }
 	color_ui = rgb { 0 153 0 }
 }
+FCQ = {
+	color = rgb { 167 30 47 }
+	color_ui = rgb { 167 30 47 }
+}
+CST = {
+ 	color = rgb { 128 0 128 }
+	color_ui = rgb { 128 0 128 }
