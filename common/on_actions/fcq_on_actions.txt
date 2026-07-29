@@ -1,0 +1,16 @@
+on_actions = {
+    on_ruling_party_change = {
+        effect = {
+            if = {
+                limit = {
+                    original_tag = FCQ
+                    has_government = dystopianism
+                }
+                set_cosmetic_tag = FCQ_dystopianism
+            }
+            else = {
+                drop_cosmetic_tag = yes
+            }
+        }
+    }
+}
