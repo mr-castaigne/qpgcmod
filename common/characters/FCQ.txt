@@ -25,13 +25,13 @@ characters = {
 			ideology = futurism
 			expire = "9999.1.1.1"
 			id = -1
-    }
-    country_leader = {
+    	}
+    	country_leader = {
 			ideology = reactionary
 			expire = "9999.1.1.1"
 			id = -1
 		}
-    country_leader = {
+    	country_leader = {
 			ideology = cornucopia
 			expire = "9999.1.1.1"
 			id = -1
