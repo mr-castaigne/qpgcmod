@@ -2,9 +2,9 @@ characters = {
 	FBR_mitya = {
 		name = "Mitya" 
 		portraits = {
-			#civilian = {
-			#	large = "gfx/leaders/FBR/Portrait_Mitya.dds"
-			#}
+			 civilian = {
+				large = "gfx/leaders/FBR/Portrait_Mitya.dds"
+			 }
 		}
 		country_leader = {
 			ideology = democratic_socialism
