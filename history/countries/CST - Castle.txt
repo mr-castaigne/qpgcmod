@@ -120,7 +120,7 @@ if = {
 ######################
 
 set_politics = {
-	ruling_party = autocratic
+	ruling_party = autocracy
 	last_election = "2026.1.1"
 	election_frequency = 48
 	elections_allowed = no
