@@ -127,5 +127,5 @@ set_politics = {
 }
 
 set_popularities = {
-	autocratic = 100
+	autocracy = 100
 }
