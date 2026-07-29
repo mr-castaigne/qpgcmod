@@ -1,0 +1,17 @@
+characters = {
+	CST_mod_council = {
+		name = "Shogunate Mod Council" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/CST/Portrait_Council.dds"
+			}
+		}
+		country_leader = {
+			ideology = autocratic
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}
+	
+	
