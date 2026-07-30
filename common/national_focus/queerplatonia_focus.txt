@@ -194,7 +194,7 @@
 			focus = QFT_crush_the_reaction
 		}
 		mutually_exclusive = {
-			focus = QDI_god_save_the_south
+			focus = QOR_god_save_the_south
 		}
 		x = 1
 		y = 7
@@ -358,7 +358,7 @@
 		y = 3
 		cost = 10
 		available = {
-			has_country_flag = QPL_elections_flag
+			has_global_flag = QPL_elections_flag
 		}		
 		completion_reward = {
 			
@@ -477,7 +477,7 @@
 			focus = QRE_futurist_ultimatum
 		}
 		mutually_exclusive = {
-			focus = QRE_reactionary_republic
+			focus = QRE_long_live_the_republic
 		}
 		x = 1
 		y = 7

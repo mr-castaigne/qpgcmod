@@ -16,7 +16,7 @@ characters = {
 		name = "Noelle K."
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/QUE/Portrait_Noelle"
+				large = "gfx/leaders/QUE/Portrait_Noelle.dds"
 			}
 		}
 		country_leader = {

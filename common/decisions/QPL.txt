@@ -74,4 +74,206 @@ QPL_the_inevitable_civil_war = {
 			country_event = qpl_cw.3
 		}
 	}
+
+	QRE_political_assassination = {
+
+		icon = spr_political_assassination
+
+		allowed = {
+			tag = QPL
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = SPR_inevitable_civil_war_in_progress_flag
+			}
+		}
+
+		cost = 30
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 200
+		}
+
+		days_remove = 30
+
+		modifier = {
+			
+		}
+
+		visible = {
+
+			has_global_flag = QPL_elections_flag
+			has_completed_focus = QRE_defend_tradition
+			NOT = { has_global_flag = queerplatonic_civil_war }
+		}
+
+		complete_effect = {
+			set_country_flag = QPL_civil_war_decision_in_progress
+		}
+
+		remove_effect = {
+			add_stability = -0.05
+			add_war_support = 0.1
+			add_days_mission_timeout = {
+				mission = QRE_plot_reactionaries
+				days = -30
+			}
+			clr_country_flag = QPL_civil_war_decision_in_progress
+			set_country_flag = QPL_political_assassination_flag
+		}
+
+	}
+
+	QFT_political_arrest = {
+
+		icon = generic_independence
+
+		allowed = {
+			tag = QPL
+		}
+
+		available = {
+			has_country_flag = QPL_political_assassination_flag
+			NOT = {
+				has_country_flag = QPL_civil_war_decision_in_progress
+			}
+		}
+
+		cost = 10
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 800
+		}
+
+		days_remove = 30
+
+		modifier = {
+			
+		}
+
+		visible = {
+			has_global_flag = QPL_elections_flag
+			has_completed_focus = QFT_onwards
+			NOT = { has_global_flag = queerplatonic_civil_war }
+		}
+
+		complete_effect = {
+			set_country_flag = QPL_civil_war_decision_in_progress
+		}
+
+		remove_effect = {
+			add_political_power = 25
+			add_stability = 0.05
+			add_days_mission_timeout = {
+				mission = QFT_plot_futurists
+				days = 30
+			}
+			clr_country_flag = QPL_civil_war_decision_in_progress
+			clr_country_flag = QPL_political_assassination_flag
+		}
+
+	}
+
+	QRE_sway_government_member = {
+
+		icon = generic_army_support
+
+		allowed = {
+			tag = QPL
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = QPL_civil_war_decision_in_progress
+			}
+		}
+
+		cost = 30
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 200
+		}
+
+		days_remove = 30
+
+		modifier = {
+			
+		}
+
+		visible = {
+			has_global_flag = QPL_elections_flag
+			has_completed_focus = QRE_defend_tradition
+			NOT = { has_global_flag = queerplatonic_civil_war }
+		}
+
+		complete_effect = {
+			set_country_flag = QPL_civil_war_decision_in_progress
+		}
+
+		remove_effect = {
+			add_days_mission_timeout = {
+				mission = QRE_plot_reactionaries
+				days = -30
+			}
+			clr_country_flag = QPL_civil_war_decision_in_progress
+		}
+
+	}
+
+	QFT_purge_government_ranks = {
+
+		icon = generic_army_support
+
+		allowed = {
+			tag = QPL
+		}
+
+		available = {
+			NOT = {
+				has_country_flag = QPL_civil_war_decision_in_progress
+			}
+		}
+
+		cost = 30
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 200
+		}
+
+		days_remove = 30
+
+		modifier = {
+			
+		}
+
+		visible = {
+			has_global_flag = QPL_elections_flag
+			has_completed_focus = QFT_onwards
+			NOT = { has_global_flag = queerplatonic_civil_war }
+		}
+
+		complete_effect = {
+			set_country_flag = QPL_civil_war_decision_in_progress
+		}
+
+		remove_effect = {
+			add_days_mission_timeout = {
+				mission = QFT_plot_futurists
+				days = 30
+			}
+			clr_country_flag = QPL_civil_war_decision_in_progress
+		}
+
+	}
+
+	# Foci Missions
 }
