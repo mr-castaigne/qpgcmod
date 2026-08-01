@@ -1,0 +1,288 @@
+characters = {
+	USA_mike_johnson = {
+		name = "Mike Johnson"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_Mike_Johnson.dds"
+			}
+		}
+		country_leader = {
+			ideology = maga_conservatism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_brian_kemp = {
+		name = "Brian Kemp"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_Brian_Kemp.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_sarah_huckabee_sanders = {
+		name = "Sarah Huckabee Sanders"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_Sarah_Huckabee_Sanders.dds"
+			}
+		}
+		country_leader = {
+			ideology = maga_conservatism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_nikki_haley = {
+		name = "Brian Kemp"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_Nikki_Haley.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_ron_desantis = {
+		name = "Ron DeSantis"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_Ron_DeSantis.dds"
+			}
+		}
+		country_leader = {
+			ideology = react_pop
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_marco_rubio = {
+		name = "Marco Rubio"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_Marco_Rubio.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_jd_vance = {
+		name = "JD Vance"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_JD_Vance.dds"
+			}
+		}
+		country_leader = {
+			ideology = maga_conservatism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_donald_trump_jr = {
+		name = "Donald Trump Jr."
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_Donald_Trump_Jr.dds"
+			}
+		}
+		country_leader = {
+			ideology = maga_conservatism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_glenn_youngkin = {
+		name = "Glenn Youngkin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_Glenn_Youngkin.dds"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_josh_hawley = {
+		name = "Josh Hawley"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_Josh_Hawley.dds"
+			}
+		}
+		country_leader = {
+			ideology = maga_conservatism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_jon_ossoff = {
+		name = "Jon Ossoff"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_Jon_Ossoff.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_raphael_warnock = {
+		name = "Raphael Warnock"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_Raphael_Warnock.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_roy_cooper = {
+		name = "Roy Cooper"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_Roy_Cooper.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_maxwell_frost = {
+		name = "Maxwell Frost"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_Maxwell_Frost.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_aoc = {
+		name = "Alexandria Ocasio-Cortez"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_AOC.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_zohran_mamdani = {
+		name = "Zohran Mamdani"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_Zohran_Mamdani.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_democracy
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_gavin_newsom = {
+		name = "Gavin Newsom"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_Gavin_Newsom.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_pete_buttigieg = {
+		name = "Pete Buttigieg"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_Pete_Buttigieg.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_josh_shapiro = {
+		name = "Josh Shapiro"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_Josh_Shapiro.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_elissa_slotkin = {
+		name = "Elissa Slotkin"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_Elissa_Slotkin.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberalism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_chase_oliver = {
+		name = "Chase Oliver"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_Chase_Oliver.dds"
+			}
+		}
+		country_leader = {
+			ideology = classical_liberalism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+	USA_francesca_hong = {
+		name = "Francesca Hong"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/Portrait_Francesca_Hong.dds"
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			expire = "9999.1.1.1"
+			id = -1
+		}
+	}
+}

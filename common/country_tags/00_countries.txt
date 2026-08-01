@@ -17,6 +17,7 @@ ISR = "countries/generic.txt"
 ARA = "countries/generic.txt"
 CST = "countries/generic.txt"
 FCQ = "countries/generic.txt"
+USA = "countries/generic.txt"
 
 
 # VANILLA COUNTRIES JUST SO THE GAME STOPS CRASHING ####################
@@ -132,7 +133,6 @@ CHM = "countries/generic.txt"
 AFG = "countries/generic.txt"
 ENG = "countries/generic.txt"
 BRA = "countries/generic.txt"
-USA = "countries/generic.txt"
 SOV = "countries/generic.txt"
 RAJ = "countries/generic.txt"
 JAP = "countries/generic.txt"

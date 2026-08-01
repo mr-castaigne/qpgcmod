@@ -74,3 +74,7 @@ CST = {
  	color = rgb { 128 0 128 }
 	color_ui = rgb { 128 0 128 }
 }
+USA = {
+	color = rgb { 55 105 195 }
+	color_ui = rgb { 55 105 195 }
+}

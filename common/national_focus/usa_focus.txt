@@ -1,0 +1,86 @@
+focus_tree = {
+    id = usa_focus
+
+    country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	
+	default = no
+
+	focus = {
+		id = USA_huh
+		icon = GFX_focus_USA_confused_biden
+		x = 30
+		y = 0
+		cost = 1
+		available = {
+		}		
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = USA_form_new_cabinet
+		icon = GFX_focus_USA_american_republic
+		prerequisite = {
+			focus = USA_huh
+		}
+		relative_position_id = USA_huh
+		x = 0
+		y = 1
+		cost = 10
+		available = {
+		}		
+		completion_reward = {
+			add_political_power = 40
+			country_event = usa.1
+		}
+	}
+
+	focus = {
+		id = USA_go_leftwards
+		icon = GFX_focus_USA_democrats
+		relative_position_id = USA_huh
+		prerequisite = {
+			focus = USA_form_new_cabinet
+		}
+		mutually_exclusive = {
+			focus = USA_go_rightwards
+		}
+		x = -4
+		y = 2
+		cost = 2
+		available = {
+		}		
+		completion_reward = {
+			add_political_power = 10
+			country_event = usa.10
+		}
+	}
+
+	focus = {
+		id = USA_go_rightwards
+		icon = GFX_focus_USA_republicans
+		relative_position_id = USA_huh
+		prerequisite = {
+			focus = USA_form_new_cabinet
+		}
+		mutually_exclusive = {
+			focus = USA_go_leftwards
+		}
+		x = 4
+		y = 2
+		cost = 2
+		available = {
+		}		
+		completion_reward = {
+			add_political_power = 10
+			country_event = usa.11
+		}
+	}
+}

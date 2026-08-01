@@ -1,7 +1,6 @@
 # Queerplatonian foci sprites (shiny)
 
 spriteTypes = {
-
     spriteType = {
         name = GFX_focus_QFT_onwards_shine
         texturefile = gfx/interface/goals/gfx_focus_QFT_onwards.dds

@@ -67,3 +67,14 @@ music = {
         }
     }
 }
+
+music = {
+    song = "badromance"
+    chance = {
+        base = 1
+        modifier = {
+            factor = 2
+            has_war = yes
+        }
+    }
+}

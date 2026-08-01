@@ -1,0 +1,200 @@
+add_namespace = usa
+
+country_event = { # Mike Johnson Forms New Cabinet
+	id = usa.1
+	title = usa.1.t
+	desc = usa.1.desc
+	picture = GFX_USA_mike_johnson_cabinet
+	is_triggered_only = yes
+	option = {
+		name = usa.10.a
+		add_popularity = {
+			ideology = reactionary
+			popularity = 0.01
+		}
+	}
+}
+country_event = { # Democratic National Convention
+	id = usa.10
+	title = usa.10.t
+	desc = usa.10.desc
+	picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+	option = {
+		name = usa.10.a
+		promote_character = USA_roy_cooper
+		hidden_effect = {
+			country_event = {
+				id = usa.12
+				days = 60
+			}
+		}
+		custom_effect_tooltip = USA_first_dnc_cooper
+		custom_effect_tooltip = USA_first_elections
+	}
+	option = {
+		name = usa.10.b
+		promote_character = USA_raphael_warnock
+		hidden_effect = {
+			country_event = {
+				id = usa.13
+				days = 60
+			}
+		}
+		custom_effect_tooltip = USA_first_dnc_warnock
+		custom_effect_tooltip = USA_first_elections
+	}
+}
+
+country_event = { # Republican National Convention
+	id = usa.11
+	title = usa.11.t
+	desc = usa.11.desc
+	picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+	option = {
+		name = usa.11.a
+		promote_character = USA_brian_kemp
+		hidden_effect = {
+			set_party_name = {
+				ideology = liberalism
+				long_name = USA_moderate_republicans_long
+				name = USA_moderate_republicans
+			}
+			country_event = {
+				id = usa.14
+				days = 60
+			}
+		}
+		custom_effect_tooltip = USA_first_rnc_kemp
+
+		custom_effect_tooltip = USA_first_elections
+	}
+	option = {
+		name = usa.11.b
+		hidden_effect = {
+			country_event = {
+				id = usa.15
+				days = 60
+			}
+		}
+		custom_effect_tooltip = USA_first_elections
+	}
+	option = {
+		name = usa.11.c
+		promote_character = USA_nikki_haley
+		set_party_name = {
+			ideology = liberalism
+			long_name = USA_moderate_republicans_long
+			name = USA_moderate_republicans
+		}
+		hidden_effect = {
+			country_event = {
+				id = usa.16
+				days = 60
+			}
+		}
+		custom_effect_tooltip = USA_first_elections
+	}
+}
+
+country_event = { # Cooper wins presidential election!
+	id = usa.12
+	title = usa.12.t
+	desc = usa.12.desc
+	picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+	immediate = {
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.02
+		}
+		set_politics = {
+			ruling_party = liberalism
+		}
+	}
+	option = {
+		name = usa.12.a
+	}
+}
+
+country_event = { # Warnock wins presidential election!
+	id = usa.13
+	title = usa.13.t
+	desc = usa.13.desc
+	picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+	immediate = {
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.02
+		}
+		set_politics = {
+			ruling_party = liberalism
+		}
+	}
+	option = {
+		name = usa.13.a
+	}
+}
+
+country_event = { # Kemp wins presidential election!
+	id = usa.14
+	title = usa.14.t
+	desc = usa.14.desc
+	picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+	immediate = {
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.01
+		}
+		set_politics = {
+			ruling_party = liberalism
+		}
+	}
+	option = {
+		name = usa.14.a
+	}
+}
+
+country_event = { # Huckabee Sanders wins presidential election!
+	id = usa.15
+	title = usa.15.t
+	desc = usa.15.desc
+	picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+	immediate = {
+		add_popularity = {
+			ideology = reactionary
+			popularity = 0.01
+		}
+		promote_character = USA_sarah_huckabee_sanders
+	}
+	option = {
+		name = usa.15.a
+	}
+}
+
+country_event = { # Haley wins presidential election!
+	id = usa.16
+	title = usa.16.t
+	desc = usa.16.desc
+	picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+	immediate = {
+		add_popularity = {
+			ideology = liberalism
+			popularity = 0.01
+		}
+		set_politics = {
+			ruling_party = liberalism
+		}
+	}
+	option = {
+		name = usa.16.a
+	}
+}
+
+
+

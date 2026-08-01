@@ -1,0 +1,22 @@
+spriteTypes = {
+    spriteType = {
+        name = GFX_focus_USA_confused_biden
+        texturefile = gfx/interface/goals/gfx_focus_USA_confused_biden.dds
+    }
+    spriteType = {
+        name = GFX_focus_USA_american_republic
+        texturefile = gfx/interface/goals/gfx_focus_USA_american_republic.dds
+    }
+    spriteType = {
+        name = GFX_focus_USA_retake_florida
+        texturefile = gfx/interface/goals/gfx_focus_USA_retake_florida.dds
+    }
+    spriteType = {
+        name = GFX_focus_USA_republicans
+        texturefile = gfx/interface/goals/gfx_focus_USA_republicans.dds
+    }
+    spriteType = {
+        name = GFX_focus_USA_democrats
+        texturefile = gfx/interface/goals/gfx_focus_USA_democrats.dds
+    }
+}

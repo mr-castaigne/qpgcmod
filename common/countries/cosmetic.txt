@@ -42,3 +42,7 @@ FCQ_reactionary = {
 	color = rgb { 122 84 99 }
 	color_ui = rgb { 122 84 99 }
 }
+USA_south = {
+	color = rgb { 55 105 195 }
+	color_ui = rgb { 55 105 195 }
+}

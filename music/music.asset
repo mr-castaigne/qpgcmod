@@ -33,3 +33,9 @@ music = {
     file = "I LOVE YOU by Yes Gooser.ogg"
     volume = 1
 }
+
+music = {
+    name = "badromance"
+    file = "Bad Romance.ogg"
+    volume = 1
+}

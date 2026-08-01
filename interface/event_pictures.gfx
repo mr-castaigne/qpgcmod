@@ -1,0 +1,26 @@
+spriteTypes = {
+spriteType = {
+    name = "GFX_USA_mike_johnson_cabinet"
+    texturefile = "gfx/event_pictures/USA_Mike_Johnson_Cabinet.dds"
+}
+spriteType = {
+    name = "GFX_USA_south_election_warnock"
+    texturefile = "gfx/event_pictures/USA_South_Election_Warnock.dds"
+}
+spriteType = {
+    name = "GFX_USA_south_election_cooper"
+    texturefile = "gfx/event_pictures/USA_South_Election_Cooper.dds"
+}
+spriteType = {
+    name = "GFX_USA_south_election_kemp"
+    texturefile = "gfx/event_pictures/USA_South_Election_Kemp.dds"
+}
+spriteType = {
+    name = "GFX_USA_south_election_huckabee_sanders"
+    texturefile = "gfx/event_pictures/USA_South_Election_Huckabee_Sanders.dds"
+}
+spriteType = {
+    name = "GFX_USA_south_election_haley"
+    texturefile = "gfx/event_pictures/USA_South_Election_Haley.dds"
+}
+}

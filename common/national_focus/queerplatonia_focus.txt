@@ -267,6 +267,24 @@
 		}
 	}
 
+	focus = {
+		id = QOR_placeholder
+		icon = GFX_goal_unknown
+		relative_position_id = QOR_god_save_the_south
+		prerequisite = {
+			focus = QOR_god_save_the_south
+		}
+		x = 0
+		y = 1
+		cost = 1
+		available = {
+			
+		}
+		completion_reward = {
+			
+		}
+	}
+
 	# Reactionary Buildup
 
 	focus = {
@@ -495,6 +513,84 @@
 						OR = {
 							has_completed_focus = QRE_long_live_the_republic
 							has_completed_focus = QFT_onwards
+						}
+					}
+					has_global_flag = queerplatonic_civil_war
+				}
+			}
+		}
+	}
+
+# The Forbidden Path began with zooming out
+
+focus = {
+		id = USA_test
+		icon = GFX_goal_unknown
+
+		x = 100
+		y = 100
+		cost = 1
+		available = {
+			
+		}
+		completion_reward = {
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = QPL
+					}
+					add_core_of = USA
+				}
+				USA = {
+					transfer_state = 365
+					transfer_state = 364
+					transfer_state = 363
+					transfer_state = 368
+					transfer_state = 367
+					transfer_state = 370
+					transfer_state = 371
+					transfer_state = 372
+					promote_character = USA_mike_johnson
+					promote_character = USA_jon_ossoff
+					set_rule = {
+						can_puppet = yes
+						can_create_factions = yes
+						can_join_factions = yes
+						can_boost_own_ideology = yes
+						can_generate_female_aces = yes
+						can_create_collaboration_government = yes
+					}
+					set_popularities = {
+						reactionary = 44
+						liberalism = 44
+						autocracy = 5
+						socialism = 5
+						vanguardism = 1
+						heterodox_socialism = 1
+					}
+					set_politics = {
+						ruling_party = reactionary
+					}
+					set_cosmetic_tag = USA_south
+					play_song = "badromance"
+					change_tag_from = ROOT
+				}
+			}
+		}
+		allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				AND = {
+					OR = {
+						NOT = {
+							has_completed_focus = QOR_placeholder
+							has_completed_focus = QFT_towards_the_future
+							has_completed_focus = QRE_defend_tradition
 						}
 					}
 					has_global_flag = queerplatonic_civil_war
